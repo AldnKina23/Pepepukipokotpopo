@@ -2,43 +2,34 @@ import os
 import sys
 import logging
 from datetime import datetime
+from playwright.sync_api import sync_playwright
 
 OUTPUT_DIR = "playlists"
 OUTPUT_FILE = "denstv.m3u"
 
-# Mapping ID/Kode CDN Dens.tv beserta nama channel-nya
-CHANNELS = [
+# Daftar target URL web Dens.tv resmi
+TARGET_CHANNELS = [
     # Local TV
-    {"id": "h12", "name": "Metro TV", "chname": "Metro_TV", "category": "Local TV"},
-    {"id": "h217", "name": "SCTV", "chname": "SCTV", "category": "Local TV"},
-    {"id": "h218", "name": "Indosiar", "chname": "Indosiar", "category": "Local TV"},
-    {"id": "h01", "name": "tvOne", "chname": "tvOne", "category": "Local TV"},
-    {"id": "h02", "name": "Kompas TV", "chname": "Kompas_TV", "category": "Local TV"},
-    {"id": "h03", "name": "Trans TV", "chname": "Trans_TV", "category": "Local TV"},
-    {"id": "h04", "name": "Trans7", "chname": "Trans7", "category": "Local TV"},
-    {"id": "h05", "name": "NET TV", "chname": "NET_TV", "category": "Local TV"},
-    {"id": "h06", "name": "ANTV", "chname": "ANTV", "category": "Local TV"},
-    {"id": "h07", "name": "RTV", "chname": "RTV", "category": "Local TV"},
-    {"id": "h08", "name": "TVRI", "chname": "TVRI", "category": "Local TV"},
-    {"id": "h09", "name": "Jak TV", "chname": "Jak_TV", "category": "Local TV"},
-    {"id": "h10", "name": "JTV", "chname": "JTV", "category": "Local TV"},
-    {"id": "h11", "name": "BTV", "chname": "BTV", "category": "Local TV"},
-    
-    # Premium / Dens TV
-    {"id": "h20", "name": "Dens Play Channel", "chname": "Dens_Play", "category": "Premium TV"},
-    {"id": "h21", "name": "Dens Food Channel", "chname": "Dens_Food", "category": "Premium TV"},
-    {"id": "h22", "name": "Dens Showbizz", "chname": "Dens_Showbizz", "category": "Premium TV"},
-    {"id": "h23", "name": "Dens Life", "chname": "Dens_Life", "category": "Premium TV"},
-    {"id": "h24", "name": "Dens Kids", "chname": "Dens_Kids", "category": "Premium TV"},
+    {"name": "Metro TV", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/6/metro-tv"},
+    {"name": "Trans7", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/4/trans7"},
+    {"name": "Trans TV", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/3/trans-tv"},
+    {"name": "tvOne", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/1/tvone"},
+    {"name": "Kompas TV", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/2/kompas-tv"},
+    {"name": "NET TV", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/5/net-tv"},
+    {"name": "ANTV", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/7/antv"},
+    {"name": "RTV", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/8/rtv"},
+    {"name": "TVRI", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/9/tvri"},
+    {"name": "Jak TV", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/10/jaktv"},
     
     # International TV
-    {"id": "h43", "name": "Al Jazeera English", "chname": "Al_Jazeera_English", "category": "International TV"},
-    {"id": "h40", "name": "CNA", "chname": "CNA", "category": "International TV"},
-    {"id": "h41", "name": "France 24", "chname": "France_24", "category": "International TV"},
-    {"id": "h42", "name": "Euronews", "chname": "Euronews", "category": "International TV"},
-    {"id": "h44", "name": "DW English", "chname": "DW_English", "category": "International TV"},
-    {"id": "h45", "name": "CGTN", "chname": "CGTN", "category": "International TV"},
-    {"id": "h46", "name": "Arirang", "chname": "Arirang", "category": "International TV"}
+    {"name": "Al Jazeera English", "category": "International TV", "url": "https://www.dens.tv/tv-international/watch/56/al-jazeera-english"},
+    {"name": "CNA", "category": "International TV", "url": "https://www.dens.tv/tv-international/watch/55/cna"},
+    {"name": "France 24", "category": "International TV", "url": "https://www.dens.tv/tv-international/watch/57/france-24"},
+    {"name": "DW English", "category": "International TV", "url": "https://www.dens.tv/tv-international/watch/58/dw-english"},
+    
+    # Premium TV
+    {"name": "Dens Play", "category": "Premium TV", "url": "https://www.dens.tv/tv-premium/watch/101/dens-play"},
+    {"name": "Dens Food", "category": "Premium TV", "url": "https://www.dens.tv/tv-premium/watch/102/dens-food"},
 ]
 
 DENS_REFERRER = "https://www.dens.tv/"
@@ -48,33 +39,99 @@ DENS_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
 
+def get_m3u8_from_page(page, target_url):
+    """Membuka web Dens.tv dan menangkap link .m3u8 asli yang dipanggil oleh player"""
+    captured_stream = None
+
+    def handle_request(request):
+        nonlocal captured_stream
+        url = request.url
+        # Menangkap request m3u8 asli dari domain CDN Dens.tv
+        if ".m3u8" in url and "dens.tv" in url:
+            captured_stream = url
+
+    # Dengarkan seluruh traffic jaringan dari browser
+    page.on("request", handle_request)
+
+    try:
+        page.goto(target_url, wait_until="domcontentloaded", timeout=25000)
+        
+        # Coba klik tombol play jika player tertahan/paused
+        try:
+            page.click("video", timeout=3000)
+        except Exception:
+            pass
+
+        # Tunggu sampai request m3u8 tertangkap (max 10 detik)
+        for _ in range(20):
+            if captured_stream:
+                break
+            page.wait_for_timeout(500)
+
+    except Exception as e:
+        logger.error(f"Error saat memuat {target_url}: {e}")
+
+    return captured_stream
+
 def main():
-    logger.info("🚀 Memulai Generate Dens.tv Playlist dengan CDN Direct URL...")
+    logger.info("🚀 Memulai Scraping Murni Dens.tv via Playwright...")
+    results = []
 
-    lines = [
-        '#EXTM3U url-tvg="https://raw.githubusercontent.com/dhasap/dhanytv/main/epg.xml"',
-        f'# Generated Dens.tv Playlist: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}\n'
-    ]
+    with sync_playwright() as p:
+        browser = p.chromium.launch(
+            headless=True,
+            args=[
+                "--no-sandbox",
+                "--disable-setuid-sandbox",
+                "--disable-blink-features=AutomationControlled",
+                "--mute-audio"
+            ]
+        )
+        context = browser.new_context(
+            user_agent=DENS_UA,
+            viewport={"width": 1280, "height": 720}
+        )
 
-    for ch in CHANNELS:
-        # Konstruksi link M3U8 langsung ke server CDN Dens.tv
-        stream_url = f"https://op-flashcon-digdayahd-1.dens.tv/h/{ch['id']}/index.m3u8?app_type=web&userid=lite&chname={ch['chname']}"
-        
-        lines.append(f'#EXTINF:-1 tvg-id="{ch["name"]}" group-title="Dens.tv - {ch["category"]}",{ch["name"]}')
-        lines.append(f'#EXTVLCOPT:http-user-agent={DENS_UA}')
-        lines.append(f'#EXTVLCOPT:http-referrer={DENS_REFERRER}')
-        lines.append(f'#EXTVLCOPT:http-origin={DENS_ORIGIN}')
-        lines.append(f'#KODIPROP:inputstream.adaptive.stream_headers=Referer={DENS_REFERRER}&Origin={DENS_ORIGIN}&User-Agent={DENS_UA}')
-        lines.append(stream_url)
-        lines.append('')
+        page = context.new_page()
 
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
-    filepath = os.path.join(OUTPUT_DIR, OUTPUT_FILE)
-    
-    with open(filepath, "w", encoding="utf-8") as f:
-        f.write('\n'.join(lines))
-        
-    logger.info(f"🎉 SUKSES! {len(CHANNELS)} channel berhasil dibuat di {filepath}")
+        for ch in TARGET_CHANNELS:
+            logger.info(f"🔍 Mengambil stream asli untuk: {ch['name']} ({ch['url']})")
+            stream_url = get_m3u8_from_page(page, ch['url'])
+
+            if stream_url:
+                logger.info(f"✅ DAFTAR HASIL: {ch['name']} -> {stream_url}")
+                ch['stream'] = stream_url
+                results.append(ch)
+            else:
+                logger.warning(f"❌ GAGAL mendapatkan link asli untuk {ch['name']}")
+
+        browser.close()
+
+    if results:
+        lines = [
+            '#EXTM3U url-tvg="https://raw.githubusercontent.com/dhasap/dhanytv/main/epg.xml"',
+            f'# Generated Dens.tv Playlist: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}\n'
+        ]
+
+        for item in results:
+            lines.append(f'#EXTINF:-1 tvg-id="{item["name"]}" group-title="Dens.tv - {item["category"]}",{item["name"]}')
+            lines.append(f'#EXTVLCOPT:http-user-agent={DENS_UA}')
+            lines.append(f'#EXTVLCOPT:http-referrer={DENS_REFERRER}')
+            lines.append(f'#EXTVLCOPT:http-origin={DENS_ORIGIN}')
+            lines.append(f'#KODIPROP:inputstream.adaptive.stream_headers=Referer={DENS_REFERRER}&Origin={DENS_ORIGIN}&User-Agent={DENS_UA}')
+            lines.append(item['stream'])
+            lines.append('')
+
+        os.makedirs(OUTPUT_DIR, exist_ok=True)
+        filepath = os.path.join(OUTPUT_DIR, OUTPUT_FILE)
+
+        with open(filepath, "w", encoding="utf-8") as f:
+            f.write('\n'.join(lines))
+
+        logger.info(f"🎉 SELESAI! {len(results)} channel asli berhasil disimpan di {filepath}")
+    else:
+        logger.error("❌ Tidak ada stream yang berhasil ditangkap.")
+        sys.exit(1)
 
 if __name__ == "__main__":
     main()
