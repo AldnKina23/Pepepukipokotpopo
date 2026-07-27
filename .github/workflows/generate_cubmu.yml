@@ -2,12 +2,17 @@ name: Generate CubMu Playlists
 
 on:
   schedule:
-    - cron: '0 */6 * * *' # Jalan tiap 6 jam sekali
+    - cron: '0 */6 * * *'
   workflow_dispatch:
 
 jobs:
   build-playlists:
     runs-on: ubuntu-latest
+    
+    # TAMBAHKAN DUA BARIS INI (Wajib untuk bypass error 403):
+    permissions:
+      contents: write
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
