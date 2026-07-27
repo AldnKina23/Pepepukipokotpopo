@@ -1,0 +1,20 @@
+#EXTM3U
+# Generated CubMu MPD: 2026-07-27 03:40:28
+
+#EXTINF:-1 tvg-id="Trans 7" group-title="CubMu" tvg-logo="https://www.cubmu.com/images/trans-7.png",Trans 7
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://www.cubmu.com/
+https://cdnjktcyber05.transvision.co.id/riutx01-fea82134df35bbf3a5ab20fa4f2a1dc1/dash/VFJBTlM3LW15/manifest.mpd?signature=MWNiODNhNzY3YWI4YzE5OTUxZTNjNzE4MDA4MjI3ZWM=&time=15231551430
+
+#EXTINF:-1 tvg-id="CNN Indonesia" group-title="CubMu" tvg-logo="https://www.cubmu.com/images/cnn.png",CNN Indonesia
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://www.cubmu.com/
+https://cdnjktcyber05.transvision.co.id/riutx01-fea82134df35bbf3a5ab20fa4f2a1dc1/dash/VFJBTlM3LW15/manifest.mpd?signature=MWNiODNhNzY3YWI4YzE5OTUxZTNjNzE4MDA4MjI3ZWM=&time=15231551430
+
+#EXTINF:-1 tvg-id="CNBC Indonesia" group-title="CubMu" tvg-logo="https://www.cubmu.com/images/cnbc.png",CNBC Indonesia
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://www.cubmu.com/
+https://cdnjktcyber05.transvision.co.id/riutx01-fea82134df35bbf3a5ab20fa4f2a1dc1/dash/R29sZi1DaGFubmVs/manifest.mpd?signature=MzlmZGYxNTdlYTdhMTAyNzM1NzVjOGU2ZWI2Mzg5MzI=&time=15231551446
