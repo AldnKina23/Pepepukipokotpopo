@@ -1,40 +1,36 @@
-name: Generate Dens.tv Playlists
+name: Auto-update Dens.tv Playlist
 
 on:
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '0 */6 * * *'  # Jalan tiap 6 jam
   workflow_dispatch:
 
 jobs:
-  build-playlists:
+  build:
     runs-on: ubuntu-latest
-    
-    permissions:
-      contents: write
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
-      - name: Install Dependencies & Playwright Browser
+      - name: Install Dependencies & Playwright
         run: |
           python -m pip install --upgrade pip
           pip install playwright requests
           playwright install chromium
-          playwright install-deps
+          playwright install-deps chromium
 
-      - name: Generate Dens.tv Playlist
+      - name: Run Dens.tv Generator
         run: python generate_denstv.py
 
-      - name: Commit and Push
+      - name: Commit and Push M3U
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add playlists/
-          git commit -m "Auto-update Dens.tv playlist" || exit 0
-          git push
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add playlists/denstv.m3u
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update Dens.tv playlist" && git push)
