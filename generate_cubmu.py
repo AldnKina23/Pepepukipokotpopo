@@ -13,10 +13,10 @@ CLEARKEY_DRM = "1d37f079910b49f08b40deb547514c76:c4ead9b8ce1242a38bbb08eba5d2af4
 
 # Daftar channel CubMu
 CHANNELS = [
-    {"slug": "210-trans-tv", "name": "TRANS TV", "logo": "https://www.cubmu.com/images/trans-tv.png"},
-    {"slug": "201-trans-7", "name": "TRANS 7", "logo": "https://www.cubmu.com/images/trans-7.png"},
-    {"slug": "202-cnn-indonesia", "name": "CNN INDONESIA", "logo": "https://www.cubmu.com/images/cnn.png"},
-    {"slug": "203-cnbc-indonesia", "name": "CNBC INDONESIA", "logo": "https://www.cubmu.com/images/cnbc.png"},
+    {"slug": "210-trans-tv", "name": "TRANS TV", "logo": "logo"},
+    {"slug": "201-trans-7", "name": "TRANS 7", "logo": "logo"},
+    {"slug": "212-cnn-indonesia", "name": "CNN INDONESIA", "logo": "logo"},
+    {"slug": "213-cnbc-indonesia", "name": "CNBC INDONESIA", "logo": "logo"},
     {"slug": "211-metro-tv", "name": "METRO TV", "logo": ""},
     {"slug": "363-tvone", "name": "TVONE", "logo": ""},
     {"slug": "215-sctv", "name": "SCTV", "logo": ""},
@@ -68,7 +68,6 @@ CHANNELS = [
     {"slug": "209-channel-newsasia", "name": "CHANNEL NEWSASIA", "logo": ""},
     {"slug": "237-cnbc-asia", "name": "CNBC ASIA", "logo": ""},
     {"slug": "197-al-jazeera", "name": "AL JAZEERA", "logo": ""},
-    {"slug": "199-euronews", "name": "EURONEWS", "logo": ""},
     {"slug": "258-france-24", "name": "FRANCE 24", "logo": ""},
     {"slug": "259-cgtn", "name": "CGTN", "logo": ""},
     {"slug": "260-russia-today", "name": "RUSSIA TODAY", "logo": ""},
