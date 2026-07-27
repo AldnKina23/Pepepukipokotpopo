@@ -1,114 +1,85 @@
-import requests
-import json
-import re
 import os
 import sys
 import logging
 from datetime import datetime
+from playwright.sync_api import sync_playwright
 
-# ========== KONFIGURASI ==========
 OUTPUT_DIR = "playlists"
 OUTPUT_FILE = "cubmu.m3u"
-USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 BASE_URL = "https://www.cubmu.com"
 
-# Channel list dengan ID internal CubMu
 CHANNELS = [
-    {"id": "210", "slug": "210-trans-tv", "name": "Trans TV", "logo": "https://www.cubmu.com/images/trans-tv.png"},
-    {"id": "201", "slug": "201-trans-7", "name": "Trans 7", "logo": "https://www.cubmu.com/images/trans-7.png"},
-    {"id": "202", "slug": "202-cnn-indonesia", "name": "CNN Indonesia", "logo": "https://www.cubmu.com/images/cnn.png"},
-    {"id": "203", "slug": "203-cnbc-indonesia", "name": "CNBC Indonesia", "logo": "https://www.cubmu.com/images/cnbc.png"}
+    {"slug": "210-trans-tv", "name": "Trans TV", "logo": "https://www.cubmu.com/images/trans-tv.png"},
+    {"slug": "201-trans-7", "name": "Trans 7", "logo": "https://www.cubmu.com/images/trans-7.png"},
+    {"slug": "202-cnn-indonesia", "name": "CNN Indonesia", "logo": "https://www.cubmu.com/images/cnn.png"},
+    {"slug": "203-cnbc-indonesia", "name": "CNBC Indonesia", "logo": "https://www.cubmu.com/images/cnbc.png"}
 ]
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
 
-def fetch_stream_url(session, channel):
-    """Mencoba mengambil stream URL via API backend CubMu atau parse Next.js Props"""
-    watch_url = f"{BASE_URL}/watch/live-tv/{channel['slug']}"
-    
-    headers = {
-        "User-Agent": USER_AGENT,
-        "Referer": f"{BASE_URL}/live-tv",
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-        "Accept-Language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"
-    }
+def get_mpd_url(page, channel):
+    target_url = f"{BASE_URL}/watch/live-tv/{channel['slug']}"
+    found_mpd = None
+
+    # Tangkap request jaringan yang mengandung 'manifest.mpd'
+    def handle_request(request):
+        nonlocal found_mpd
+        if "manifest.mpd" in request.url and not found_mpd:
+            found_mpd = request.url
+
+    page.on("request", handle_request)
 
     try:
-        # Request 1: Ambil data NextJS Build Data dari HTML
-        resp = session.get(watch_url, headers=headers, timeout=15)
-        if resp.status_code == 200:
-            # Cari link m3u8 jika ada di script tags
-            urls = re.findall(r'https?://[^\s"\'\\]+\.m3u8[^\s"\'\\]*', resp.text)
-            if urls:
-                clean_url = urls[0].replace('\\/', '/')
-                logger.info(f"✅ {channel['name']}: Mendapat stream URL")
-                return clean_url
-
-            # Request 2: Jika tidak ada di HTML, panggil API Playback internal CubMu
-            api_url = f"https://api.cubmu.com/v1/channel/play/{channel['id']}"
-            api_headers = {
-                "User-Agent": USER_AGENT,
-                "Origin": BASE_URL,
-                "Referer": watch_url,
-                "Accept": "application/json"
-            }
-            api_resp = session.get(api_url, headers=api_headers, timeout=10)
-            if api_resp.status_code == 200:
-                data = api_resp.json()
-                stream = data.get("data", {}).get("url") or data.get("stream_url")
-                if stream:
-                    logger.info(f"✅ {channel['name']}: Mendapat stream via API")
-                    return stream
-
-        logger.warning(f"⚠️ {channel['name']}: Stream URL tidak ditemukan")
-        return None
-
+        page.goto(target_url, timeout=30000, wait_until="domcontentloaded")
+        page.wait_for_timeout(6000)  # Tunggu player memuat manifest MPD
     except Exception as e:
-        logger.error(f"❌ {channel['name']}: Error - {e}")
-        return None
+        logger.warning(f"⚠️ {channel['name']}: Error loading page - {e}")
 
-def generate_m3u_content(channels_data):
-    lines = ["#EXTM3U"]
-    lines.append(f'# Generated CubMu: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}\n')
-
-    for ch in channels_data:
-        lines.append(f'#EXTINF:-1 tvg-id="{ch["name"]}" group-title="CubMu" tvg-logo="{ch["logo"]}",{ch["name"]}')
-        lines.append(f'#EXTVLCOPT:http-referrer={BASE_URL}/')
-        lines.append(f'#EXTVLCOPT:http-user-agent={USER_AGENT}')
-        lines.append(ch["stream_url"])
-        lines.append('')
-
-    return '\n'.join(lines)
-
-def save_m3u(content):
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
-    filepath = os.path.join(OUTPUT_DIR, OUTPUT_FILE)
-    with open(filepath, "w", encoding="utf-8") as f:
-        f.write(content)
-    logger.info(f"💾 File berhasil disimpan di: {filepath}")
+    return found_mpd
 
 def main():
-    logger.info("🚀 Memulai CubMu M3U Generator")
-    session = requests.Session()
+    logger.info("🚀 Memulai CubMu MPD Extractor")
     successful_channels = []
 
-    for channel in CHANNELS:
-        logger.info(f"➡️ Memproses {channel['name']}...")
-        stream_url = fetch_stream_url(session, channel)
-        
-        if stream_url:
-            successful_channels.append({
-                **channel,
-                "stream_url": stream_url
-            })
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        # Gunakan User-Agent Desktop
+        context = browser.new_context(
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+        )
+        page = context.new_page()
+
+        for ch in CHANNELS:
+            logger.info(f"➡️ Memproses {ch['name']}...")
+            mpd_url = get_mpd_url(page, ch)
+
+            if mpd_url:
+                logger.info(f"✅ {ch['name']}: Link MPD Ditemukan!")
+                successful_channels.append({**ch, "stream_url": mpd_url})
+            else:
+                logger.warning(f"⚠️ {ch['name']}: MPD tidak ditemukan")
+
+        browser.close()
 
     if successful_channels:
-        m3u_content = generate_m3u_content(successful_channels)
-        save_m3u(m3u_content)
-        logger.info(f"🎉 SUKSES! {len(successful_channels)}/{len(CHANNELS)} channel berhasil didapatkan.")
+        lines = ["#EXTM3U", f'# Generated CubMu MPD: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}\n']
+        for ch in successful_channels:
+            lines.append(f'#EXTINF:-1 tvg-id="{ch["name"]}" group-title="CubMu" tvg-logo="{ch["logo"]}",{ch["name"]}')
+            # Header wajib untuk MPEG-DASH DRM jika dimuat di player pendukung (seperti OTT Navigator)
+            lines.append(f'#KODIPROP:inputstream.adaptive.manifest_type=mpd')
+            lines.append(f'#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)')
+            lines.append(f'#EXTVLCOPT:http-referrer={BASE_URL}/')
+            lines.append(ch["stream_url"])
+            lines.append('')
+
+        os.makedirs(OUTPUT_DIR, exist_ok=True)
+        filepath = os.path.join(OUTPUT_DIR, OUTPUT_FILE)
+        with open(filepath, "w", encoding="utf-8") as f:
+            f.write('\n'.join(lines))
+        logger.info(f"🎉 SUKSES! File disimpan di {filepath}")
     else:
-        logger.error("❌ GAGAL! CubMu membutuhkan token login atau browser headless (Playwright/Selenium) untuk merender player.")
+        logger.error("❌ GAGAL! Tidak ada link MPD yang berhasil ditangkap.")
         sys.exit(1)
 
 if __name__ == "__main__":
