@@ -1,5 +1,5 @@
 #EXTM3U url-tvg="https://raw.githubusercontent.com/dhasap/dhanytv/main/epg.xml"
-# Generated Dens.tv Playlist: 2026-07-27 11:04:18
+# Generated Dens.tv Playlist: 2026-07-27 18:02:12
 
 #EXTINF:-1 tvg-id="Metro TV" group-title="Dens.tv - Local TV",Metro TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
@@ -28,6 +28,13 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h40/index.m3u8?app_type=web&userid=lit
 #EXTVLCOPT:http-origin=https://www.dens.tv
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/&Origin=https://www.dens.tv&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 https://op-flashcon-digdayahd-1.dens.tv/h/h0217/index.m3u8?app_type=web&userid=lite&chname=SCTV
+
+#EXTINF:-1 tvg-id="Dens Food Channel" group-title="Dens.tv - Premium TV",Dens Food Channel
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.dens.tv/
+#EXTVLCOPT:http-origin=https://www.dens.tv
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/&Origin=https://www.dens.tv&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://op-flashcon-digdayahd-1.dens.tv/h/h244/index.m3u8?app_type=web&userid=lite&chname=DensShowBiz
 
 #EXTINF:-1 tvg-id="Dens Life" group-title="Dens.tv - Premium TV",Dens Life
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
