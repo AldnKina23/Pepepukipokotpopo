@@ -8,52 +8,51 @@ OUTPUT_DIR = "playlists"
 OUTPUT_FILE = "denstv.m3u"
 BASE_URL = "https://www.dens.tv"
 
-# Kategori Dens.tv yang akan dipindai
-CATEGORIES = [
-    {"name": "Local TV", "url": "https://www.dens.tv/tv-local"},
-    {"name": "Premium TV", "url": "https://www.dens.tv/tv-premium"},
-    {"name": "International TV", "url": "https://www.dens.tv/tv-international"}
+# Daftar channel Dens.tv (Lokal, Premium, International)
+CHANNELS = [
+    # TV Local
+    {"id": "tv-one", "name": "tvOne", "category": "Local TV"},
+    {"id": "metro-tv", "name": "Metro TV", "category": "Local TV"},
+    {"id": "kompas-tv", "name": "Kompas TV", "category": "Local TV"},
+    {"id": "trans-tv", "name": "Trans TV", "category": "Local TV"},
+    {"id": "trans7", "name": "Trans7", "category": "Local TV"},
+    {"id": "net-tv", "name": "NET TV", "category": "Local TV"},
+    {"id": "antv", "name": "ANTV", "category": "Local TV"},
+    {"id": "rtv", "name": "RTV", "category": "Local TV"},
+    {"id": "tvri", "name": "TVRI", "category": "Local TV"},
+    {"id": "jak-tv", "name": "Jak TV", "category": "Local TV"},
+    {"id": "btv", "name": "BTV", "category": "Local TV"},
+    {"id": "jtv", "name": "JTV", "category": "Local TV"},
+    
+    # TV Premium / Dens Channels
+    {"id": "dens-play", "name": "Dens Play Channel", "category": "Premium TV"},
+    {"id": "dens-food", "name": "Dens Food Channel", "category": "Premium TV"},
+    {"id": "dens-showbizz", "name": "Dens Showbizz", "category": "Premium TV"},
+    {"id": "dens-life", "name": "Dens Life", "category": "Premium TV"},
+    {"id": "dens-kids", "name": "Dens Kids", "category": "Premium TV"},
+    
+    # TV International & News
+    {"id": "channel-news-asia", "name": "CNA", "category": "International TV"},
+    {"id": "al-jazeera", "name": "Al Jazeera", "category": "International TV"},
+    {"id": "france-24", "name": "France 24", "category": "International TV"},
+    {"id": "euronews", "name": "Euronews", "category": "International TV"},
+    {"id": "dw-english", "name": "DW English", "category": "International TV"},
+    {"id": "cgtn", "name": "CGTN", "category": "International TV"},
+    {"id": "arirang", "name": "Arirang", "category": "International TV"}
 ]
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
 
-def get_channel_links(page, category_url):
-    """Mengambil semua link channel dari halaman kategori Dens.tv"""
-    channels = []
-    try:
-        page.goto(category_url, timeout=30000, wait_until="domcontentloaded")
-        page.wait_for_timeout(3000)
-        
-        # Ekstrak semua elemen anchor yang mengarah ke link nonton TV
-        links = page.eval_on_selector_all(
-            'a[href*="/tv/"]',
-            'elements => elements.map(e => ({ href: e.href, name: e.innerText.trim() }))'
-        )
-        
-        seen_hrefs = set()
-        for link in links:
-            href = link["href"]
-            # Filter link agar hanya mengambil channel TV murni
-            if href not in seen_hrefs and "/tv/" in href and not href.endswith("/tv/"):
-                seen_hrefs.add(href)
-                # Bersihkan nama channel jika ada newline
-                clean_name = link["name"].split('\n')[0] if link["name"] else href.split('/')[-1].replace('-', ' ').title()
-                channels.append({"url": href, "name": clean_name})
-                
-    except Exception as e:
-        logger.warning(f"⚠️ Gagal mengambil daftar channel dari {category_url}: {e}")
-        
-    return channels
-
-def extract_stream_url(page, channel_url):
-    """Menangkap URL stream (.m3u8 atau .mpd) saat player Dens.tv dibuka"""
+def extract_stream_url(page, ch):
+    # Format URL player Dens.tv
+    target_url = f"{BASE_URL}/tv/{ch['id']}"
     found_stream = None
 
     def handle_request(request):
         nonlocal found_stream
         url = request.url
-        # Tangkap HLS (.m3u8) atau MPEG-DASH (.mpd)
+        # Tangkap stream .m3u8, .mpd, atau .ts
         if (".m3u8" in url or ".mpd" in url) and not found_stream:
             if "blob:" not in url:
                 found_stream = url
@@ -61,30 +60,28 @@ def extract_stream_url(page, channel_url):
     page.on("request", handle_request)
 
     try:
-        page.goto(channel_url, timeout=25000, wait_until="domcontentloaded")
+        page.goto(target_url, timeout=20000, wait_until="domcontentloaded")
         
-        # Coba klik player jika ada tombol play
+        # Coba klik player jika butuh pemicu play
         try:
             page.click("video", timeout=2000)
         except Exception:
             pass
 
-        # Tunggu jaringan menangkap link stream
+        # Tunggu jaringan menangkap link stream (maksimal 5 detik)
         for _ in range(10):
             if found_stream:
                 break
             page.wait_for_timeout(500)
 
     except Exception as e:
-        logger.warning(f"⚠️ Error saat memuat channel {channel_url}: {e}")
+        logger.warning(f"⚠️ Error saat memuat channel {ch['name']}: {e}")
 
-    # Lepas listener event agar tidak numpuk
     page.remove_listener("request", handle_request)
     return found_stream
 
 def main():
-    logger.info("🚀 Memulai Dens.tv Extractor")
-    all_channels = []
+    logger.info("🚀 Memulai Dens.tv Stream Extractor")
     successful_streams = []
 
     with sync_playwright() as p:
@@ -94,20 +91,9 @@ def main():
         )
         page = context.new_page()
 
-        # Step 1: Kumpulkan semua link channel dari 3 kategori
-        for cat in CATEGORIES:
-            logger.info(f"🔍 Memindai kategori: {cat['name']}...")
-            cat_channels = get_channel_links(page, cat['url'])
-            logger.info(f"   Ditemukan {len(cat_channels)} channel di {cat['name']}")
-            for ch in cat_channels:
-                all_channels.append({**ch, "category": cat['name']})
-
-        logger.info(f"📋 Total channel unik terkumpul: {len(all_channels)}")
-
-        # Step 2: Extract URL stream dari setiap channel
-        for idx, ch in enumerate(all_channels, start=1):
-            logger.info(f"➡️ [{idx}/{len(all_channels)}] Memproses {ch['name']}...")
-            stream_url = extract_stream_url(page, ch['url'])
+        for idx, ch in enumerate(CHANNELS, start=1):
+            logger.info(f"➡️ [{idx}/{len(CHANNELS)}] Memproses {ch['name']}...")
+            stream_url = extract_stream_url(page, ch)
 
             if stream_url:
                 logger.info(f"✅ {ch['name']}: Stream Ditemukan!")
@@ -117,13 +103,11 @@ def main():
 
         browser.close()
 
-    # Step 3: Simpan ke M3U
     if successful_streams:
         lines = ["#EXTM3U", f'# Generated Dens.tv Playlist: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}\n']
         for ch in successful_streams:
             lines.append(f'#EXTINF:-1 tvg-id="{ch["name"]}" group-title="Dens.tv - {ch["category"]}",{ch["name"]}')
             
-            # Jika stream berupa .mpd, tambahkan tag manifest type
             if ".mpd" in ch["stream_url"]:
                 lines.append('#KODIPROP:inputstream.adaptive.manifest_type=mpd')
                 
