@@ -102,16 +102,28 @@ def get_mpd_url(page, channel):
 
     def handle_request(request):
         nonlocal found_mpd
-        if "manifest.mpd" in request.url and not found_mpd:
+        if ("manifest.mpd" in request.url or ".mpd" in request.url) and not found_mpd:
             found_mpd = request.url
 
     page.on("request", handle_request)
 
     try:
-        page.goto(target_url, timeout=30000, wait_until="domcontentloaded")
-        page.wait_for_timeout(10000)  # Diperpanjang jadi 10 detik agar player loading sempurna
+        page.goto(target_url, timeout=20000, wait_until="domcontentloaded")
+        
+        # Coba klik pemutar video jika tertutup tombol overlay
+        try:
+            page.click("video", timeout=3000)
+        except Exception:
+            pass
+
+        # Tunggu jaringan sampai MPD terdeteksi (maksimal 6 detik per channel)
+        for _ in range(12):
+            if found_mpd:
+                break
+            page.wait_for_timeout(500)
+
     except Exception as e:
-        logger.warning(f"⚠️ {channel['name']}: Error loading page - {e}")
+        logger.warning(f"⚠️ {channel['name']}: Error - {e}")
 
     return found_mpd
 
@@ -120,11 +132,27 @@ def main():
     successful_channels = []
 
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        context = browser.new_context(
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+        # Menambahkan argumen pendaftaran browser agar tidak terdeteksi headless bot
+        browser = p.chromium.launch(
+            headless=True,
+            args=[
+                "--no-sandbox",
+                "--disable-setuid-sandbox",
+                "--disable-blink-features=AutomationControlled"
+            ]
         )
+        context = browser.new_context(
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+            viewport={"width": 1280, "height": 720}
+        )
+        
+        # Pancing cookie awal dari homepage CubMu
         page = context.new_page()
+        try:
+            page.goto(BASE_URL, timeout=15000, wait_until="domcontentloaded")
+            page.wait_for_timeout(2000)
+        except Exception:
+            pass
 
         for ch in CHANNELS:
             logger.info(f"➡️ Memproses {ch['name']}...")
@@ -142,12 +170,13 @@ def main():
         lines = ["#EXTM3U", f'# Generated CubMu DRM Playlist: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}\n']
         for ch in successful_channels:
             lines.append(f'#EXTINF:-1 tvg-id="{ch["name"]}" group-title="CubMu" tvg-logo="{ch["logo"]}",{ch["name"]}')
-            # Tag DRM Kodi & IPTV Player
+            # Tag DRM Clearkey & Referer Player
             lines.append('#KODIPROP:inputstream.adaptive.manifest_type=mpd')
             lines.append('#KODIPROP:inputstream.adaptive.license_type=clearkey')
             lines.append(f'#KODIPROP:inputstream.adaptive.license_key={CLEARKEY_DRM}')
             lines.append('#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)')
             lines.append(f'#EXTVLCOPT:http-referrer={BASE_URL}/')
+            lines.append(f'#EXTHTTP:{"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)", "Referer": "https://www.cubmu.com/"}')
             lines.append(ch["stream_url"])
             lines.append('')
 
