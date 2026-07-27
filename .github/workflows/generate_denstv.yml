@@ -1,0 +1,40 @@
+name: Generate Dens.tv Playlists
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  build-playlists:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies & Playwright Browser
+        run: |
+          python -m pip install --upgrade pip
+          pip install playwright requests
+          playwright install chromium
+          playwright install-deps
+
+      - name: Generate Dens.tv Playlist
+        run: python generate_denstv.py
+
+      - name: Commit and Push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add playlists/
+          git commit -m "Auto-update Dens.tv playlist" || exit 0
+          git push
