@@ -1,13 +1,16 @@
-name: Auto-update Dens.tv Playlist
+name: Auto-update Dens.tv Playlists
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # Jalan tiap 6 jam
-  workflow_dispatch:
+    - cron: '0 */6 * * *'  # Dijalankan otomatis setiap 6 jam
+  workflow_dispatch:      # Bisa dijalankan manual lewat tombol Actions
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout Repository
@@ -25,12 +28,19 @@ jobs:
           playwright install chromium
           playwright install-deps chromium
 
-      - name: Run Dens.tv Generator
+      - name: Run Dens.tv Web Scraper (Official Channels)
         run: python generate_denstv.py
 
-      - name: Commit and Push M3U
+      - name: Run Dens.tv ID Scanner (Hidden/Extra Channels)
+        run: python generate_denstv2.py
+
+      - name: Commit and Push All M3U Playlists
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add playlists/denstv.m3u
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update Dens.tv playlist" && git push)
+          git add playlists/
+          git diff --quiet && git diff --staged --quiet || (
+            git commit -m "Auto-update Dens.tv Playlists (Official & Scanned)"
+            git pull --rebase origin main
+            git push origin main
+          )
