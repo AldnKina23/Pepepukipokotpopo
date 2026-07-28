@@ -1,20 +1,19 @@
 import os
 import sys
 import logging
-import requests
 from datetime import datetime
 from playwright.sync_api import sync_playwright
 
 OUTPUT_DIR = "playlists"
 OUTPUT_FILE = "denstv.m3u"
 
-# Daftar halaman channel resmi Dens.tv
+# Daftar halaman channel resmi Dens.tv (Hanya yang benar-benar ada di katalog web)
 DENS_CHANNELS = [
     # Local TV
     {"name": "LIVE STREAMING", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/3/live-streaming-1"},
     {"name": "DENS PLAY", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/107/densplay"},
     {"name": "DENS LIFESTYLE", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/42/denslifestyle"},
-    {"name": "DRNS FOOD CHANNEL", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/117/densfood-channel"},
+    {"name": "DENS FOOD CHANNEL", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/117/densfood-channel"},
     {"name": "DENS SHOWBIZ", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/102/densshowbiz"},
     {"name": "DENS KNOWLEDGE", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/1/densknowledge"},
     {"name": "JOWO", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/137/channel-jowo"},
@@ -31,8 +30,6 @@ DENS_CHANNELS = [
     {"name": "RODJA TV", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/21/rodjatv"},
     {"name": "DAAI TV", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/23/daai-tv"},
     {"name": "NTV", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/138/nusantara-tv-ntv"},
-    {"name": "NamaCh", "category": "Local TV", "url": "Linkweb"},
-    
 
     # Premium TV
     {"name": "MCE", "category": "Premium TV", "url": "https://www.dens.tv/tv-premium/watch/92/my-cinema-europe-hd"},
@@ -41,8 +38,7 @@ DENS_CHANNELS = [
     {"name": "STINGRAY CLASSICA", "category": "Premium TV", "url": "https://www.dens.tv/tv-premium/watch/128/stingray-classica"},
     {"name": "DANCE TV", "category": "Premium TV", "url": "https://www.dens.tv/tv-premium/watch/130/dance-tv"},
     {"name": "MOTORVISION", "category": "Premium TV", "url": "https://www.dens.tv/tv-premium/watch/98/motorvision"},
-    
-    
+
     # International TV
     {"name": "CNA", "category": "International TV", "url": "https://www.dens.tv/tv-international/watch/61/cna"},
     {"name": "NHK WORLD JAPAN", "category": "International TV", "url": "https://www.dens.tv/tv-international/watch/77/nhk-world-japan"},
@@ -61,7 +57,7 @@ DENS_CHANNELS = [
     {"name": "CGTN", "category": "International TV", "url": "https://www.dens.tv/tv-international/watch/16/cgtn-documentary"},
     {"name": "QURAN TV", "category": "International TV", "url": "https://www.dens.tv/tv-international/watch/82/quran-tv"},
     {"name": "SUNNA TV", "category": "International TV", "url": "https://www.dens.tv/tv-international/watch/88/sunna-tv"}
-    ]
+]
 
 DENS_REFERRER = "https://www.dens.tv/"
 DENS_ORIGIN = "https://www.dens.tv"
@@ -71,42 +67,54 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 def fetch_stream_link(page, channel):
-    """Membuka web Dens.tv dan menyadap request m3u8 asli"""
-    found_url = None
+    """Menyadap request stream .m3u8 dari halaman player Dens.tv"""
+    found_urls = []
 
-    def on_response(response):
-        nonlocal found_url
-        url = response.url
-        # Menangkap request stream m3u8 dari domain CDN Dens.tv
-        if ".m3u8" in url and ("dens.tv" in url or "digdayahd" in url):
-            if "index.m3u8" in url or "master" in url:
-                found_url = url
+    def on_request(request):
+        url = request.url
+        # Sadap semua URL m3u8 yang lewat di jaringan
+        if ".m3u8" in url and ("dens.tv" in url or "digdaya" in url or "cdn" in url):
+            found_urls.append(url)
 
-    page.on("response", on_response)
+    page.on("request", on_request)
 
     try:
-        page.goto(channel['url'], wait_until="commit", timeout=15000)
+        # Buka halaman
+        page.goto(channel['url'], wait_until="domcontentloaded", timeout=20000)
         
-        # Tunggu max 6 detik untuk request jaringan dimuat
-        for _ in range(12):
-            if found_url:
+        # Berikan jeda agar player video menginisialisasi HLS stream
+        for _ in range(16):
+            if found_urls:
                 break
             page.wait_for_timeout(500)
 
     except Exception as e:
-        logger.warning(f"⚠️ Warning saat membuka {channel['name']}: {e}")
+        logger.warning(f"⚠️ Warning saat memuat {channel['name']}: {e}")
 
-    page.remove_listener("response", on_response)
-    return found_url
+    page.remove_listener("request", on_request)
+    
+    # Pilih URL m3u8 yang valid (utamakan master / index jika ada, atau ambil yang pertama ditemukan)
+    if found_urls:
+        for u in found_urls:
+            if "master" in u or "index" in u:
+                return u
+        return found_urls[0]
+    
+    return None
 
 def main():
-    logger.info("🚀 Memulai ekstraksi stream Dens.tv...")
+    logger.info("🚀 Memulai scraping stream Dens.tv...")
     results = []
 
     with sync_playwright() as p:
         browser = p.chromium.launch(
             headless=True,
-            args=["--no-sandbox", "--disable-setuid-sandbox", "--disable-blink-features=AutomationControlled"]
+            args=[
+                "--no-sandbox",
+                "--disable-setuid-sandbox",
+                "--disable-blink-features=AutomationControlled",
+                "--autoplay-policy=no-user-gesture-required"
+            ]
         )
         context = browser.new_context(
             user_agent=DENS_UA,
