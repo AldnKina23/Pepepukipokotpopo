@@ -1,100 +1,107 @@
 #EXTM3U url-tvg="https://raw.githubusercontent.com/dhasap/dhanytv/main/epg.xml"
-# Generated TV360 Vietnam Playlist: 2026-07-28 07:53:09
+# TV360 Vietnam Playlist: 2026-07-28 08:03:50
 
 #EXTINF:-1 tvg-id="VTV1 HD" group-title="TV360 - VTV",VTV1 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://tv360.vn/
 #EXTVLCOPT:http-origin=https://tv360.vn
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tv360.vn/&Origin=https://tv360.vn&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
-https://live-cdn.tv360.vn/manifest/channel_1/index.m3u8
+https://live-cdn.tv360.vn/manifest/ch2/index.m3u8
 
 #EXTINF:-1 tvg-id="VTV2 HD" group-title="TV360 - VTV",VTV2 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://tv360.vn/
 #EXTVLCOPT:http-origin=https://tv360.vn
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tv360.vn/&Origin=https://tv360.vn&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
-https://live-cdn.tv360.vn/manifest/channel_2/index.m3u8
+https://live-cdn.tv360.vn/manifest/ch3/index.m3u8
 
 #EXTINF:-1 tvg-id="VTV3 HD" group-title="TV360 - VTV",VTV3 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://tv360.vn/
 #EXTVLCOPT:http-origin=https://tv360.vn
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tv360.vn/&Origin=https://tv360.vn&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
-https://live-cdn.tv360.vn/manifest/channel_3/index.m3u8
+https://live-cdn.tv360.vn/manifest/ch4/index.m3u8
 
 #EXTINF:-1 tvg-id="VTV4 HD" group-title="TV360 - VTV",VTV4 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://tv360.vn/
 #EXTVLCOPT:http-origin=https://tv360.vn
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tv360.vn/&Origin=https://tv360.vn&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
-https://live-cdn.tv360.vn/manifest/channel_4/index.m3u8
+https://live-cdn.tv360.vn/manifest/ch108/index.m3u8
 
 #EXTINF:-1 tvg-id="VTV5 HD" group-title="TV360 - VTV",VTV5 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://tv360.vn/
 #EXTVLCOPT:http-origin=https://tv360.vn
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tv360.vn/&Origin=https://tv360.vn&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
-https://live-cdn.tv360.vn/manifest/channel_5/index.m3u8
+https://live-cdn.tv360.vn/manifest/ch5/index.m3u8
 
 #EXTINF:-1 tvg-id="VTV7 HD" group-title="TV360 - VTV",VTV7 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://tv360.vn/
 #EXTVLCOPT:http-origin=https://tv360.vn
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tv360.vn/&Origin=https://tv360.vn&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
-https://live-cdn.tv360.vn/manifest/channel_7/index.m3u8
+https://live-cdn.tv360.vn/manifest/ch7/index.m3u8
 
 #EXTINF:-1 tvg-id="VTV8 HD" group-title="TV360 - VTV",VTV8 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://tv360.vn/
 #EXTVLCOPT:http-origin=https://tv360.vn
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tv360.vn/&Origin=https://tv360.vn&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
-https://live-cdn.tv360.vn/manifest/channel_8/index.m3u8
+https://live-cdn.tv360.vn/manifest/ch8/index.m3u8
 
 #EXTINF:-1 tvg-id="VTV9 HD" group-title="TV360 - VTV",VTV9 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://tv360.vn/
 #EXTVLCOPT:http-origin=https://tv360.vn
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tv360.vn/&Origin=https://tv360.vn&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
-https://live-cdn.tv360.vn/manifest/channel_9/index.m3u8
+https://live-cdn.tv360.vn/manifest/ch9/index.m3u8
+
+#EXTINF:-1 tvg-id="VTV6 HD" group-title="TV360 - VTV",VTV6 HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://tv360.vn/
+#EXTVLCOPT:http-origin=https://tv360.vn
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tv360.vn/&Origin=https://tv360.vn&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+https://live-cdn.tv360.vn/manifest/ch10043/index.m3u8
 
 #EXTINF:-1 tvg-id="HTV Thể Thao" group-title="TV360 - Sports",HTV Thể Thao
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://tv360.vn/
 #EXTVLCOPT:http-origin=https://tv360.vn
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tv360.vn/&Origin=https://tv360.vn&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
-https://live-cdn.tv360.vn/manifest/channel_99/index.m3u8
+https://live-cdn.tv360.vn/manifest/ch99/index.m3u8
 
 #EXTINF:-1 tvg-id="TV360 1 HD" group-title="TV360 - Sports",TV360 1 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://tv360.vn/
 #EXTVLCOPT:http-origin=https://tv360.vn
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tv360.vn/&Origin=https://tv360.vn&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
-https://live-cdn.tv360.vn/manifest/channel_9881/index.m3u8
+https://live-cdn.tv360.vn/manifest/ch9881/index.m3u8
 
 #EXTINF:-1 tvg-id="TV360 2 HD" group-title="TV360 - Sports",TV360 2 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://tv360.vn/
 #EXTVLCOPT:http-origin=https://tv360.vn
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tv360.vn/&Origin=https://tv360.vn&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
-https://live-cdn.tv360.vn/manifest/channel_9882/index.m3u8
+https://live-cdn.tv360.vn/manifest/ch9882/index.m3u8
 
 #EXTINF:-1 tvg-id="ANTV (Công An)" group-title="TV360 - Essential",ANTV (Công An)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://tv360.vn/
 #EXTVLCOPT:http-origin=https://tv360.vn
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tv360.vn/&Origin=https://tv360.vn&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
-https://live-cdn.tv360.vn/manifest/channel_11/index.m3u8
+https://live-cdn.tv360.vn/manifest/ch11/index.m3u8
 
 #EXTINF:-1 tvg-id="QPVN (Quốc Phòng)" group-title="TV360 - Essential",QPVN (Quốc Phòng)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://tv360.vn/
 #EXTVLCOPT:http-origin=https://tv360.vn
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tv360.vn/&Origin=https://tv360.vn&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
-https://live-cdn.tv360.vn/manifest/channel_12/index.m3u8
+https://live-cdn.tv360.vn/manifest/ch12/index.m3u8
 
 #EXTINF:-1 tvg-id="Vietnam Today" group-title="TV360 - Essential",Vietnam Today
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://tv360.vn/
 #EXTVLCOPT:http-origin=https://tv360.vn
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tv360.vn/&Origin=https://tv360.vn&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
-https://live-cdn.tv360.vn/manifest/channel_13/index.m3u8
+https://live-cdn.tv360.vn/manifest/ch13/index.m3u8
