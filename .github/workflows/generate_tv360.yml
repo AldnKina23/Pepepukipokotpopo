@@ -21,6 +21,12 @@ jobs:
         with:
           python-version: '3.10'
 
+      # --- 1. PASANG WARP VPN DI SINI (Sebelum Playwright & Python Run) ---
+      - name: Setup Cloudflare WARP VPN
+        uses: fscarmen/warp-action@v1
+        with:
+          mode: warp
+
       - name: Install Dependencies & Playwright
         run: |
           python -m pip install --upgrade pip
