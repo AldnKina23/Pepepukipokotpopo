@@ -11,29 +11,57 @@ OUTPUT_FILE = "denstv.m3u"
 # Daftar halaman channel resmi Dens.tv
 DENS_CHANNELS = [
     # Local TV
-    {"name": "Metro TV", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/6/metro-tv"},
-    {"name": "Trans TV", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/3/trans-tv"},
-    {"name": "Trans7", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/4/trans7"},
-    {"name": "tvOne", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/1/tvone"},
-    {"name": "Kompas TV", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/2/kompas-tv"},
-    {"name": "NET TV", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/5/net-tv"},
-    {"name": "ANTV", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/7/antv"},
-    {"name": "RTV", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/8/rtv"},
-    {"name": "TVRI", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/9/tvri"},
-    {"name": "Jak TV", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/10/jaktv"},
+    {"name": "LIVE STREAMING", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/3/live-streaming-1"},
+    {"name": "DENS PLAY", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/107/densplay"},
+    {"name": "DENS LIFESTYLE", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/42/denslifestyle"},
+    {"name": "DRNS FOOD CHANNEL", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/117/densfood-channel"},
+    {"name": "DENS SHOWBIZ", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/102/densshowbiz"},
+    {"name": "DENS KNOWLEDGE", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/1/densknowledge"},
+    {"name": "JOWO", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/137/channel-jowo"},
+    {"name": "METRO TV", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/6/metro-tv"},
+    {"name": "BTV", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/80/btv"},
+    {"name": "BERITA SATU", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/131/berita-satu"},
+    {"name": "MDTV", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/13/mdtv"},
+    {"name": "RTV", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/22/rtv"},
+    {"name": "ELSHINTA TV", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/94/elshinta-tv"},
+    {"name": "MAGMA TV", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/122/magna-channel"},
+    {"name": "TVRI SPORT", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/118/tvri-sport"},
+    {"name": "TVRI", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/17/tvri"},
+    {"name": "JAKTV", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/112/jak-tv"},
+    {"name": "RODJA TV", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/21/rodjatv"},
+    {"name": "DAAI TV", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/23/daai-tv"},
+    {"name": "NTV", "category": "Local TV", "url": "https://www.dens.tv/tv-local/watch/138/nusantara-tv-ntv"},
+    {"name": "NamaCh", "category": "Local TV", "url": "Linkweb"},
+    
 
     # Premium TV
-    {"name": "Dens Play Channel", "category": "Premium TV", "url": "https://www.dens.tv/tv-premium/watch/101/dens-play"},
-    {"name": "Dens Food Channel", "category": "Premium TV", "url": "https://www.dens.tv/tv-premium/watch/102/dens-food"},
-    {"name": "Dens Showbizz", "category": "Premium TV", "url": "https://www.dens.tv/tv-premium/watch/103/dens-showbizz"},
-    {"name": "Dens Life", "category": "Premium TV", "url": "https://www.dens.tv/tv-premium/watch/104/dens-life"},
-
+    {"name": "MCE", "category": "Premium TV", "url": "https://www.dens.tv/tv-premium/watch/92/my-cinema-europe-hd"},
+    {"name": "CREMA TV", "category": "Premium TV", "url": "https://www.dens.tv/tv-premium/watch/127/crema-tv"},
+    {"name": "QWEST", "category": "Premium TV", "url": "https://www.dens.tv/tv-premium/watch/143/qwest-tv"},
+    {"name": "STINGRAY CLASSICA", "category": "Premium TV", "url": "https://www.dens.tv/tv-premium/watch/128/stingray-classica"},
+    {"name": "DANCE TV", "category": "Premium TV", "url": "https://www.dens.tv/tv-premium/watch/130/dance-tv"},
+    {"name": "MOTORVISION", "category": "Premium TV", "url": "https://www.dens.tv/tv-premium/watch/98/motorvision"},
+    
+    
     # International TV
-    {"name": "CNA", "category": "International TV", "url": "https://www.dens.tv/tv-international/watch/55/cna"},
-    {"name": "Al Jazeera English", "category": "International TV", "url": "https://www.dens.tv/tv-international/watch/56/al-jazeera-english"},
-    {"name": "France 24", "category": "International TV", "url": "https://www.dens.tv/tv-international/watch/57/france-24"},
-    {"name": "DW English", "category": "International TV", "url": "https://www.dens.tv/tv-international/watch/58/dw-english"}
-]
+    {"name": "CNA", "category": "International TV", "url": "https://www.dens.tv/tv-international/watch/61/cna"},
+    {"name": "NHK WORLD JAPAN", "category": "International TV", "url": "https://www.dens.tv/tv-international/watch/77/nhk-world-japan"},
+    {"name": "ALJAZEERA ENGLISH", "category": "International TV", "url": "https://www.dens.tv/tv-international/watch/56/al-jazeera-english"},
+    {"name": "TRT WORLD", "category": "International TV", "url": "https://www.dens.tv/tv-international/watch/41/trt-world"},
+    {"name": "RUSSIA TODAY", "category": "International TV", "url": "https://www.dens.tv/tv-international/watch/144/russia-today-rt"},
+    {"name": "WION TV", "category": "International TV", "url": "https://www.dens.tv/tv-international/watch/79/wion"},
+    {"name": "FREEDOM", "category": "International TV", "url": "https://www.dens.tv/tv-international/watch/104/freedom"},
+    {"name": "ALJAZEERA ARABIC", "category": "International TV", "url": "https://www.dens.tv/tv-international/watch/27/al-jazeera-arabic"},
+    {"name": "CCTV 4", "category": "International TV", "url": "https://www.dens.tv/tv-international/watch/85/cctv-4"},
+    {"name": "FRANCE 24", "category": "International TV", "url": "https://www.dens.tv/tv-international/watch/69/france-24"},
+    {"name": "TV 5 MONDE", "category": "International TV", "url": "https://www.dens.tv/tv-international/watch/90/tv5monde-asie"},
+    {"name": "DW", "category": "International TV", "url": "https://www.dens.tv/tv-international/watch/81/dw-tv"},
+    {"name": "DIM", "category": "International TV", "url": "https://www.dens.tv/tv-international/watch/132/dim-tv"},
+    {"name": "TBN", "category": "International TV", "url": "https://www.dens.tv/tv-international/watch/78/tbn"},
+    {"name": "CGTN", "category": "International TV", "url": "https://www.dens.tv/tv-international/watch/16/cgtn-documentary"},
+    {"name": "QURAN TV", "category": "International TV", "url": "https://www.dens.tv/tv-international/watch/82/quran-tv"},
+    {"name": "SUNNA TV", "category": "International TV", "url": "https://www.dens.tv/tv-international/watch/88/sunna-tv"}
+    ]
 
 DENS_REFERRER = "https://www.dens.tv/"
 DENS_ORIGIN = "https://www.dens.tv"
