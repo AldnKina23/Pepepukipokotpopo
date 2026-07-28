@@ -2,8 +2,8 @@ name: Auto Update M3U Playlist
 
 on:
   schedule:
-    - cron: '0 * * * *' # Berjalan otomatis setiap 1 jam
-  workflow_dispatch: # Memungkinkan tombol 'Run workflow' manual di GitHub
+    - cron: '0 * * * *' # Berjalan otomatis setiap 1 jam al
+  workflow_dispatch: # Memungkinkan pemicu manual di dashboard Actions
 
 permissions:
   contents: write
@@ -31,14 +31,21 @@ jobs:
         run: python main.py
 
       - name: 5. Auto Commit & Push M3U Terbaru
+        if: success()
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add vn.m3u
-          if ! git diff --cached --quiet; then
-            git commit -m "⚡ Auto Update: Refresh M3U Token - $(date '+%d/%m/%Y %H:%M:%S')"
-            git push origin main
-            echo "✅ Push file M3U berhasil!"
+          
+          if [ -f "vn.m3u" ]; then
+            git add vn.m3u
+            if ! git diff --cached --quiet; then
+              git commit -m "⚡ Auto Update: Refresh M3U Token - $(date '+%d/%m/%Y %H:%M:%S')"
+              git push origin main
+              echo "✅ Push file M3U berhasil!"
+            else
+              echo "ℹ️ Tidak ada perubahan pada file M3U."
+            fi
           else
-            echo "ℹ️ Tidak ada perubahan."
+            echo "⚠️ File vn.m3u tidak ditemukan."
+            exit 1
           fi
