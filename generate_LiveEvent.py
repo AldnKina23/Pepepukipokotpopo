@@ -11,7 +11,6 @@ from urllib.parse import urlparse
 # CẤU HÌNH
 # ============================================
 
-
 BASE_URL = "https://xoilaczzuuz.tv/"
 PER_PAGE = 20
 OUTPUT_FILE = "LiveEvent.m3u"
@@ -62,26 +61,53 @@ def build_dynamic_headers():
 
 
 # ============================================
-# HÀM LẤY URL STREAM TỪ 1 LINK
+# HÀM LẤY URL STREAM TỪ 1 LINK (PERBAIKAN .M3U8)
 # ============================================
 def extract_url_stream_from_link(link_url):
     try:
         headers = build_dynamic_headers()
+        # Referer khusus untuk fetch link embed ajax
+        headers['referer'] = 'https://xlz.livepingscorex.com/'
+        
         response = requests.get(link_url, headers=headers, timeout=30)
         if response.status_code != 200:
             return None
+
+        # 1. Coba parse sebagai JSON jika response berupa JSON data
+        try:
+            data = response.json()
+            if isinstance(data, dict):
+                stream_url = data.get('data') or data.get('url') or data.get('stream') or data.get('link')
+                if stream_url and '.m3u8' in str(stream_url):
+                    return str(stream_url).replace('\\/', '/')
+        except Exception:
+            pass
+
+        content = response.text
         
-        soup = BeautifulSoup(response.text, 'html.parser')
+        # 2. Cari pattern URL m3u8 langsung menggunakan regex
+        m3u8_match = re.search(r'https?://[^\s"\']+\.m3u8[^\s"\']*', content)
+        if m3u8_match:
+            return m3u8_match.group(0).replace('\\/', '/')
+
+        # 3. Fallback: Cari variabel javascript var urlStream
+        match = re.search(r'var\s+urlStream\s*=\s*["\']([^"\']+)["\'];', content)
+        if match:
+            return match.group(1).replace('\\/', '/')
+
+        # 4. Fallback: Parse BeautifulSoup jika berupa halaman HTML biasa
+        soup = BeautifulSoup(content, 'html.parser')
         scripts = soup.select('script')
-        
         for script in scripts:
-            content = script.string if script.string else script.get_text()
-            if content and 'var urlStream' in content:
-                match = re.search(r'var\s+urlStream\s*=\s*["\']([^"\']+)["\'];', content)
-                if match:
-                    return match.group(1)
+            script_text = script.string if script.string else script.get_text()
+            if script_text and 'var urlStream' in script_text:
+                m = re.search(r'var\s+urlStream\s*=\s*["\']([^"\']+)["\'];', script_text)
+                if m:
+                    return m.group(1).replace('\\/', '/')
+
         return None
-    except Exception:
+    except Exception as e:
+        print(f"⚠️ Gagal mengekstrak m3u8 dari {link_url}: {e}")
         return None
 
 
@@ -124,7 +150,10 @@ def extract_stream_links(url):
             if isinstance(item, list) and len(item) > 0:
                 stream_url = str(item[0]).replace('\\/', '/')
                 url_stream = extract_url_stream_from_link(stream_url)
-                final_urls.append(url_stream if url_stream else stream_url)
+                if url_stream:
+                    final_urls.append(url_stream)
+                else:
+                    final_urls.append(stream_url)
         
         return list(dict.fromkeys(final_urls))
     except Exception:
@@ -324,7 +353,7 @@ def fetch_pages_until(page_target):
 # ============================================
 # TẠO FILE M3U
 # ============================================
-def create_m3u_file(matches, filename="xoilactv.m3u"):
+def create_m3u_file(matches, filename="LiveEvent.m3u"):
     try:
         all_streams = []
         
@@ -333,41 +362,22 @@ def create_m3u_file(matches, filename="xoilactv.m3u"):
             for key in link_keys:
                 stream_url = match[key]
                 if stream_url and stream_url.startswith('http'):
-                    # Lấy thời gian và ngày từ title
                     time_str = extract_time_from_title(match['title'])
                     date_str = extract_date_from_title(match['title'])
                     
-                    # Tạo tiêu đề mới: 🔥⏳03:00 Brazil vs Na Uy ngày 06/07/2026
                     display_title = match['title']
-                    
-                    # Thay thế "lúc HH:MM" và "ngày DD/MM/YYYY" bằng format mới
-                    # Xóa phần "lúc HH:MM" và "ngày DD/MM/YYYY" khỏi title
                     clean_title = re.sub(r'lúc\s+\d{2}:\d{2}\s+', '', display_title)
                     clean_title = re.sub(r'ngày\s+\d{2}/\d{2}/\d{4}', '', clean_title).strip()
                     
-                    # Xây dựng tiêu đề mới
                     new_title = ""
-                    
-                    # Thêm icon live
-                    #if match['live'] == 'living':
-                    #    new_title = "🔴"
-                    #elif match['live'] == 'end':
-                    #    new_title = "✅"
-                    #elif match['live'] == 'comming':
-                    #    new_title = "⏳"
-                    
-                    # Thêm hot
                     if match['hot']:
                         new_title += "🔥"
                     
-                    # Thêm thời gian
                     if time_str:
                         new_title += time_str + " "
                     
-                    # Thêm tên trận và ngày
                     new_title += clean_title
                     
-                    # Nếu chưa có ngày trong title, thêm vào
                     if date_str and date_str not in new_title:
                         new_title += f" ngày {date_str}"
                     
@@ -391,7 +401,7 @@ def create_m3u_file(matches, filename="xoilactv.m3u"):
         for stream in all_streams:
             m3u_content += f'#EXTINF:-1 group-title="Xôi Lạc Z TV",{stream["title"]}\n'
             m3u_content += '#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36\n'
-            m3u_content += '#EXTVLCOPT:http-referrer=https://xlz.buzzscorelinez.com/\n'
+            m3u_content += '#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/\n'
             m3u_content += f'{stream["url"]}\n\n'
         
         with open(filename, 'w', encoding='utf-8') as f:
