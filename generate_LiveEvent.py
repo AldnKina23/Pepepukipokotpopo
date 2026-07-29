@@ -12,7 +12,7 @@ from urllib.parse import urlparse
 # ============================================
 
 
-BASE_URL = "https://xoilacz.vip"
+BASE_URL = "https://xoilaczzuuz.tv/"
 PER_PAGE = 20
 OUTPUT_FILE = "LiveEvent.m3u"
 
