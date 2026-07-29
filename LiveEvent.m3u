@@ -1,7 +1,7 @@
 #EXTM3U
 # Xôi Lạc TV Playlist
-# Total streams: 14
-# Generated: 2026-07-29 09:09:08
+# Total streams: 20
+# Generated: 2026-07-29 09:24:57
 
 #EXTINF:-1 group-title="Xôi Lạc Z TV",15:30 Port FC vs Persija Jakarta ngày 29/07/2026
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
@@ -72,4 +72,34 @@ https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel15
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.buzzscorelinez.com/
 https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel15
+
+#EXTINF:-1 group-title="Xôi Lạc Z TV",17:00 Gimpo FC vs Incheon United ngày 29/07/2026
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.buzzscorelinez.com/
+https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel21
+
+#EXTINF:-1 group-title="Xôi Lạc Z TV",17:00 Gimpo FC vs Incheon United ngày 29/07/2026
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.buzzscorelinez.com/
+https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel21
+
+#EXTINF:-1 group-title="Xôi Lạc Z TV",17:00 Gimcheon Sangmu  vs Suwon FC ngày 29/07/2026
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.buzzscorelinez.com/
+https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel4
+
+#EXTINF:-1 group-title="Xôi Lạc Z TV",17:00 Gimcheon Sangmu  vs Suwon FC ngày 29/07/2026
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.buzzscorelinez.com/
+https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel4
+
+#EXTINF:-1 group-title="Xôi Lạc Z TV",17:00 Busan I Park vs Seoul FC ngày 29/07/2026
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.buzzscorelinez.com/
+https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel11
+
+#EXTINF:-1 group-title="Xôi Lạc Z TV",17:00 Busan I Park vs Seoul FC ngày 29/07/2026
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.buzzscorelinez.com/
+https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel11
 
