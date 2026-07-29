@@ -1,135 +1,105 @@
 #EXTM3U
 # Xôi Lạc TV Playlist
-# Total streams: 26
-# Generated: 2026-07-29 10:00:05
+# Total streams: 20
+# Generated: 2026-07-29 16:54:30
 
-#EXTINF:-1 group-title="Xôi Lạc Z TV",15:30 Port FC vs Persija Jakarta ngày 29/07/2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel24
-
-#EXTINF:-1 group-title="Xôi Lạc Z TV",15:30 Port FC vs Persija Jakarta ngày 29/07/2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel24
-
-#EXTINF:-1 group-title="Xôi Lạc Z TV",16:00 Nữ Hồ Chí Minh vs Nữ Hà Nội II ngày 29/07/2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel20
-
-#EXTINF:-1 group-title="Xôi Lạc Z TV",16:00 Nữ Hồ Chí Minh vs Nữ Hà Nội II ngày 29/07/2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel20
-
-#EXTINF:-1 group-title="Xôi Lạc Z TV",16:00 Nữ Hồ Chí Minh 2 vs Nữ Hà Nội ngày 29/07/2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel10
-
-#EXTINF:-1 group-title="Xôi Lạc Z TV",16:00 Nữ Hồ Chí Minh 2 vs Nữ Hà Nội ngày 29/07/2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel10
-
-#EXTINF:-1 group-title="Xôi Lạc Z TV",16:00 RC Celta vs Viseu ngày 29/07/2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel28
-
-#EXTINF:-1 group-title="Xôi Lạc Z TV",16:00 RC Celta vs Viseu ngày 29/07/2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel28
-
-#EXTINF:-1 group-title="Xôi Lạc Z TV",16:30 Brindabella Blues FC vs Queanbeyan City ngày 29/07/2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel8
-
-#EXTINF:-1 group-title="Xôi Lạc Z TV",16:30 Brindabella Blues FC vs Queanbeyan City ngày 29/07/2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel8
-
-#EXTINF:-1 group-title="Xôi Lạc Z TV",16:45 Tottenham vs Sydney FC ngày 29/07/2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel5
-
-#EXTINF:-1 group-title="Xôi Lạc Z TV",16:45 Tottenham vs Sydney FC ngày 29/07/2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel5
-
-#EXTINF:-1 group-title="Xôi Lạc Z TV",17:00 Ulsan Citizens vs Ulsan Hyundai ngày 29/07/2026
+#EXTINF:-1 group-title="Xôi Lạc Z TV",🔥22:00 FC Kairat vs Omonia FC ngày 29/07/2026
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel15
 
-#EXTINF:-1 group-title="Xôi Lạc Z TV",17:00 Ulsan Citizens vs Ulsan Hyundai ngày 29/07/2026
+#EXTINF:-1 group-title="Xôi Lạc Z TV",🔥22:00 FC Kairat vs Omonia FC ngày 29/07/2026
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel15
 
-#EXTINF:-1 group-title="Xôi Lạc Z TV",17:00 Gimpo FC vs Incheon United ngày 29/07/2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel21
-
-#EXTINF:-1 group-title="Xôi Lạc Z TV",17:00 Gimpo FC vs Incheon United ngày 29/07/2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel21
-
-#EXTINF:-1 group-title="Xôi Lạc Z TV",17:00 Gimcheon Sangmu  vs Suwon FC ngày 29/07/2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel4
-
-#EXTINF:-1 group-title="Xôi Lạc Z TV",17:00 Gimcheon Sangmu  vs Suwon FC ngày 29/07/2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel4
-
-#EXTINF:-1 group-title="Xôi Lạc Z TV",17:00 Busan I Park vs Seoul FC ngày 29/07/2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel11
-
-#EXTINF:-1 group-title="Xôi Lạc Z TV",17:00 Busan I Park vs Seoul FC ngày 29/07/2026
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel11
-
-#EXTINF:-1 group-title="Xôi Lạc Z TV",17:00 Bucheon 1995 vs Paju Frontier FC ngày 29/07/2026
+#EXTINF:-1 group-title="Xôi Lạc Z TV",22:00 Dinamo Samarqand vs FK Kokand 1912 ngày 29/07/2026
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel7
 
-#EXTINF:-1 group-title="Xôi Lạc Z TV",17:00 Bucheon 1995 vs Paju Frontier FC ngày 29/07/2026
+#EXTINF:-1 group-title="Xôi Lạc Z TV",22:00 Dinamo Samarqand vs FK Kokand 1912 ngày 29/07/2026
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
 https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel7
 
-#EXTINF:-1 group-title="Xôi Lạc Z TV",17:00 Gwangju FC vs Cheonan City ngày 29/07/2026
+#EXTINF:-1 group-title="Xôi Lạc Z TV",🔥23:00 Kauno Zalgiris vs KI Klaksvik ngày 29/07/2026
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel6
+https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel18
 
-#EXTINF:-1 group-title="Xôi Lạc Z TV",17:00 Gwangju FC vs Cheonan City ngày 29/07/2026
+#EXTINF:-1 group-title="Xôi Lạc Z TV",🔥23:00 Kauno Zalgiris vs KI Klaksvik ngày 29/07/2026
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel6
+https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel18
 
-#EXTINF:-1 group-title="Xôi Lạc Z TV",17:00 Chungnam Asan vs Siheung City ngày 29/07/2026
+#EXTINF:-1 group-title="Xôi Lạc Z TV",23:00 TSG Hoffenheim vs Holstein Kiel ngày 29/07/2026
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel27
+https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel13
 
-#EXTINF:-1 group-title="Xôi Lạc Z TV",17:00 Chungnam Asan vs Siheung City ngày 29/07/2026
+#EXTINF:-1 group-title="Xôi Lạc Z TV",23:00 TSG Hoffenheim vs Holstein Kiel ngày 29/07/2026
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel27
+https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel13
+
+#EXTINF:-1 group-title="Xôi Lạc Z TV",23:00 AEK Athens vs Samsunspor ngày 29/07/2026
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel8
+
+#EXTINF:-1 group-title="Xôi Lạc Z TV",23:00 AEK Athens vs Samsunspor ngày 29/07/2026
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel8
+
+#EXTINF:-1 group-title="Xôi Lạc Z TV",23:30 Girona vs Castellon ngày 29/07/2026
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel20
+
+#EXTINF:-1 group-title="Xôi Lạc Z TV",23:30 Girona vs Castellon ngày 29/07/2026
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel20
+
+#EXTINF:-1 group-title="Xôi Lạc Z TV",00:00 Kickers Offenbach vs VfB Stuttgart ngày 30/07/2026
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel23
+
+#EXTINF:-1 group-title="Xôi Lạc Z TV",00:00 Kickers Offenbach vs VfB Stuttgart ngày 30/07/2026
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel23
+
+#EXTINF:-1 group-title="Xôi Lạc Z TV",🔥00:00 Lech Poznan vs Aarhus AGF ngày 30/07/2026
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel5
+
+#EXTINF:-1 group-title="Xôi Lạc Z TV",🔥00:00 Lech Poznan vs Aarhus AGF ngày 30/07/2026
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel5
+
+#EXTINF:-1 group-title="Xôi Lạc Z TV",00:00 Copenhagen vs Polissya Zhytomyr ngày 30/07/2026
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel12
+
+#EXTINF:-1 group-title="Xôi Lạc Z TV",00:00 Copenhagen vs Polissya Zhytomyr ngày 30/07/2026
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel12
+
+#EXTINF:-1 group-title="Xôi Lạc Z TV",00:00 Racing Santander vs Athletic Bilbao ngày 30/07/2026
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel14
+
+#EXTINF:-1 group-title="Xôi Lạc Z TV",00:00 Racing Santander vs Athletic Bilbao ngày 30/07/2026
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel14
 
