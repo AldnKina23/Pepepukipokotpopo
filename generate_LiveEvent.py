@@ -9,13 +9,13 @@ from urllib.parse import urlparse, unquote
 import base64
 
 # ============================================
-# CẤU HÌNH LUDA
+# CẤU HÌNH PORO
 # ============================================
 
 BASE_URL = "https://xoilaczzuuz.tv/"
 PER_PAGE = 20
 OUTPUT_FILE = "LiveEvent.m3u"
-MAX_PAGES_TO_FETCH = 5  # Ambil hingga 5 halaman (cukup untuk jadwal hari ini & besok)
+MAX_PAGES_TO_FETCH = 5
 
 
 def get_actual_base_url():
@@ -54,16 +54,23 @@ def build_dynamic_headers(referer_override=None):
     }
 
 
-def decode_m3u8_payload(text):
+def find_m3u8_in_text(text):
+    """Mencari pola URL .m3u8 dalam string mentah, URL-encoded, atau Base64"""
+    if not text:
+        return None
+
+    # 1. Regex M3U8 standar
     match = re.search(r'https?://[^\s"\'<>\\]+\.m3u8[^\s"\'<>]*', text)
     if match:
         return match.group(0).replace('\\/', '/')
 
+    # 2. Decode URL Encoding (%3A%2F%2F)
     decoded_text = unquote(text)
     match = re.search(r'https?://[^\s"\'<>\\]+\.m3u8[^\s"\'<>]*', decoded_text)
     if match:
         return match.group(0).replace('\\/', '/')
 
+    # 3. Decode String Base64
     b64_matches = re.findall(r'[A-Za-z0-9+/=]{30,}', text)
     for b64_str in b64_matches:
         try:
@@ -77,47 +84,45 @@ def decode_m3u8_payload(text):
     return None
 
 
-def extract_url_stream_from_link(link_url):
-    if not link_url:
+def extract_m3u8_from_ajax(url):
+    """Memanggil endpoint AJAX Xoilac dan mengekstrak link .m3u8 asli"""
+    if not url:
         return None
-        
-    if '.m3u8' in link_url and 'ajax/chanel' not in link_url:
-        return link_url
+
+    # Jika sudah .m3u8 langsung
+    if '.m3u8' in url and 'ajax/chanel' not in url:
+        return url
 
     try:
         headers = build_dynamic_headers(referer_override='https://xlz.livepingscorex.com/')
         headers['X-Requested-With'] = 'XMLHttpRequest'
         
-        response = requests.get(link_url, headers=headers, timeout=8)
+        response = requests.get(url, headers=headers, timeout=8)
         if response.status_code != 200:
-            return link_url  # Return original link as fallback
+            return None
 
         content = response.text
 
+        # Coba parse sebagai JSON
         try:
             data = response.json()
             if isinstance(data, dict):
-                for key in ['url', 'stream', 'link', 'data', 'file', 'hls']:
+                for key in ['url', 'stream', 'link', 'data', 'file', 'hls', 'source']:
                     val = data.get(key)
                     if val:
                         if isinstance(val, dict):
                             val = val.get('url') or val.get('file')
-                        if val and '.m3u8' in str(val):
-                            return str(val).replace('\\/', '/')
-                        decoded = decode_m3u8_payload(str(val))
-                        if decoded:
-                            return decoded
+                        m3u_found = find_m3u8_in_text(str(val))
+                        if m3u_found:
+                            return m3u_found
         except Exception:
             pass
 
-        extracted = decode_m3u8_payload(content)
-        if extracted:
-            return extracted
+        # Parse sebagai teks/HTML biasa
+        return find_m3u8_in_text(content)
 
-        # Jika belum live, kembalikan link originalnya agar playlist tidak kosong
-        return link_url
     except Exception:
-        return link_url
+        return None
 
 
 def extract_stream_links(url):
@@ -151,17 +156,17 @@ def extract_stream_links(url):
         except json.JSONDecodeError:
             return []
         
-        final_urls = []
+        final_m3u8_urls = []
         for item in list_stream:
             if isinstance(item, list) and len(item) > 0:
-                raw_stream_url = str(item[0]).replace('\\/', '/')
-                resolved_url = extract_url_stream_from_link(raw_stream_url)
-                if resolved_url:
-                    final_urls.append(resolved_url)
-                else:
-                    final_urls.append(raw_stream_url)
+                raw_url = str(item[0]).replace('\\/', '/')
+                
+                # Ekstrak link m3u8 asli dari link AJAX
+                real_m3u8 = extract_m3u8_from_ajax(raw_url)
+                if real_m3u8:
+                    final_m3u8_urls.append(real_m3u8)
         
-        return list(dict.fromkeys(final_urls))
+        return list(dict.fromkeys(final_m3u8_urls))
     except Exception:
         return []
 
@@ -217,7 +222,6 @@ def parse_match_from_element(item):
     href = link.get('href', '')
     title = link.get('title', '')
     
-    # Ambil semua match tanpa membatasi berdasar BLV
     live_status = get_live_status_from_title(title)
     actual_base = get_actual_base_url().rstrip('/')
     
@@ -246,7 +250,7 @@ def parse_all_matches(html_content):
     matches = []
     for item in items:
         match = parse_match_from_element(item)
-        if match:
+        if match and any(k.startswith('link') for k in match.keys()):
             matches.append(match)
     return matches
 
@@ -293,7 +297,7 @@ def fetch_pages(max_pages):
             
         matches = result['data'].get('matches', [])
         all_matches.extend(matches)
-        print(f"   ✅ Page {page}: got {len(matches)} matches (Total accumulator: {len(all_matches)})")
+        print(f"   ✅ Page {page}: got {len(matches)} matches with active .m3u8 (Total: {len(all_matches)})")
         time.sleep(0.3)
         
     return all_matches, total_pages
@@ -330,11 +334,13 @@ def create_m3u_file(matches, filename="LiveEvent.m3u"):
                     })
         
         if not all_streams:
-            print("❌ No streams collected!")
+            print("⚠️ Tidak ada link .m3u8 aktif yang berhasil diekstrak saat ini.")
+            with open(filename, 'w', encoding='utf-8') as f:
+                f.write("#EXTM3U\n# No Active M3U8 Streams Currently Available\n")
             return False
         
         m3u_content = "#EXTM3U\n"
-        m3u_content += "# Xôi Lạc TV Playlist (Hari Ini & Besok)\n"
+        m3u_content += "# Xôi Lạc TV M3U8 Playlist\n"
         m3u_content += f"# Total streams: {len(all_streams)}\n"
         m3u_content += f"# Generated: {time.strftime('%Y-%m-%d %H:%M:%S')}\n\n"
         
@@ -348,8 +354,8 @@ def create_m3u_file(matches, filename="LiveEvent.m3u"):
         with open(filename, 'w', encoding='utf-8') as f:
             f.write(m3u_content)
         
-        print(f"\n✅ M3U File berhasil dibuat: {filename}")
-        print(f"   Total Pertandingan & Link Terkumpul: {len(all_streams)}")
+        print(f"\n✅ File M3U Murni berhasil dibuat: {filename}")
+        print(f"   Total Link Video (.m3u8) Siap Putar: {len(all_streams)}")
         return True
     except Exception as e:
         print(f"❌ Error creating M3U: {e}")
@@ -358,16 +364,15 @@ def create_m3u_file(matches, filename="LiveEvent.m3u"):
 
 def main():
     print("=" * 60)
-    print(" 🚀 SCRAPE ALL MATCHES (LIVE + UPCOMING HARI INI & BESOK)")
+    print(" 🚀 SCRAPE PURE M3U8 STREAMS FOR IPTV")
     print("=" * 60)
     
     matches, total_pages = fetch_pages(MAX_PAGES_TO_FETCH)
     
     if matches:
-        print(f"\n📊 Total pertandingan ditemukan dari {MAX_PAGES_TO_FETCH} halaman: {len(matches)}")
         create_m3u_file(matches, OUTPUT_FILE)
     else:
-        print("❌ Gagal mengambil daftar pertandingan.")
+        print("❌ Gagal mengekstrak link .m3u8 murni.")
 
 
 if __name__ == "__main__":
