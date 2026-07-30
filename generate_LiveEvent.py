@@ -9,17 +9,15 @@ from urllib.parse import urlparse, unquote
 import base64
 
 # ============================================
-# CẤU HÌNH
+# CẤU HÌNH LUDA
 # ============================================
 
 BASE_URL = "https://xoilaczzuuz.tv/"
 PER_PAGE = 20
 OUTPUT_FILE = "LiveEvent.m3u"
+MAX_PAGES_TO_FETCH = 5  # Ambil hingga 5 halaman (cukup untuk jadwal hari ini & besok)
 
 
-# ============================================
-# HÀM LẤY URL THỰC TẾ SAU CHUYỂN HƯỚNG
-# ============================================
 def get_actual_base_url():
     try:
         response = requests.get(BASE_URL, allow_redirects=True, timeout=10)
@@ -27,22 +25,18 @@ def get_actual_base_url():
         if not actual_url.endswith('/'):
             actual_url += '/'
         return actual_url
-    except Exception as e:
-        print(f"⚠️ Không thể lấy URL thực tế: {e}")
+    except Exception:
         if not BASE_URL.endswith('/'):
             return BASE_URL + '/'
         return BASE_URL
 
 
-# ============================================
-# HÀM TẠO HEADERS ĐỘNG DANG
-# ============================================
 def build_dynamic_headers(referer_override=None):
     actual_url = get_actual_base_url()
     parsed = urlparse(actual_url)
     domain = f"{parsed.scheme}://{parsed.netloc}"
     
-    headers = {
+    return {
         "accept": "*/*",
         "accept-encoding": "gzip, deflate, br",
         "accept-language": "en-US,en;q=0.9,id;q=0.8",
@@ -50,7 +44,7 @@ def build_dynamic_headers(referer_override=None):
         "origin": domain,
         "pragma": "no-cache",
         "referer": referer_override if referer_override else actual_url,
-        "sec-ch-ua": '"Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"',
+        "sec-ch-ua": '"Chromium";v="122", "Google Chrome";v="122"',
         "sec-ch-ua-mobile": "?0",
         "sec-ch-ua-platform": '"Windows"',
         "sec-fetch-dest": "empty",
@@ -58,26 +52,18 @@ def build_dynamic_headers(referer_override=None):
         "sec-fetch-site": "cross-site",
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
     }
-    return headers
 
 
-# ============================================
-# HÀM UNPACK / DECODE URL M3U8 DARI AJAX RESPONSE
-# ============================================
 def decode_m3u8_payload(text):
-    """Mencari string .m3u8 tersembunyi baik mentah, URL encoded, maupun Base64."""
-    # 1. Regex M3U8 standar
     match = re.search(r'https?://[^\s"\'<>\\]+\.m3u8[^\s"\'<>]*', text)
     if match:
         return match.group(0).replace('\\/', '/')
 
-    # 2. Coba cari string ter-encode URL (%3A%2F%2F dll)
     decoded_text = unquote(text)
     match = re.search(r'https?://[^\s"\'<>\\]+\.m3u8[^\s"\'<>]*', decoded_text)
     if match:
         return match.group(0).replace('\\/', '/')
 
-    # 3. Coba ekstraksi string Base64 yang berisi http...m3u8
     b64_matches = re.findall(r'[A-Za-z0-9+/=]{30,}', text)
     for b64_str in b64_matches:
         try:
@@ -88,34 +74,29 @@ def decode_m3u8_payload(text):
                     return m3u_match.group(0).replace('\\/', '/')
         except Exception:
             continue
-
     return None
 
 
-# ============================================
-# HÀM LẤY URL STREAM TỪ 1 LINK (PERBAIKAN SOLUSI AJAX)
-# ============================================
 def extract_url_stream_from_link(link_url):
-    # Jika link sudah berbentuk .m3u8 langsung, kembalikan saja
-    if '.m3u8' in link_url and not link_url.startswith('http') == False:
-        if 'ajax/chanel' not in link_url:
-            return link_url
+    if not link_url:
+        return None
+        
+    if '.m3u8' in link_url and 'ajax/chanel' not in link_url:
+        return link_url
 
     try:
         headers = build_dynamic_headers(referer_override='https://xlz.livepingscorex.com/')
         headers['X-Requested-With'] = 'XMLHttpRequest'
         
-        response = requests.get(link_url, headers=headers, timeout=12)
+        response = requests.get(link_url, headers=headers, timeout=8)
         if response.status_code != 200:
-            return None
+            return link_url  # Return original link as fallback
 
         content = response.text
 
-        # 1. Parsing jika response dalam bentuk JSON
         try:
             data = response.json()
             if isinstance(data, dict):
-                # Cari nilai di berbagai key JSON
                 for key in ['url', 'stream', 'link', 'data', 'file', 'hls']:
                     val = data.get(key)
                     if val:
@@ -123,49 +104,26 @@ def extract_url_stream_from_link(link_url):
                             val = val.get('url') or val.get('file')
                         if val and '.m3u8' in str(val):
                             return str(val).replace('\\/', '/')
-                        
-                        # Coba dekode isi payload JSON
                         decoded = decode_m3u8_payload(str(val))
                         if decoded:
                             return decoded
         except Exception:
             pass
 
-        # 2. Cari pattern .m3u8 langsung di teks mentah
         extracted = decode_m3u8_payload(content)
         if extracted:
             return extracted
 
-        # 3. Fallback: Cari variabel javascript
-        var_patterns = [
-            r'var\s+urlStream\s*=\s*["\']([^"\']+)["\'];',
-            r'var\s+playerUrl\s*=\s*["\']([^"\']+)["\'];',
-            r'source\s*:\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
-            r'file\s*:\s*["\']([^"\']+\.m3u8[^"\']*)["\']'
-        ]
-        
-        for pat in var_patterns:
-            m = re.search(pat, content)
-            if m:
-                found_url = m.group(1).replace('\\/', '/')
-                if '.m3u8' in found_url:
-                    return found_url
-
-        # Jika sama sekali tidak ditemukan .m3u8 (misal match belum live/stream offline)
-        return None
-
-    except Exception as e:
-        print(f"⚠️ Gagal mengekstrak m3u8 dari {link_url}: {e}")
-        return None
+        # Jika belum live, kembalikan link originalnya agar playlist tidak kosong
+        return link_url
+    except Exception:
+        return link_url
 
 
-# ============================================
-# HÀM LẤY STREAM LINKS TỪ TRANG CHI TIẾT
-# ============================================
 def extract_stream_links(url):
     try:
         headers = build_dynamic_headers()
-        response = requests.get(url, headers=headers, timeout=15)
+        response = requests.get(url, headers=headers, timeout=10)
         if response.status_code != 200:
             return []
         
@@ -197,40 +155,30 @@ def extract_stream_links(url):
         for item in list_stream:
             if isinstance(item, list) and len(item) > 0:
                 raw_stream_url = str(item[0]).replace('\\/', '/')
-                
-                # Resolusi link AJAX ke link M3U8 asli
-                real_m3u8 = extract_url_stream_from_link(raw_stream_url)
-                if real_m3u8:
-                    final_urls.append(real_m3u8)
+                resolved_url = extract_url_stream_from_link(raw_stream_url)
+                if resolved_url:
+                    final_urls.append(resolved_url)
                 else:
-                    # HANYA masukkan jika bernilai .m3u8 (Abaikan jika masih link AJAX)
-                    if '.m3u8' in raw_stream_url:
-                        final_urls.append(raw_stream_url)
+                    final_urls.append(raw_stream_url)
         
         return list(dict.fromkeys(final_urls))
     except Exception:
         return []
 
 
-# ============================================
-# HÀM TÍNH TRẠNG THÁI LIVE TỪ TITLE
-# ============================================
 def get_live_status_from_title(title):
     try:
         time_match = re.search(r'lúc\s+(\d{2}):(\d{2})', title)
         if not time_match:
             return 'comming'
         
-        hour = int(time_match.group(1))
-        minute = int(time_match.group(2))
+        hour, minute = int(time_match.group(1)), int(time_match.group(2))
         
         date_match = re.search(r'ngày\s+(\d{2})/(\d{2})/(\d{4})', title)
         if not date_match:
             return 'comming'
         
-        day = int(date_match.group(1))
-        month = int(date_match.group(2))
-        year = int(date_match.group(3))
+        day, month, year = int(date_match.group(1)), int(date_match.group(2)), int(date_match.group(3))
         
         match_time = datetime(year, month, day, hour, minute)
         now = datetime.now()
@@ -241,40 +189,26 @@ def get_live_status_from_title(title):
             return 'living'
         else:
             return 'end'
-            
     except Exception:
         return 'comming'
 
 
-# ============================================
-# HÀM LẤY THỜI GIAN TỪ TITLE (HH:MM)
-# ============================================
 def extract_time_from_title(title):
     try:
         time_match = re.search(r'lúc\s+(\d{2}):(\d{2})', title)
-        if time_match:
-            return f"{time_match.group(1)}:{time_match.group(2)}"
-        return "00:00"
+        return f"{time_match.group(1)}:{time_match.group(2)}" if time_match else "00:00"
     except Exception:
         return "00:00"
 
 
-# ============================================
-# HÀM LẤY NGÀY TỪ TITLE (DD/MM/YYYY)
-# ============================================
 def extract_date_from_title(title):
     try:
         date_match = re.search(r'ngày\s+(\d{2})/(\d{2})/(\d{4})', title)
-        if date_match:
-            return f"{date_match.group(1)}/{date_match.group(2)}/{date_match.group(3)}"
-        return ""
+        return f"{date_match.group(1)}/{date_match.group(2)}/{date_match.group(3)}" if date_match else ""
     except Exception:
         return ""
 
 
-# ============================================
-# HÀM PARSE 1 MATCH
-# ============================================
 def parse_match_from_element(item):
     link = item.select_one('a.redirectPopup')
     if not link:
@@ -283,33 +217,16 @@ def parse_match_from_element(item):
     href = link.get('href', '')
     title = link.get('title', '')
     
-    footer_center = item.select_one('.grid-match-item__footer-center')
-    blv_count = 0
-    
-    if footer_center:
-        for class_name in footer_center.get('class', []):
-            if class_name.startswith('number-blv-'):
-                try:
-                    blv_count = int(class_name.replace('number-blv-', ''))
-                except:
-                    blv_count = 0
-                break
-    
-    if blv_count == 0:
-        return None
-    
+    # Ambil semua match tanpa membatasi berdasar BLV
     live_status = get_live_status_from_title(title)
-    
-    actual_base = get_actual_base_url()
-    actual_base = actual_base.rstrip('/')
+    actual_base = get_actual_base_url().rstrip('/')
     
     match = {
         'fid': item.get('data-fid', ''),
         'hot': item.get('data-hot', '0') == '1',
         'live': live_status,
         'href': href,
-        'title': title,
-        'random-streams': link.get('data-random-streams', '')
+        'title': title
     }
     
     if href:
@@ -331,13 +248,9 @@ def parse_all_matches(html_content):
         match = parse_match_from_element(item)
         if match:
             matches.append(match)
-    
     return matches
 
 
-# ============================================
-# LẤY 1 TRANG
-# ============================================
 def fetch_page(page):
     actual_base = get_actual_base_url().rstrip('/')
     url = f"{actual_base}/sport/football/load-more/home/page/{page}/per/{PER_PAGE}?t={int(time.time())}"
@@ -345,7 +258,7 @@ def fetch_page(page):
     try:
         print(f"📤 GET page {page}: {url}")
         headers = build_dynamic_headers()
-        response = requests.get(url, headers=headers, timeout=20)
+        response = requests.get(url, headers=headers, timeout=15)
         
         if response.status_code == 200:
             data = response.json()
@@ -360,51 +273,32 @@ def fetch_page(page):
                     'matches': matches
                 }
             }
-        else:
-            print(f"❌ Error: {response.status_code}")
-            return None
+        return None
     except Exception as e:
-        print(f"❌ Exception: {e}")
+        print(f"❌ Exception page {page}: {e}")
         return None
 
 
-# ============================================
-# LẤY NHIỀU TRANG
-# ============================================
-def fetch_pages_until(page_target):
+def fetch_pages(max_pages):
     all_matches = []
     total_pages = 0
-    success = True
     
-    for page in range(0, page_target + 1):
+    for page in range(0, max_pages):
         result = fetch_page(page)
-        
         if not result or not result.get('success'):
-            print(f"❌ Failed to fetch page {page}")
-            success = False
             break
-        
+            
         if page == 0:
             total_pages = result['data']['pagination'].get('total_pages', 0)
-        
+            
         matches = result['data'].get('matches', [])
         all_matches.extend(matches)
-        print(f"   ✅ Page {page}: got {len(matches)} matches (total: {len(all_matches)})")
+        print(f"   ✅ Page {page}: got {len(matches)} matches (Total accumulator: {len(all_matches)})")
+        time.sleep(0.3)
         
-        time.sleep(0.5)
-    
-    return {
-        'success': success,
-        'data': {
-            'pagination': {'total_pages': total_pages},
-            'matches': all_matches
-        }
-    }
+    return all_matches, total_pages
 
 
-# ============================================
-# TẠO FILE M3U
-# ============================================
 def create_m3u_file(matches, filename="LiveEvent.m3u"):
     try:
         all_streams = []
@@ -421,93 +315,59 @@ def create_m3u_file(matches, filename="LiveEvent.m3u"):
                     clean_title = re.sub(r'lúc\s+\d{2}:\d{2}\s+', '', display_title)
                     clean_title = re.sub(r'ngày\s+\d{2}/\d{2}/\d{4}', '', clean_title).strip()
                     
-                    new_title = ""
+                    prefix = "🔴 LIVE | " if match['live'] == 'living' else "⏳ "
                     if match['hot']:
-                        new_title += "🔥 "
+                        prefix += "🔥 "
                     
-                    if time_str:
-                        new_title += time_str + " "
-                    
-                    new_title += clean_title
-                    
+                    new_title = f"{prefix}{time_str} {clean_title}"
                     if date_str and date_str not in new_title:
-                        new_title += f" ngày {date_str}"
+                        new_title += f" ({date_str})"
                     
                     all_streams.append({
                         'title': new_title,
                         'url': stream_url,
-                        'fid': match['fid'],
-                        'hot': match['hot'],
                         'live': match['live']
                     })
         
         if not all_streams:
-            print("⚠️ No valid .m3u8 stream links extracted (Matches might be offline/upcoming).")
-            # Tetap buat header file agar tidak error
-            with open(filename, 'w', encoding='utf-8') as f:
-                f.write("#EXTM3U\n# No Active Streams Currently Available\n")
+            print("❌ No streams collected!")
             return False
         
         m3u_content = "#EXTM3U\n"
-        m3u_content += "# Xôi Lạc TV Playlist\n"
+        m3u_content += "# Xôi Lạc TV Playlist (Hari Ini & Besok)\n"
         m3u_content += f"# Total streams: {len(all_streams)}\n"
         m3u_content += f"# Generated: {time.strftime('%Y-%m-%d %H:%M:%S')}\n\n"
         
         for stream in all_streams:
-            m3u_content += f'#EXTINF:-1 group-title="Xôi Lạc Z TV",{stream["title"]}\n'
-            m3u_content += '#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36\n'
+            group_label = "Xôi Lạc - LIVE NOW" if stream["live"] == "living" else "Xôi Lạc - UPCOMING"
+            m3u_content += f'#EXTINF:-1 group-title="{group_label}",{stream["title"]}\n'
+            m3u_content += '#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36\n'
             m3u_content += '#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/\n'
             m3u_content += f'{stream["url"]}\n\n'
         
         with open(filename, 'w', encoding='utf-8') as f:
             f.write(m3u_content)
         
-        print(f"✅ M3U file created: {filename}")
-        print(f"   Total valid .m3u8 streams: {len(all_streams)}")
+        print(f"\n✅ M3U File berhasil dibuat: {filename}")
+        print(f"   Total Pertandingan & Link Terkumpul: {len(all_streams)}")
         return True
     except Exception as e:
         print(f"❌ Error creating M3U: {e}")
         return False
 
 
-# ============================================
-# MAIN
-# ============================================
 def main():
     print("=" * 60)
-    print("        🚀 FETCH MATCHES WITH BLV ONLY (FIXED M3U8)")
-    print("=" * 60)
-    print(f"📊 Per page: {PER_PAGE} matches")
-    print(f"📌 Only matches with BLV (number-blv > 0)")
-    print(f"📌 Output file: {OUTPUT_FILE}")
+    print(" 🚀 SCRAPE ALL MATCHES (LIVE + UPCOMING HARI INI & BESOK)")
     print("=" * 60)
     
-    TARGET_PAGE = 0
+    matches, total_pages = fetch_pages(MAX_PAGES_TO_FETCH)
     
-    data = fetch_pages_until(TARGET_PAGE)
-    
-    if data and data['success']:
-        matches = data['data']['matches']
-        total_matches = len(matches)
-        
-        print(f"\n📊 Success: {data['success']}")
-        print(f"📊 Total pages available: {data['data']['pagination'].get('total_pages', 0)}")
-        print(f"📊 Total matches with BLV: {total_matches}")
-        
-        print("\n📋 Matches found:")
-        for i, m in enumerate(matches[:5], 1):
-            print(f"  {i}. {m['title']}")
-            print(f"     FID: {m['fid']}, Hot: {m['hot']}, Live: {m['live']}")
-            if any(k.startswith('link') for k in m.keys()):
-                link_count = len([k for k in m.keys() if k.startswith('link')])
-                print(f"     Valid Streams: {link_count}")
-        
-        print("\n📊 Creating M3U file...")
+    if matches:
+        print(f"\n📊 Total pertandingan ditemukan dari {MAX_PAGES_TO_FETCH} halaman: {len(matches)}")
         create_m3u_file(matches, OUTPUT_FILE)
-        
-        print(f"\n✅ DONE! File saved: {OUTPUT_FILE}")
     else:
-        print("❌ Failed to fetch data")
+        print("❌ Gagal mengambil daftar pertandingan.")
 
 
 if __name__ == "__main__":
