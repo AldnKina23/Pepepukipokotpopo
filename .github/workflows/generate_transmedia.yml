@@ -1,4 +1,4 @@
-name: Generate M3U Playlist
+name: Generate TRANSMEDIA Playlist
 
 on:
   schedule:
