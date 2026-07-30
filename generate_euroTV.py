@@ -15,7 +15,7 @@ REFERER = f"{DOMAIN}/"
 def get_channels():
     channels = {}
     
-    # Coba endpoint json terbaru dari daddylive.mov
+    # Endpoint JSON resmi dari daddylive al
     urls = [
         f"{DOMAIN}/cache/24-7channels.json",
         f"{DOMAIN}/cache/tv/tv.json"
@@ -26,14 +26,12 @@ def get_channels():
             r = requests.get(url, headers=HEADERS, timeout=15)
             if r.status_code == 200:
                 data = r.json()
-                # Jika data berupa list langsung (Format 24-7 channels)
                 if isinstance(data, list):
                     for ch in data:
                         cid = ch.get("channel_id") or ch.get("id", "")
                         name = ch.get("channel_name") or ch.get("name", "")
                         if cid and name:
                             channels[str(cid)] = str(name)
-                # Jika data berupa dict terstruktur (Format tv.json)
                 elif isinstance(data, dict):
                     for date, content in data.items():
                         if isinstance(content, dict):
@@ -45,9 +43,9 @@ def get_channels():
                                             name = ch.get("channel_name", "")
                                             if cid and name:
                                                 channels[str(cid)] = str(name)
-            print(f"Berhasil fetch dari {url}: total {len(channels)} channel.")
+            print(f"Berhasil mengambil data dari {url}: {len(channels)} channels")
         except Exception as e:
-            print(f"Gagal fetch dari {url}: {e}")
+            print(f"Gagal mengambil data dari {url}: {e}")
             
     return channels
 
@@ -83,8 +81,8 @@ def build_m3u(channels):
     for cid, name in sorted(channels.items(), key=lambda x: int(x[0]) if x[0].isdigit() else 9999):
         group = get_group(name)
         
-        # Menggunakan format embed URL daddylive.mov
-        stream_url = f"{DOMAIN}/embed/stream-{cid}.php"
+        # PERBAIKAN: Format URL streaming yang benar adalah /live/stream-X.php
+        stream_url = f"{DOMAIN}/live/stream-{cid}.php"
         
         lines.append(f'#EXTINF:-1 tvg-id="{cid}" tvg-logo="" group-title="{group}",{name}')
         lines.append(f'#EXTVLCOPT:http-referrer={REFERER}')
@@ -96,7 +94,7 @@ def build_m3u(channels):
 
 def main():
     os.makedirs("output", exist_ok=True)
-    print("Fetching channels...")
+    print("Memproses daftar channel...")
     channels = get_channels()
     print(f"Total unik channel: {len(channels)}")
 
