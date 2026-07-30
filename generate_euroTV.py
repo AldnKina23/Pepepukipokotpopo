@@ -4,16 +4,16 @@ import requests
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-    "Referer": "https://daddylive.eu/"
+    "Referer": "https://daddylive.mov/"
 }
 
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-REFERER = "https://daddylive.eu/"
+REFERER = "https://daddylive.mov/"
 
 def get_channels():
     channels = {}
     try:
-        r = requests.get("https://daddylive.eu/cache/tv/tv.json", headers=HEADERS, timeout=15)
+        r = requests.get("https://daddylive.mov/cache/tv/tv.json", headers=HEADERS, timeout=15)
         data = r.json()
         for date, content in data.items():
             for event_type, events in content.items():
@@ -60,7 +60,7 @@ def build_m3u(channels):
     lines = ["#EXTM3U"]
     for cid, name in sorted(channels.items(), key=lambda x: int(x[0]) if x[0].isdigit() else 9999):
         group = get_group(name)
-        stream_url = f"https://daddylive.eu/embed/stream.php?id={cid}&player=1&source=tv"
+        stream_url = f"https://daddylive.mov/embed/stream.php?id={cid}&player=1&source=tv"
         lines.append(f'#EXTINF:-1 tvg-id="{cid}" tvg-logo="" group-title="{group}",{name}')
         lines.append(f'#EXTVLCOPT:http-referrer={REFERER}')
         lines.append(f'#EXTVLCOPT:http-user-agent={UA}')
