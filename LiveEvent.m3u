@@ -1,770 +1,2005 @@
 #EXTM3U
-# Xôi Lạc TV Playlist (Hari Ini & Besok)
-# Total streams: 153
-# Generated: 2026-07-30 00:35:44
+# Xôi Lạc TV Multi-CDN Playlist
+# Total streams: 400
+# Generated: 2026-07-30 01:29:41
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 05:30 Barranquilla FC vs Atletico Junior (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 06:30 Louisville City vs Birmingham Legion (30/07/2026) [CH: CHANNEL23 - Srv 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel9
+https://live1.streambylivepulse.com/live/channel23/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 05:30 Barranquilla FC vs Atletico Junior (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 06:30 Louisville City vs Birmingham Legion (30/07/2026) [CH: CHANNEL23 - Srv 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel9
+https://live2.streambylivepulse.com/live/channel23.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 06:00 Pittsburgh R vs FC Tulsa (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 06:30 Louisville City vs Birmingham Legion (30/07/2026) [CH: CHANNEL23 - Srv 3]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel10
+https://live1.100ycdn.com/live/channel23/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 06:00 Pittsburgh R vs FC Tulsa (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 06:30 Louisville City vs Birmingham Legion (30/07/2026) [CH: CHANNEL23 - Srv 4]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel10
+https://live2.streambylivepulse.com/live/channel23/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 06:00 Nữ Mexico vs Nữ Puerto Rico (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 06:30 Sarasota Paradise vs Portland Hearts of Pine (30/07/2026) [CH: CHANNEL34 - Srv 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/7/link/channel19
+https://live1.streambylivepulse.com/live/channel34/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 06:00 Nữ El Salvador  vs Nữ Dominican Republic (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 06:30 Sarasota Paradise vs Portland Hearts of Pine (30/07/2026) [CH: CHANNEL34 - Srv 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/7/link/channel20
+https://live2.streambylivepulse.com/live/channel34.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 06:00 Municipal Limeno vs CD INCA-Aruba (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 06:30 Sarasota Paradise vs Portland Hearts of Pine (30/07/2026) [CH: CHANNEL34 - Srv 3]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/7/link/channel21
+https://live1.100ycdn.com/live/channel34/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 06:00 Greenville Triumph vs Athletic Club Boise (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 06:30 Sarasota Paradise vs Portland Hearts of Pine (30/07/2026) [CH: CHANNEL34 - Srv 4]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/7/link/channel22
+https://live2.streambylivepulse.com/live/channel34/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 05:30 Goianesia GO vs Crixas FC (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:00 UMECIT vs Deportivo Saprissa (30/07/2026) [CH: CHANNEL2 - Srv 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/7/link/channel15
+https://live1.streambylivepulse.com/live/channel2/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 06:00 America SE vs Lagarto (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:00 UMECIT vs Deportivo Saprissa (30/07/2026) [CH: CHANNEL2 - Srv 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/7/link/channel30
+https://live2.streambylivepulse.com/live/channel2.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 06:00 Morrinhos FC vs Bom Jesus (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:00 UMECIT vs Deportivo Saprissa (30/07/2026) [CH: CHANNEL2 - Srv 3]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/7/link/channel32
+https://live1.100ycdn.com/live/channel2/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 06:00 Roraima U20 vs Nautico RR U20 (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:00 UMECIT vs Deportivo Saprissa (30/07/2026) [CH: CHANNEL2 - Srv 4]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/7/link/channel33
+https://live2.streambylivepulse.com/live/channel2/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 06:00 CA Timbuense vs  Central Cordoba (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:00 Nữ Kansas City vs Nữ Racing Louisville (30/07/2026) [CH: CHANNEL3 - Srv 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/7/link/channel31
+https://live1.streambylivepulse.com/live/channel3/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 🔥 06:30 Liverpool vs Wrexham (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:00 Nữ Kansas City vs Nữ Racing Louisville (30/07/2026) [CH: CHANNEL3 - Srv 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel18
+https://live2.streambylivepulse.com/live/channel3.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 🔥 06:30 Liverpool vs Wrexham (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:00 Nữ Kansas City vs Nữ Racing Louisville (30/07/2026) [CH: CHANNEL3 - Srv 3]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel18
+https://live1.100ycdn.com/live/channel3/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 06:30 Louisville City vs Birmingham Legion (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:00 Nữ Kansas City vs Nữ Racing Louisville (30/07/2026) [CH: CHANNEL3 - Srv 4]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/7/link/channel23
+https://live2.streambylivepulse.com/live/channel3/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 06:30 Sarasota Paradise vs Portland Hearts of Pine (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:00 Nữ Ferroviaria SP vs Nữ Taubate (30/07/2026) [CH: CHANNEL4 - Srv 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/7/link/channel34
+https://live1.streambylivepulse.com/live/channel4/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:00 UMECIT vs Deportivo Saprissa (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:00 Nữ Ferroviaria SP vs Nữ Taubate (30/07/2026) [CH: CHANNEL4 - Srv 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/7/link/channel2
+https://live2.streambylivepulse.com/live/channel4.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:00 Nữ Kansas City vs Nữ Racing Louisville (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:00 Nữ Ferroviaria SP vs Nữ Taubate (30/07/2026) [CH: CHANNEL4 - Srv 3]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/7/link/channel3
+https://live1.100ycdn.com/live/channel4/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:00 Nữ Ferroviaria SP vs Nữ Taubate (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:00 Nữ Ferroviaria SP vs Nữ Taubate (30/07/2026) [CH: CHANNEL4 - Srv 4]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/7/link/channel4
+https://live2.streambylivepulse.com/live/channel4/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:00 Vargas Torres vs AD Nueve de Octubre (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:00 Vargas Torres vs AD Nueve de Octubre (30/07/2026) [CH: CHANNEL5 - Srv 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/7/link/channel5
+https://live1.streambylivepulse.com/live/channel5/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:00 Forward Madison FC vs Chattanooga Wolves (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:00 Vargas Torres vs AD Nueve de Octubre (30/07/2026) [CH: CHANNEL5 - Srv 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/7/link/channel6
+https://live2.streambylivepulse.com/live/channel5.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:00 Ind. del Valle vs Manta FC (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:00 Vargas Torres vs AD Nueve de Octubre (30/07/2026) [CH: CHANNEL5 - Srv 3]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/7/link/channel12
+https://live1.100ycdn.com/live/channel5/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:00 MLS All Stars vs Liga MX All Stars (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:00 Vargas Torres vs AD Nueve de Octubre (30/07/2026) [CH: CHANNEL5 - Srv 4]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel24
+https://live2.streambylivepulse.com/live/channel5/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:00 MLS All Stars vs Liga MX All Stars (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:00 Forward Madison FC vs Chattanooga Wolves (30/07/2026) [CH: CHANNEL6 - Srv 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel24
+https://live1.streambylivepulse.com/live/channel6/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:30 Instituto vs CA Platense (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:00 Forward Madison FC vs Chattanooga Wolves (30/07/2026) [CH: CHANNEL6 - Srv 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel19
+https://live2.streambylivepulse.com/live/channel6.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:30 Instituto vs CA Platense (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:00 Forward Madison FC vs Chattanooga Wolves (30/07/2026) [CH: CHANNEL6 - Srv 3]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel19
+https://live1.100ycdn.com/live/channel6/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:30 RB Bragantino vs Sporting Cristal (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:00 Forward Madison FC vs Chattanooga Wolves (30/07/2026) [CH: CHANNEL6 - Srv 4]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel28
+https://live2.streambylivepulse.com/live/channel6/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:30 RB Bragantino vs Sporting Cristal (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:00 Ind. del Valle vs Manta FC (30/07/2026) [CH: CHANNEL12 - Srv 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel28
+https://live1.streambylivepulse.com/live/channel12/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:30 Cienciano vs CA Lanús (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:00 Ind. del Valle vs Manta FC (30/07/2026) [CH: CHANNEL12 - Srv 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel23
+https://live2.streambylivepulse.com/live/channel12.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:30 Cienciano vs CA Lanús (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:00 Ind. del Valle vs Manta FC (30/07/2026) [CH: CHANNEL12 - Srv 3]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel23
+https://live1.100ycdn.com/live/channel12/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:30 Fluminense RJ vs Bahia BA (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:00 Ind. del Valle vs Manta FC (30/07/2026) [CH: CHANNEL12 - Srv 4]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel7
+https://live2.streambylivepulse.com/live/channel12/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:30 Fluminense RJ vs Bahia BA (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:00 MLS All Stars vs Liga MX All Stars (30/07/2026) [CH: CHANNEL24 - Srv 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel7
+https://live1.streambylivepulse.com/live/channel24/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:30 Vitória BA vs Palmeiras (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:00 MLS All Stars vs Liga MX All Stars (30/07/2026) [CH: CHANNEL24 - Srv 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel14
+https://live2.streambylivepulse.com/live/channel24.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:30 Vitória BA vs Palmeiras (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:00 MLS All Stars vs Liga MX All Stars (30/07/2026) [CH: CHANNEL24 - Srv 3]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel14
+https://live1.100ycdn.com/live/channel24/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 08:00 Canada U20 vs Honduras U20 (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:00 MLS All Stars vs Liga MX All Stars (30/07/2026) [CH: CHANNEL24 - Srv 4]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/7/link/channel16
+https://live2.streambylivepulse.com/live/channel24/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 08:00 Nữ Utah Royals vs Nữ Washington Spirit (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:30 Instituto vs CA Platense (30/07/2026) [CH: CHANNEL19 - Srv 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/7/link/channel17
+https://live1.streambylivepulse.com/live/channel19/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 08:00 Luis Angel Firpo vs Fuerte San Francisco (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:30 Instituto vs CA Platense (30/07/2026) [CH: CHANNEL19 - Srv 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/7/link/channel14
+https://live2.streambylivepulse.com/live/channel19.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 08:00 Real Cartagena vs America de Cali (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:30 Instituto vs CA Platense (30/07/2026) [CH: CHANNEL19 - Srv 3]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/7/link/channel13
+https://live1.100ycdn.com/live/channel19/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 09:00 LD Alajuelense vs Xelaju MC (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:30 Instituto vs CA Platense (30/07/2026) [CH: CHANNEL19 - Srv 4]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel12
+https://live2.streambylivepulse.com/live/channel19/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 09:00 LD Alajuelense vs Xelaju MC (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:30 RB Bragantino vs Sporting Cristal (30/07/2026) [CH: CHANNEL28 - Srv 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel12
+https://live1.streambylivepulse.com/live/channel28/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 09:00 Alianza Salvador vs Antigua GFC (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:30 RB Bragantino vs Sporting Cristal (30/07/2026) [CH: CHANNEL28 - Srv 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel17
+https://live2.streambylivepulse.com/live/channel28.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 09:00 Alianza Salvador vs Antigua GFC (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:30 RB Bragantino vs Sporting Cristal (30/07/2026) [CH: CHANNEL28 - Srv 3]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel17
+https://live1.100ycdn.com/live/channel28/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 09:00 Nữ Bay FC vs Nữ Gotham FC (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:30 RB Bragantino vs Sporting Cristal (30/07/2026) [CH: CHANNEL28 - Srv 4]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/7/link/channel19
+https://live2.streambylivepulse.com/live/channel28/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 15:00 RCD Mallorca vs Al Ittihad(KSA) (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:30 Cienciano vs CA Lanús (30/07/2026) [CH: CHANNEL23 - Srv 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel5
+https://live1.streambylivepulse.com/live/channel23/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 15:00 RCD Mallorca vs Al Ittihad(KSA) (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:30 Cienciano vs CA Lanús (30/07/2026) [CH: CHANNEL23 - Srv 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel5
+https://live2.streambylivepulse.com/live/channel23.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 16:00 Ugyen Academy vs RTC FC (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:30 Cienciano vs CA Lanús (30/07/2026) [CH: CHANNEL23 - Srv 3]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel7
+https://live1.100ycdn.com/live/channel23/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 16:00 Ugyen Academy vs RTC FC (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:30 Cienciano vs CA Lanús (30/07/2026) [CH: CHANNEL23 - Srv 4]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel7
+https://live2.streambylivepulse.com/live/channel23/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 16:30 South Melbourne vs Adelaide United (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:30 Fluminense RJ vs Bahia BA (30/07/2026) [CH: CHANNEL7 - Srv 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel6
+https://live1.streambylivepulse.com/live/channel7/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 16:30 South Melbourne vs Adelaide United (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:30 Fluminense RJ vs Bahia BA (30/07/2026) [CH: CHANNEL7 - Srv 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel6
+https://live2.streambylivepulse.com/live/channel7.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 16:30 Sydney Olympic vs Brisbane Roar (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:30 Fluminense RJ vs Bahia BA (30/07/2026) [CH: CHANNEL7 - Srv 3]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel15
+https://live1.100ycdn.com/live/channel7/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 16:30 Sydney Olympic vs Brisbane Roar (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:30 Fluminense RJ vs Bahia BA (30/07/2026) [CH: CHANNEL7 - Srv 4]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel15
+https://live2.streambylivepulse.com/live/channel7/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 16:30 Anri Vladivostok vs Dinamo Barnaul (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:30 Vitória BA vs Palmeiras (30/07/2026) [CH: CHANNEL14 - Srv 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel18
+https://live1.streambylivepulse.com/live/channel14/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 16:30 Anri Vladivostok vs Dinamo Barnaul (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:30 Vitória BA vs Palmeiras (30/07/2026) [CH: CHANNEL14 - Srv 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel18
+https://live2.streambylivepulse.com/live/channel14.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 16:30 Football School Chita vs FC Irkutsk (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:30 Vitória BA vs Palmeiras (30/07/2026) [CH: CHANNEL14 - Srv 3]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel12
+https://live1.100ycdn.com/live/channel14/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 16:30 Football School Chita vs FC Irkutsk (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 07:30 Vitória BA vs Palmeiras (30/07/2026) [CH: CHANNEL14 - Srv 4]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel12
+https://live2.streambylivepulse.com/live/channel14/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 18:00 Al Shabab vs Al-Ahli Doha (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 08:00 Canada U20 vs Honduras U20 (30/07/2026) [CH: CHANNEL16 - Srv 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel4
+https://live1.streambylivepulse.com/live/channel16/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 18:00 Al Shabab vs Al-Ahli Doha (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 08:00 Canada U20 vs Honduras U20 (30/07/2026) [CH: CHANNEL16 - Srv 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel4
+https://live2.streambylivepulse.com/live/channel16.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 19:00 Ekibastuzets vs FK Yelimay Semey B (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 08:00 Canada U20 vs Honduras U20 (30/07/2026) [CH: CHANNEL16 - Srv 3]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel13
+https://live1.100ycdn.com/live/channel16/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 19:00 Ekibastuzets vs FK Yelimay Semey B (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 08:00 Canada U20 vs Honduras U20 (30/07/2026) [CH: CHANNEL16 - Srv 4]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel13
+https://live2.streambylivepulse.com/live/channel16/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 19:00 FK Temp Barnaul vs Stroitel Kamensk (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 08:00 Nữ Utah Royals vs Nữ Washington Spirit (30/07/2026) [CH: CHANNEL17 - Srv 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel21
+https://live1.streambylivepulse.com/live/channel17/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 19:00 FK Temp Barnaul vs Stroitel Kamensk (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 08:00 Nữ Utah Royals vs Nữ Washington Spirit (30/07/2026) [CH: CHANNEL17 - Srv 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel21
+https://live2.streambylivepulse.com/live/channel17.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 19:00 FK Taraz vs Akademiya Ontustik (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 08:00 Nữ Utah Royals vs Nữ Washington Spirit (30/07/2026) [CH: CHANNEL17 - Srv 3]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel10
+https://live1.100ycdn.com/live/channel17/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 19:00 FK Taraz vs Akademiya Ontustik (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 08:00 Nữ Utah Royals vs Nữ Washington Spirit (30/07/2026) [CH: CHANNEL17 - Srv 4]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel10
+https://live2.streambylivepulse.com/live/channel17/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 19:00 Viking U19 vs Lyn Oslo U19 (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 08:00 Luis Angel Firpo vs Fuerte San Francisco (30/07/2026) [CH: CHANNEL14 - Srv 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/7/link/channel10
+https://live1.streambylivepulse.com/live/channel14/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 20:00 FK Kaspiy Aktau B vs FK Aktobe II (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 08:00 Luis Angel Firpo vs Fuerte San Francisco (30/07/2026) [CH: CHANNEL14 - Srv 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel28
+https://live2.streambylivepulse.com/live/channel14.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 20:00 FK Kaspiy Aktau B vs FK Aktobe II (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 08:00 Luis Angel Firpo vs Fuerte San Francisco (30/07/2026) [CH: CHANNEL14 - Srv 3]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel28
+https://live1.100ycdn.com/live/channel14/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 20:00 Pakhtakor II vs Olympic MobiUz (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 08:00 Luis Angel Firpo vs Fuerte San Francisco (30/07/2026) [CH: CHANNEL14 - Srv 4]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/7/link/channel11
+https://live2.streambylivepulse.com/live/channel14/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 20:00 Shurtan Guzor  vs Respublika FA (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 08:00 Real Cartagena vs America de Cali (30/07/2026) [CH: CHANNEL13 - Srv 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/7/link/channel12
+https://live1.streambylivepulse.com/live/channel13/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 21:00 Tobol Kostanai vs FK Panevezys (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 08:00 Real Cartagena vs America de Cali (30/07/2026) [CH: CHANNEL13 - Srv 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel5
+https://live2.streambylivepulse.com/live/channel13.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 21:00 Tobol Kostanai vs FK Panevezys (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 08:00 Real Cartagena vs America de Cali (30/07/2026) [CH: CHANNEL13 - Srv 3]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel5
+https://live1.100ycdn.com/live/channel13/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 21:00 Atletic Escaldes vs Vaduz (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 08:00 Real Cartagena vs America de Cali (30/07/2026) [CH: CHANNEL13 - Srv 4]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel6
+https://live2.streambylivepulse.com/live/channel13/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 21:00 Atletic Escaldes vs Vaduz (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 09:00 LD Alajuelense vs Xelaju MC (30/07/2026) [CH: CHANNEL12 - Srv 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel6
+https://live1.streambylivepulse.com/live/channel12/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 21:00 Khan Tengri FC vs Turan (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 09:00 LD Alajuelense vs Xelaju MC (30/07/2026) [CH: CHANNEL12 - Srv 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel12
+https://live2.streambylivepulse.com/live/channel12.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 21:00 Khan Tengri FC vs Turan (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 09:00 LD Alajuelense vs Xelaju MC (30/07/2026) [CH: CHANNEL12 - Srv 3]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel12
+https://live1.100ycdn.com/live/channel12/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 21:00 Togo U20 vs Nigeria U20 (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 09:00 LD Alajuelense vs Xelaju MC (30/07/2026) [CH: CHANNEL12 - Srv 4]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/7/link/channel17
+https://live2.streambylivepulse.com/live/channel12/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 21:00 Al Markhiya vs Al-Raed SFC (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 09:00 Alianza Salvador vs Antigua GFC (30/07/2026) [CH: CHANNEL17 - Srv 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel20
+https://live1.streambylivepulse.com/live/channel17/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 21:00 Al Markhiya vs Al-Raed SFC (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 09:00 Alianza Salvador vs Antigua GFC (30/07/2026) [CH: CHANNEL17 - Srv 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel20
+https://live2.streambylivepulse.com/live/channel17.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 21:00 Augsburg vs AFC Bournemouth (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 09:00 Alianza Salvador vs Antigua GFC (30/07/2026) [CH: CHANNEL17 - Srv 3]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel18
+https://live1.100ycdn.com/live/channel17/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 21:00 Augsburg vs AFC Bournemouth (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 09:00 Alianza Salvador vs Antigua GFC (30/07/2026) [CH: CHANNEL17 - Srv 4]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel18
+https://live2.streambylivepulse.com/live/channel17/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 20:00 Qiziriq FC vs FC Kattaqo (28/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 09:00 Nữ Bay FC vs Nữ Gotham FC (30/07/2026) [CH: CHANNEL19 - Srv 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/7/link/channel3
+https://live1.streambylivepulse.com/live/channel19/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 22:00 Parma vs Arezzo (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 09:00 Nữ Bay FC vs Nữ Gotham FC (30/07/2026) [CH: CHANNEL19 - Srv 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel16
+https://live2.streambylivepulse.com/live/channel19.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 22:00 Parma vs Arezzo (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 09:00 Nữ Bay FC vs Nữ Gotham FC (30/07/2026) [CH: CHANNEL19 - Srv 3]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel16
+https://live1.100ycdn.com/live/channel19/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 22:30 Trabzonspor vs Al-Sadd (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 09:00 Nữ Bay FC vs Nữ Gotham FC (30/07/2026) [CH: CHANNEL19 - Srv 4]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel13
+https://live2.streambylivepulse.com/live/channel19/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 22:30 Trabzonspor vs Al-Sadd (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 15:00 RCD Mallorca vs Al Ittihad(KSA) (30/07/2026) [CH: CHANNEL5 - Srv 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel13
+https://live1.streambylivepulse.com/live/channel5/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 22:30 JIPPO vs JaPS (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 15:00 RCD Mallorca vs Al Ittihad(KSA) (30/07/2026) [CH: CHANNEL5 - Srv 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/7/link/channel2
+https://live2.streambylivepulse.com/live/channel5.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 Maccabi Tel Aviv vs Sheriff Tiraspol (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 15:00 RCD Mallorca vs Al Ittihad(KSA) (30/07/2026) [CH: CHANNEL5 - Srv 3]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel15
+https://live1.100ycdn.com/live/channel5/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 Maccabi Tel Aviv vs Sheriff Tiraspol (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 15:00 RCD Mallorca vs Al Ittihad(KSA) (30/07/2026) [CH: CHANNEL5 - Srv 4]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel15
+https://live2.streambylivepulse.com/live/channel5/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 Nomme JK Kalju vs Shelbourne (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 16:00 Ugyen Academy vs RTC FC (30/07/2026) [CH: CHANNEL7 - Srv 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel11
+https://live1.streambylivepulse.com/live/channel7/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 Nomme JK Kalju vs Shelbourne (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 16:00 Ugyen Academy vs RTC FC (30/07/2026) [CH: CHANNEL7 - Srv 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel11
+https://live2.streambylivepulse.com/live/channel7.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 FC Noah vs Zimbru Chisinau (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 16:00 Ugyen Academy vs RTC FC (30/07/2026) [CH: CHANNEL7 - Srv 3]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel10
+https://live1.100ycdn.com/live/channel7/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 FC Noah vs Zimbru Chisinau (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 16:00 Ugyen Academy vs RTC FC (30/07/2026) [CH: CHANNEL7 - Srv 4]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel10
+https://live2.streambylivepulse.com/live/channel7/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 FK Auda Riga vs FCSB (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 16:30 South Melbourne vs Adelaide United (30/07/2026) [CH: CHANNEL6 - Srv 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel24
+https://live1.streambylivepulse.com/live/channel6/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 FK Auda Riga vs FCSB (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 16:30 South Melbourne vs Adelaide United (30/07/2026) [CH: CHANNEL6 - Srv 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel24
+https://live2.streambylivepulse.com/live/channel6.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 FK Jablonec vs NK Varteks Varazdin (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 16:30 South Melbourne vs Adelaide United (30/07/2026) [CH: CHANNEL6 - Srv 3]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel23
+https://live1.100ycdn.com/live/channel6/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 FK Jablonec vs NK Varteks Varazdin (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 16:30 South Melbourne vs Adelaide United (30/07/2026) [CH: CHANNEL6 - Srv 4]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel23
+https://live2.streambylivepulse.com/live/channel6/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 Ilves Tampere vs Stjarnan Gardabaer (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 16:30 Sydney Olympic vs Brisbane Roar (30/07/2026) [CH: CHANNEL15 - Srv 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel4
+https://live1.streambylivepulse.com/live/channel15/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 Ilves Tampere vs Stjarnan Gardabaer (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 16:30 Sydney Olympic vs Brisbane Roar (30/07/2026) [CH: CHANNEL15 - Srv 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel4
+https://live2.streambylivepulse.com/live/channel15.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 Zira FK vs Paide Linnameeskond (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 16:30 Sydney Olympic vs Brisbane Roar (30/07/2026) [CH: CHANNEL15 - Srv 3]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel14
+https://live1.100ycdn.com/live/channel15/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 Zira FK vs Paide Linnameeskond (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 16:30 Sydney Olympic vs Brisbane Roar (30/07/2026) [CH: CHANNEL15 - Srv 4]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel14
+https://live2.streambylivepulse.com/live/channel15/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 FC Pyunik vs Debreceni VSC (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 16:30 Anri Vladivostok vs Dinamo Barnaul (30/07/2026) [CH: CHANNEL18 - Srv 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel17
+https://live1.streambylivepulse.com/live/channel18/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 FC Pyunik vs Debreceni VSC (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 16:30 Anri Vladivostok vs Dinamo Barnaul (30/07/2026) [CH: CHANNEL18 - Srv 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel17
+https://live2.streambylivepulse.com/live/channel18.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 Inter Turku vs Basaksehir FK (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 16:30 Anri Vladivostok vs Dinamo Barnaul (30/07/2026) [CH: CHANNEL18 - Srv 3]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel19
+https://live1.100ycdn.com/live/channel18/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 Inter Turku vs Basaksehir FK (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 16:30 Anri Vladivostok vs Dinamo Barnaul (30/07/2026) [CH: CHANNEL18 - Srv 4]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel19
+https://live2.streambylivepulse.com/live/channel18/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 Marseille vs Nimes (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 16:30 Football School Chita vs FC Irkutsk (30/07/2026) [CH: CHANNEL12 - Srv 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/7/link/channel9
+https://live1.streambylivepulse.com/live/channel12/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 Monza vs Aris Thessaloniki (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 16:30 Football School Chita vs FC Irkutsk (30/07/2026) [CH: CHANNEL12 - Srv 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/7/link/channel8
+https://live2.streambylivepulse.com/live/channel12.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:30 Levadia Tallinn vs IFK Goteborg (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 16:30 Football School Chita vs FC Irkutsk (30/07/2026) [CH: CHANNEL12 - Srv 3]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel21
+https://live1.100ycdn.com/live/channel12/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:30 Levadia Tallinn vs IFK Goteborg (30/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 16:30 Football School Chita vs FC Irkutsk (30/07/2026) [CH: CHANNEL12 - Srv 4]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel21
+https://live2.streambylivepulse.com/live/channel12/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 AEP Paphos vs Hajduk Split (31/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 18:00 Atromitos Athens vs Aris Limassol (30/07/2026) [CH: CHANNEL4 - Srv 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel18
+https://live1.streambylivepulse.com/live/channel4/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 AEP Paphos vs Hajduk Split (31/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 18:00 Atromitos Athens vs Aris Limassol (30/07/2026) [CH: CHANNEL4 - Srv 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel18
+https://live2.streambylivepulse.com/live/channel4.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 Midtjylland vs Besiktas JK (31/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 18:00 Atromitos Athens vs Aris Limassol (30/07/2026) [CH: CHANNEL4 - Srv 3]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel5
+https://live1.100ycdn.com/live/channel4/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 Midtjylland vs Besiktas JK (31/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 18:00 Atromitos Athens vs Aris Limassol (30/07/2026) [CH: CHANNEL4 - Srv 4]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel5
+https://live2.streambylivepulse.com/live/channel4/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 FC Hradec Králové vs Tromso IL (31/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 19:00 Ekibastuzets vs FK Yelimay Semey B (30/07/2026) [CH: CHANNEL13 - Srv 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel6
+https://live1.streambylivepulse.com/live/channel13/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 FC Hradec Králové vs Tromso IL (31/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 19:00 Ekibastuzets vs FK Yelimay Semey B (30/07/2026) [CH: CHANNEL13 - Srv 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel6
+https://live2.streambylivepulse.com/live/channel13.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 Győri ETO FC vs Atert Bissen (31/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 19:00 Ekibastuzets vs FK Yelimay Semey B (30/07/2026) [CH: CHANNEL13 - Srv 3]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/7/link/channel11
+https://live1.100ycdn.com/live/channel13/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 Brann vs Universitatea Cluj (31/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 19:00 Ekibastuzets vs FK Yelimay Semey B (30/07/2026) [CH: CHANNEL13 - Srv 4]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel12
+https://live2.streambylivepulse.com/live/channel13/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 Brann vs Universitatea Cluj (31/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 19:00 FK Temp Barnaul vs Stroitel Kamensk (30/07/2026) [CH: CHANNEL21 - Srv 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel12
+https://live1.streambylivepulse.com/live/channel21/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 Dinamo Minsk vs FC Neftci Baku (31/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 19:00 FK Temp Barnaul vs Stroitel Kamensk (30/07/2026) [CH: CHANNEL21 - Srv 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel20
+https://live2.streambylivepulse.com/live/channel21.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 Dinamo Minsk vs FC Neftci Baku (31/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 19:00 FK Temp Barnaul vs Stroitel Kamensk (30/07/2026) [CH: CHANNEL21 - Srv 3]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel20
+https://live1.100ycdn.com/live/channel21/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 FK Zalgiris Vilnius vs Dinamo Tbilisi (31/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 19:00 FK Temp Barnaul vs Stroitel Kamensk (30/07/2026) [CH: CHANNEL21 - Srv 4]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel7
+https://live2.streambylivepulse.com/live/channel21/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 FK Zalgiris Vilnius vs Dinamo Tbilisi (31/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 19:00 FK Taraz vs Akademiya Ontustik (30/07/2026) [CH: CHANNEL10 - Srv 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel7
+https://live1.streambylivepulse.com/live/channel10/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 CS Petrocub vs Borac Banja Luka (31/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 19:00 FK Taraz vs Akademiya Ontustik (30/07/2026) [CH: CHANNEL10 - Srv 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel27
+https://live2.streambylivepulse.com/live/channel10.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 CS Petrocub vs Borac Banja Luka (31/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 19:00 FK Taraz vs Akademiya Ontustik (30/07/2026) [CH: CHANNEL10 - Srv 3]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel27
+https://live1.100ycdn.com/live/channel10/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 HB Torshavn vs Motherwell (31/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 19:00 FK Taraz vs Akademiya Ontustik (30/07/2026) [CH: CHANNEL10 - Srv 4]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/7/link/channel16
+https://live2.streambylivepulse.com/live/channel10/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 FK Velez Mostar vs Dunajska Streda (31/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 19:00 Viking U19 vs Lyn Oslo U19 (30/07/2026) [CH: CHANNEL10 - Srv 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/7/link/channel17
+https://live1.streambylivepulse.com/live/channel10/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 Nordsjaelland vs GAIS (31/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 19:00 Viking U19 vs Lyn Oslo U19 (30/07/2026) [CH: CHANNEL10 - Srv 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel9
+https://live2.streambylivepulse.com/live/channel10.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 Nordsjaelland vs GAIS (31/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 19:00 Viking U19 vs Lyn Oslo U19 (30/07/2026) [CH: CHANNEL10 - Srv 3]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel9
+https://live1.100ycdn.com/live/channel10/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 Gor Mahia vs Garde Republicaine (31/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 19:00 Viking U19 vs Lyn Oslo U19 (30/07/2026) [CH: CHANNEL10 - Srv 4]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/7/link/channel19
+https://live2.streambylivepulse.com/live/channel10/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 Nữ Senegal vs Nữ Kenya (31/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 20:00 FK Kaspiy Aktau B vs FK Aktobe II (30/07/2026) [CH: CHANNEL28 - Srv 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/7/link/channel20
+https://live1.streambylivepulse.com/live/channel28/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 APR FC vs Vipers (31/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 20:00 FK Kaspiy Aktau B vs FK Aktobe II (30/07/2026) [CH: CHANNEL28 - Srv 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/7/link/channel21
+https://live2.streambylivepulse.com/live/channel28.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 Malaga vs Al Ittihad(KSA) (31/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 20:00 FK Kaspiy Aktau B vs FK Aktobe II (30/07/2026) [CH: CHANNEL28 - Srv 3]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/7/link/channel51
+https://live1.100ycdn.com/live/channel28/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:30 Derry City vs Rijeka (31/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 20:00 FK Kaspiy Aktau B vs FK Aktobe II (30/07/2026) [CH: CHANNEL28 - Srv 4]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/7/link/channel22
+https://live2.streambylivepulse.com/live/channel28/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:30 The New Saints vs FC Flora Tallinn (31/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 20:00 Pakhtakor II vs Olympic MobiUz (30/07/2026) [CH: CHANNEL11 - Srv 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/7/link/channel23
+https://live1.streambylivepulse.com/live/channel11/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:30 Valletta FC vs R. Czestochowa (31/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 20:00 Pakhtakor II vs Olympic MobiUz (30/07/2026) [CH: CHANNEL11 - Srv 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel8
+https://live2.streambylivepulse.com/live/channel11.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:30 Valletta FC vs R. Czestochowa (31/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 20:00 Pakhtakor II vs Olympic MobiUz (30/07/2026) [CH: CHANNEL11 - Srv 3]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel8
+https://live1.100ycdn.com/live/channel11/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:30 Beitar Jerusalem vs AEK Larnaca (31/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 20:00 Pakhtakor II vs Olympic MobiUz (30/07/2026) [CH: CHANNEL11 - Srv 4]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/7/link/channel25
+https://live2.streambylivepulse.com/live/channel11/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:00 CSKA Sofia vs Qarabag (31/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 20:00 Shurtan Guzor  vs Respublika FA (30/07/2026) [CH: CHANNEL12 - Srv 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel16
+https://live1.streambylivepulse.com/live/channel12/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:00 CSKA Sofia vs Qarabag (31/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 20:00 Shurtan Guzor  vs Respublika FA (30/07/2026) [CH: CHANNEL12 - Srv 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel16
+https://live2.streambylivepulse.com/live/channel12.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:00 FC Ballkani vs Bohemians (31/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 20:00 Shurtan Guzor  vs Respublika FA (30/07/2026) [CH: CHANNEL12 - Srv 3]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/7/link/channel28
+https://live1.100ycdn.com/live/channel12/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:00 Vestri vs Rigas FS (31/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 20:00 Shurtan Guzor  vs Respublika FA (30/07/2026) [CH: CHANNEL12 - Srv 4]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/7/link/channel29
+https://live2.streambylivepulse.com/live/channel12/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:00 Shkendija Tetovo vs NK Bravo (31/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 21:00 Tobol Kostanai vs FK Panevezys (30/07/2026) [CH: CHANNEL5 - Srv 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/7/link/channel30
+https://live1.streambylivepulse.com/live/channel5/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:00 Ludogorets vs Hapoel Tel Aviv (31/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 21:00 Tobol Kostanai vs FK Panevezys (30/07/2026) [CH: CHANNEL5 - Srv 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/7/link/channel31
+https://live2.streambylivepulse.com/live/channel5.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:00 AFC Ajax vs Vojvodina (31/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 21:00 Tobol Kostanai vs FK Panevezys (30/07/2026) [CH: CHANNEL5 - Srv 3]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel28
+https://live1.100ycdn.com/live/channel5/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:00 AFC Ajax vs Vojvodina (31/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 21:00 Tobol Kostanai vs FK Panevezys (30/07/2026) [CH: CHANNEL5 - Srv 4]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel28
+https://live2.streambylivepulse.com/live/channel5/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:00 Ghana U20 vs Burkina Faso U20 (31/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 21:00 Atletic Escaldes vs Vaduz (30/07/2026) [CH: CHANNEL6 - Srv 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/7/link/channel33
+https://live1.streambylivepulse.com/live/channel6/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:15 FC Sion vs BATE Borisov (31/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 21:00 Atletic Escaldes vs Vaduz (30/07/2026) [CH: CHANNEL6 - Srv 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel13
+https://live2.streambylivepulse.com/live/channel6.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:15 FC Sion vs BATE Borisov (31/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 21:00 Atletic Escaldes vs Vaduz (30/07/2026) [CH: CHANNEL6 - Srv 3]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel13
+https://live1.100ycdn.com/live/channel6/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:15 UNA Strassen vs Partizan Belgrade (31/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 21:00 Atletic Escaldes vs Vaduz (30/07/2026) [CH: CHANNEL6 - Srv 4]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/7/link/channel2
+https://live2.streambylivepulse.com/live/channel6/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:30 Ferencvarosi TC vs Twente FC (31/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 21:00 Khan Tengri FC vs Turan (30/07/2026) [CH: CHANNEL12 - Srv 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel15
+https://live1.streambylivepulse.com/live/channel12/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:30 Ferencvarosi TC vs Twente FC (31/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 21:00 Khan Tengri FC vs Turan (30/07/2026) [CH: CHANNEL12 - Srv 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel15
+https://live2.streambylivepulse.com/live/channel12.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:30 Anderlecht vs Hammarby (31/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 21:00 Khan Tengri FC vs Turan (30/07/2026) [CH: CHANNEL12 - Srv 3]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/8/link/channel11
+https://live1.100ycdn.com/live/channel12/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:30 Anderlecht vs Hammarby (31/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 21:00 Khan Tengri FC vs Turan (30/07/2026) [CH: CHANNEL12 - Srv 4]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/5/link/channel11
+https://live2.streambylivepulse.com/live/channel12/playlist.m3u8
 
-#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:30 GKS Katowice vs MSK Zilina (31/07/2026)
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 21:00 Togo U20 vs Nigeria U20 (30/07/2026) [CH: CHANNEL17 - Srv 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
-https://xlz.livepingscorex.com/ajax/chanel/type/7/link/channel3
+https://live1.streambylivepulse.com/live/channel17/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 21:00 Togo U20 vs Nigeria U20 (30/07/2026) [CH: CHANNEL17 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel17.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 21:00 Togo U20 vs Nigeria U20 (30/07/2026) [CH: CHANNEL17 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel17/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 21:00 Togo U20 vs Nigeria U20 (30/07/2026) [CH: CHANNEL17 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel17/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 21:00 Al Markhiya vs Al-Raed SFC (30/07/2026) [CH: CHANNEL20 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel20/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 21:00 Al Markhiya vs Al-Raed SFC (30/07/2026) [CH: CHANNEL20 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel20.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 21:00 Al Markhiya vs Al-Raed SFC (30/07/2026) [CH: CHANNEL20 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel20/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 21:00 Al Markhiya vs Al-Raed SFC (30/07/2026) [CH: CHANNEL20 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel20/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 21:00 Augsburg vs AFC Bournemouth (30/07/2026) [CH: CHANNEL18 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel18/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 21:00 Augsburg vs AFC Bournemouth (30/07/2026) [CH: CHANNEL18 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel18.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 21:00 Augsburg vs AFC Bournemouth (30/07/2026) [CH: CHANNEL18 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel18/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 21:00 Augsburg vs AFC Bournemouth (30/07/2026) [CH: CHANNEL18 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel18/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 20:00 Qiziriq FC vs FC Kattaqo (28/07/2026) [CH: CHANNEL3 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel3/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 20:00 Qiziriq FC vs FC Kattaqo (28/07/2026) [CH: CHANNEL3 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel3.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 20:00 Qiziriq FC vs FC Kattaqo (28/07/2026) [CH: CHANNEL3 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel3/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 20:00 Qiziriq FC vs FC Kattaqo (28/07/2026) [CH: CHANNEL3 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel3/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 22:00 Parma vs Arezzo (30/07/2026) [CH: CHANNEL16 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel16/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 22:00 Parma vs Arezzo (30/07/2026) [CH: CHANNEL16 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel16.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 22:00 Parma vs Arezzo (30/07/2026) [CH: CHANNEL16 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel16/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 22:00 Parma vs Arezzo (30/07/2026) [CH: CHANNEL16 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel16/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 22:30 Trabzonspor vs Al-Sadd (30/07/2026) [CH: CHANNEL13 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel13/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 22:30 Trabzonspor vs Al-Sadd (30/07/2026) [CH: CHANNEL13 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel13.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 22:30 Trabzonspor vs Al-Sadd (30/07/2026) [CH: CHANNEL13 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel13/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 22:30 Trabzonspor vs Al-Sadd (30/07/2026) [CH: CHANNEL13 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel13/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 22:30 JIPPO vs JaPS (30/07/2026) [CH: CHANNEL2 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel2/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 22:30 JIPPO vs JaPS (30/07/2026) [CH: CHANNEL2 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel2.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 22:30 JIPPO vs JaPS (30/07/2026) [CH: CHANNEL2 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel2/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 22:30 JIPPO vs JaPS (30/07/2026) [CH: CHANNEL2 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel2/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 Maccabi Tel Aviv vs Sheriff Tiraspol (30/07/2026) [CH: CHANNEL15 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel15/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 Maccabi Tel Aviv vs Sheriff Tiraspol (30/07/2026) [CH: CHANNEL15 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel15.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 Maccabi Tel Aviv vs Sheriff Tiraspol (30/07/2026) [CH: CHANNEL15 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel15/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 Maccabi Tel Aviv vs Sheriff Tiraspol (30/07/2026) [CH: CHANNEL15 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel15/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 Nomme JK Kalju vs Shelbourne (30/07/2026) [CH: CHANNEL11 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel11/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 Nomme JK Kalju vs Shelbourne (30/07/2026) [CH: CHANNEL11 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel11.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 Nomme JK Kalju vs Shelbourne (30/07/2026) [CH: CHANNEL11 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel11/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 Nomme JK Kalju vs Shelbourne (30/07/2026) [CH: CHANNEL11 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel11/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 FC Noah vs Zimbru Chisinau (30/07/2026) [CH: CHANNEL10 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel10/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 FC Noah vs Zimbru Chisinau (30/07/2026) [CH: CHANNEL10 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel10.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 FC Noah vs Zimbru Chisinau (30/07/2026) [CH: CHANNEL10 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel10/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 FC Noah vs Zimbru Chisinau (30/07/2026) [CH: CHANNEL10 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel10/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 FK Auda Riga vs FCSB (30/07/2026) [CH: CHANNEL24 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel24/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 FK Auda Riga vs FCSB (30/07/2026) [CH: CHANNEL24 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel24.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 FK Auda Riga vs FCSB (30/07/2026) [CH: CHANNEL24 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel24/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 FK Auda Riga vs FCSB (30/07/2026) [CH: CHANNEL24 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel24/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 FK Jablonec vs NK Varteks Varazdin (30/07/2026) [CH: CHANNEL23 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel23/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 FK Jablonec vs NK Varteks Varazdin (30/07/2026) [CH: CHANNEL23 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel23.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 FK Jablonec vs NK Varteks Varazdin (30/07/2026) [CH: CHANNEL23 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel23/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 FK Jablonec vs NK Varteks Varazdin (30/07/2026) [CH: CHANNEL23 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel23/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 Ilves Tampere vs Stjarnan Gardabaer (30/07/2026) [CH: CHANNEL4 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel4/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 Ilves Tampere vs Stjarnan Gardabaer (30/07/2026) [CH: CHANNEL4 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel4.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 Ilves Tampere vs Stjarnan Gardabaer (30/07/2026) [CH: CHANNEL4 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel4/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 Ilves Tampere vs Stjarnan Gardabaer (30/07/2026) [CH: CHANNEL4 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel4/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 Zira FK vs Paide Linnameeskond (30/07/2026) [CH: CHANNEL14 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel14/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 Zira FK vs Paide Linnameeskond (30/07/2026) [CH: CHANNEL14 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel14.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 Zira FK vs Paide Linnameeskond (30/07/2026) [CH: CHANNEL14 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel14/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 Zira FK vs Paide Linnameeskond (30/07/2026) [CH: CHANNEL14 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel14/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 FC Pyunik vs Debreceni VSC (30/07/2026) [CH: CHANNEL17 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel17/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 FC Pyunik vs Debreceni VSC (30/07/2026) [CH: CHANNEL17 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel17.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 FC Pyunik vs Debreceni VSC (30/07/2026) [CH: CHANNEL17 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel17/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 FC Pyunik vs Debreceni VSC (30/07/2026) [CH: CHANNEL17 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel17/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 Inter Turku vs Basaksehir FK (30/07/2026) [CH: CHANNEL19 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel19/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 Inter Turku vs Basaksehir FK (30/07/2026) [CH: CHANNEL19 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel19.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 Inter Turku vs Basaksehir FK (30/07/2026) [CH: CHANNEL19 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel19/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 Inter Turku vs Basaksehir FK (30/07/2026) [CH: CHANNEL19 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel19/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 Marseille vs Nimes (30/07/2026) [CH: CHANNEL9 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel9/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 Marseille vs Nimes (30/07/2026) [CH: CHANNEL9 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel9.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 Marseille vs Nimes (30/07/2026) [CH: CHANNEL9 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel9/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 Marseille vs Nimes (30/07/2026) [CH: CHANNEL9 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel9/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 Monza vs Aris Thessaloniki (30/07/2026) [CH: CHANNEL8 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel8/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 Monza vs Aris Thessaloniki (30/07/2026) [CH: CHANNEL8 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel8.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 Monza vs Aris Thessaloniki (30/07/2026) [CH: CHANNEL8 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel8/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:00 Monza vs Aris Thessaloniki (30/07/2026) [CH: CHANNEL8 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel8/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:30 Levadia Tallinn vs IFK Goteborg (30/07/2026) [CH: CHANNEL21 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel21/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:30 Levadia Tallinn vs IFK Goteborg (30/07/2026) [CH: CHANNEL21 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel21.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:30 Levadia Tallinn vs IFK Goteborg (30/07/2026) [CH: CHANNEL21 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel21/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 23:30 Levadia Tallinn vs IFK Goteborg (30/07/2026) [CH: CHANNEL21 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel21/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 AEP Paphos vs Hajduk Split (31/07/2026) [CH: CHANNEL18 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel18/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 AEP Paphos vs Hajduk Split (31/07/2026) [CH: CHANNEL18 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel18.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 AEP Paphos vs Hajduk Split (31/07/2026) [CH: CHANNEL18 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel18/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 AEP Paphos vs Hajduk Split (31/07/2026) [CH: CHANNEL18 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel18/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 Midtjylland vs Besiktas JK (31/07/2026) [CH: CHANNEL5 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel5/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 Midtjylland vs Besiktas JK (31/07/2026) [CH: CHANNEL5 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel5.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 Midtjylland vs Besiktas JK (31/07/2026) [CH: CHANNEL5 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel5/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 Midtjylland vs Besiktas JK (31/07/2026) [CH: CHANNEL5 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel5/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 FC Hradec Králové vs Tromso IL (31/07/2026) [CH: CHANNEL6 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel6/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 FC Hradec Králové vs Tromso IL (31/07/2026) [CH: CHANNEL6 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel6.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 FC Hradec Králové vs Tromso IL (31/07/2026) [CH: CHANNEL6 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel6/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 FC Hradec Králové vs Tromso IL (31/07/2026) [CH: CHANNEL6 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel6/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 Győri ETO FC vs Atert Bissen (31/07/2026) [CH: CHANNEL11 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel11/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 Győri ETO FC vs Atert Bissen (31/07/2026) [CH: CHANNEL11 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel11.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 Győri ETO FC vs Atert Bissen (31/07/2026) [CH: CHANNEL11 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel11/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 Győri ETO FC vs Atert Bissen (31/07/2026) [CH: CHANNEL11 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel11/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 Brann vs Universitatea Cluj (31/07/2026) [CH: CHANNEL12 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel12/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 Brann vs Universitatea Cluj (31/07/2026) [CH: CHANNEL12 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel12.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 Brann vs Universitatea Cluj (31/07/2026) [CH: CHANNEL12 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel12/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 Brann vs Universitatea Cluj (31/07/2026) [CH: CHANNEL12 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel12/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 Dinamo Minsk vs FC Neftci Baku (31/07/2026) [CH: CHANNEL20 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel20/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 Dinamo Minsk vs FC Neftci Baku (31/07/2026) [CH: CHANNEL20 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel20.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 Dinamo Minsk vs FC Neftci Baku (31/07/2026) [CH: CHANNEL20 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel20/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 Dinamo Minsk vs FC Neftci Baku (31/07/2026) [CH: CHANNEL20 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel20/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 FK Zalgiris Vilnius vs Dinamo Tbilisi (31/07/2026) [CH: CHANNEL7 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel7/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 FK Zalgiris Vilnius vs Dinamo Tbilisi (31/07/2026) [CH: CHANNEL7 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel7.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 FK Zalgiris Vilnius vs Dinamo Tbilisi (31/07/2026) [CH: CHANNEL7 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel7/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 FK Zalgiris Vilnius vs Dinamo Tbilisi (31/07/2026) [CH: CHANNEL7 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel7/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 CS Petrocub vs Borac Banja Luka (31/07/2026) [CH: CHANNEL27 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel27/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 CS Petrocub vs Borac Banja Luka (31/07/2026) [CH: CHANNEL27 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel27.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 CS Petrocub vs Borac Banja Luka (31/07/2026) [CH: CHANNEL27 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel27/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 CS Petrocub vs Borac Banja Luka (31/07/2026) [CH: CHANNEL27 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel27/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 HB Torshavn vs Motherwell (31/07/2026) [CH: CHANNEL16 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel16/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 HB Torshavn vs Motherwell (31/07/2026) [CH: CHANNEL16 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel16.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 HB Torshavn vs Motherwell (31/07/2026) [CH: CHANNEL16 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel16/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 HB Torshavn vs Motherwell (31/07/2026) [CH: CHANNEL16 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel16/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 FK Velez Mostar vs Dunajska Streda (31/07/2026) [CH: CHANNEL17 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel17/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 FK Velez Mostar vs Dunajska Streda (31/07/2026) [CH: CHANNEL17 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel17.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 FK Velez Mostar vs Dunajska Streda (31/07/2026) [CH: CHANNEL17 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel17/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 FK Velez Mostar vs Dunajska Streda (31/07/2026) [CH: CHANNEL17 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel17/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 Nordsjaelland vs GAIS (31/07/2026) [CH: CHANNEL9 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel9/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 Nordsjaelland vs GAIS (31/07/2026) [CH: CHANNEL9 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel9.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 Nordsjaelland vs GAIS (31/07/2026) [CH: CHANNEL9 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel9/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 Nordsjaelland vs GAIS (31/07/2026) [CH: CHANNEL9 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel9/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 Gor Mahia vs Garde Republicaine (31/07/2026) [CH: CHANNEL19 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel19/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 Gor Mahia vs Garde Republicaine (31/07/2026) [CH: CHANNEL19 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel19.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 Gor Mahia vs Garde Republicaine (31/07/2026) [CH: CHANNEL19 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel19/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 Gor Mahia vs Garde Republicaine (31/07/2026) [CH: CHANNEL19 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel19/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 Nữ Senegal vs Nữ Kenya (31/07/2026) [CH: CHANNEL20 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel20/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 Nữ Senegal vs Nữ Kenya (31/07/2026) [CH: CHANNEL20 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel20.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 Nữ Senegal vs Nữ Kenya (31/07/2026) [CH: CHANNEL20 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel20/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 Nữ Senegal vs Nữ Kenya (31/07/2026) [CH: CHANNEL20 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel20/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 APR FC vs Vipers (31/07/2026) [CH: CHANNEL21 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel21/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 APR FC vs Vipers (31/07/2026) [CH: CHANNEL21 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel21.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 APR FC vs Vipers (31/07/2026) [CH: CHANNEL21 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel21/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 APR FC vs Vipers (31/07/2026) [CH: CHANNEL21 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel21/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 Malaga vs Al Ittihad(KSA) (31/07/2026) [CH: CHANNEL51 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel51/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 Malaga vs Al Ittihad(KSA) (31/07/2026) [CH: CHANNEL51 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel51.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 Malaga vs Al Ittihad(KSA) (31/07/2026) [CH: CHANNEL51 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel51/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:00 Malaga vs Al Ittihad(KSA) (31/07/2026) [CH: CHANNEL51 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel51/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:30 Derry City vs Rijeka (31/07/2026) [CH: CHANNEL22 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel22/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:30 Derry City vs Rijeka (31/07/2026) [CH: CHANNEL22 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel22.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:30 Derry City vs Rijeka (31/07/2026) [CH: CHANNEL22 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel22/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:30 Derry City vs Rijeka (31/07/2026) [CH: CHANNEL22 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel22/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:30 The New Saints vs FC Flora Tallinn (31/07/2026) [CH: CHANNEL23 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel23/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:30 The New Saints vs FC Flora Tallinn (31/07/2026) [CH: CHANNEL23 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel23.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:30 The New Saints vs FC Flora Tallinn (31/07/2026) [CH: CHANNEL23 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel23/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:30 The New Saints vs FC Flora Tallinn (31/07/2026) [CH: CHANNEL23 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel23/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:30 Valletta FC vs R. Czestochowa (31/07/2026) [CH: CHANNEL8 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel8/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:30 Valletta FC vs R. Czestochowa (31/07/2026) [CH: CHANNEL8 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel8.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:30 Valletta FC vs R. Czestochowa (31/07/2026) [CH: CHANNEL8 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel8/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:30 Valletta FC vs R. Czestochowa (31/07/2026) [CH: CHANNEL8 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel8/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:30 Beitar Jerusalem vs AEK Larnaca (31/07/2026) [CH: CHANNEL25 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel25/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:30 Beitar Jerusalem vs AEK Larnaca (31/07/2026) [CH: CHANNEL25 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel25.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:30 Beitar Jerusalem vs AEK Larnaca (31/07/2026) [CH: CHANNEL25 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel25/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 00:30 Beitar Jerusalem vs AEK Larnaca (31/07/2026) [CH: CHANNEL25 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel25/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:00 CSKA Sofia vs Qarabag (31/07/2026) [CH: CHANNEL16 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel16/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:00 CSKA Sofia vs Qarabag (31/07/2026) [CH: CHANNEL16 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel16.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:00 CSKA Sofia vs Qarabag (31/07/2026) [CH: CHANNEL16 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel16/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:00 CSKA Sofia vs Qarabag (31/07/2026) [CH: CHANNEL16 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel16/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:00 FC Ballkani vs Bohemians (31/07/2026) [CH: CHANNEL28 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel28/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:00 FC Ballkani vs Bohemians (31/07/2026) [CH: CHANNEL28 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel28.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:00 FC Ballkani vs Bohemians (31/07/2026) [CH: CHANNEL28 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel28/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:00 FC Ballkani vs Bohemians (31/07/2026) [CH: CHANNEL28 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel28/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:00 Vestri vs Rigas FS (31/07/2026) [CH: CHANNEL29 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel29/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:00 Vestri vs Rigas FS (31/07/2026) [CH: CHANNEL29 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel29.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:00 Vestri vs Rigas FS (31/07/2026) [CH: CHANNEL29 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel29/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:00 Vestri vs Rigas FS (31/07/2026) [CH: CHANNEL29 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel29/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:00 Shkendija Tetovo vs NK Bravo (31/07/2026) [CH: CHANNEL30 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel30/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:00 Shkendija Tetovo vs NK Bravo (31/07/2026) [CH: CHANNEL30 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel30.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:00 Shkendija Tetovo vs NK Bravo (31/07/2026) [CH: CHANNEL30 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel30/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:00 Shkendija Tetovo vs NK Bravo (31/07/2026) [CH: CHANNEL30 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel30/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:00 Ludogorets vs Hapoel Tel Aviv (31/07/2026) [CH: CHANNEL31 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel31/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:00 Ludogorets vs Hapoel Tel Aviv (31/07/2026) [CH: CHANNEL31 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel31.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:00 Ludogorets vs Hapoel Tel Aviv (31/07/2026) [CH: CHANNEL31 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel31/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:00 Ludogorets vs Hapoel Tel Aviv (31/07/2026) [CH: CHANNEL31 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel31/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:00 AFC Ajax vs Vojvodina (31/07/2026) [CH: CHANNEL28 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel28/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:00 AFC Ajax vs Vojvodina (31/07/2026) [CH: CHANNEL28 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel28.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:00 AFC Ajax vs Vojvodina (31/07/2026) [CH: CHANNEL28 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel28/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:00 AFC Ajax vs Vojvodina (31/07/2026) [CH: CHANNEL28 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel28/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:00 Ghana U20 vs Burkina Faso U20 (31/07/2026) [CH: CHANNEL33 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel33/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:00 Ghana U20 vs Burkina Faso U20 (31/07/2026) [CH: CHANNEL33 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel33.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:00 Ghana U20 vs Burkina Faso U20 (31/07/2026) [CH: CHANNEL33 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel33/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:00 Ghana U20 vs Burkina Faso U20 (31/07/2026) [CH: CHANNEL33 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel33/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:15 FC Sion vs BATE Borisov (31/07/2026) [CH: CHANNEL13 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel13/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:15 FC Sion vs BATE Borisov (31/07/2026) [CH: CHANNEL13 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel13.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:15 FC Sion vs BATE Borisov (31/07/2026) [CH: CHANNEL13 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel13/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:15 FC Sion vs BATE Borisov (31/07/2026) [CH: CHANNEL13 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel13/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:15 UNA Strassen vs Partizan Belgrade (31/07/2026) [CH: CHANNEL2 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel2/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:15 UNA Strassen vs Partizan Belgrade (31/07/2026) [CH: CHANNEL2 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel2.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:15 UNA Strassen vs Partizan Belgrade (31/07/2026) [CH: CHANNEL2 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel2/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:15 UNA Strassen vs Partizan Belgrade (31/07/2026) [CH: CHANNEL2 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel2/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:30 Ferencvarosi TC vs Twente FC (31/07/2026) [CH: CHANNEL15 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel15/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:30 Ferencvarosi TC vs Twente FC (31/07/2026) [CH: CHANNEL15 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel15.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:30 Ferencvarosi TC vs Twente FC (31/07/2026) [CH: CHANNEL15 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel15/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:30 Ferencvarosi TC vs Twente FC (31/07/2026) [CH: CHANNEL15 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel15/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:30 Anderlecht vs Hammarby (31/07/2026) [CH: CHANNEL11 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel11/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:30 Anderlecht vs Hammarby (31/07/2026) [CH: CHANNEL11 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel11.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:30 Anderlecht vs Hammarby (31/07/2026) [CH: CHANNEL11 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel11/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:30 Anderlecht vs Hammarby (31/07/2026) [CH: CHANNEL11 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel11/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:30 GKS Katowice vs MSK Zilina (31/07/2026) [CH: CHANNEL3 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel3/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:30 GKS Katowice vs MSK Zilina (31/07/2026) [CH: CHANNEL3 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel3.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:30 GKS Katowice vs MSK Zilina (31/07/2026) [CH: CHANNEL3 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel3/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:30 GKS Katowice vs MSK Zilina (31/07/2026) [CH: CHANNEL3 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel3/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:30 Austria Vienna vs FK Liepaja (31/07/2026) [CH: CHANNEL25 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel25/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:30 Austria Vienna vs FK Liepaja (31/07/2026) [CH: CHANNEL25 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel25.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:30 Austria Vienna vs FK Liepaja (31/07/2026) [CH: CHANNEL25 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel25/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:30 Austria Vienna vs FK Liepaja (31/07/2026) [CH: CHANNEL25 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel25/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:30 KAA Gent vs LNZ Cherkasy (31/07/2026) [CH: CHANNEL23 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel23/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:30 KAA Gent vs LNZ Cherkasy (31/07/2026) [CH: CHANNEL23 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel23.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:30 KAA Gent vs LNZ Cherkasy (31/07/2026) [CH: CHANNEL23 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel23/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:30 KAA Gent vs LNZ Cherkasy (31/07/2026) [CH: CHANNEL23 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel23/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:30 CFR Cluj vs Alashkert (31/07/2026) [CH: CHANNEL6 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel6/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:30 CFR Cluj vs Alashkert (31/07/2026) [CH: CHANNEL6 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel6.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:30 CFR Cluj vs Alashkert (31/07/2026) [CH: CHANNEL6 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel6/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:30 CFR Cluj vs Alashkert (31/07/2026) [CH: CHANNEL6 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel6/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:30 Panathinaikos vs Paksi FC (31/07/2026) [CH: CHANNEL7 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel7/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:30 Panathinaikos vs Paksi FC (31/07/2026) [CH: CHANNEL7 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel7.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:30 Panathinaikos vs Paksi FC (31/07/2026) [CH: CHANNEL7 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel7/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:30 Panathinaikos vs Paksi FC (31/07/2026) [CH: CHANNEL7 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel7/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:30 Zrinjski Mostar vs Valur Reykjavik (31/07/2026) [CH: CHANNEL8 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel8/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:30 Zrinjski Mostar vs Valur Reykjavik (31/07/2026) [CH: CHANNEL8 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel8.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:30 Zrinjski Mostar vs Valur Reykjavik (31/07/2026) [CH: CHANNEL8 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel8/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:30 Zrinjski Mostar vs Valur Reykjavik (31/07/2026) [CH: CHANNEL8 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel8/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:45 Coleraine vs HJK Helsinki (31/07/2026) [CH: CHANNEL4 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel4/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:45 Coleraine vs HJK Helsinki (31/07/2026) [CH: CHANNEL4 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel4.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:45 Coleraine vs HJK Helsinki (31/07/2026) [CH: CHANNEL4 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel4/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:45 Coleraine vs HJK Helsinki (31/07/2026) [CH: CHANNEL4 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel4/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:45 FC Koper vs NSI Runavik (31/07/2026) [CH: CHANNEL10 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel10/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:45 FC Koper vs NSI Runavik (31/07/2026) [CH: CHANNEL10 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel10.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:45 FC Koper vs NSI Runavik (31/07/2026) [CH: CHANNEL10 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel10/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 01:45 FC Koper vs NSI Runavik (31/07/2026) [CH: CHANNEL10 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel10/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 02:00 Benfica vs St. Gallen (31/07/2026) [CH: CHANNEL19 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel19/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 02:00 Benfica vs St. Gallen (31/07/2026) [CH: CHANNEL19 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel19.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 02:00 Benfica vs St. Gallen (31/07/2026) [CH: CHANNEL19 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel19/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 02:00 Benfica vs St. Gallen (31/07/2026) [CH: CHANNEL19 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel19/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 02:00 Sporting Braga vs FK Zeleznicar (31/07/2026) [CH: CHANNEL24 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel24/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 02:00 Sporting Braga vs FK Zeleznicar (31/07/2026) [CH: CHANNEL24 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel24.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 02:00 Sporting Braga vs FK Zeleznicar (31/07/2026) [CH: CHANNEL24 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel24/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 02:00 Sporting Braga vs FK Zeleznicar (31/07/2026) [CH: CHANNEL24 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel24/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 02:00 FK Sutjeska Niksic vs Maxline Vitebsk (31/07/2026) [CH: CHANNEL17 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel17/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 02:00 FK Sutjeska Niksic vs Maxline Vitebsk (31/07/2026) [CH: CHANNEL17 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel17.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 02:00 FK Sutjeska Niksic vs Maxline Vitebsk (31/07/2026) [CH: CHANNEL17 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel17/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 02:00 FK Sutjeska Niksic vs Maxline Vitebsk (31/07/2026) [CH: CHANNEL17 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel17/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 02:00 Hibernian vs Malisheva (31/07/2026) [CH: CHANNEL14 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel14/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 02:00 Hibernian vs Malisheva (31/07/2026) [CH: CHANNEL14 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel14.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 02:00 Hibernian vs Malisheva (31/07/2026) [CH: CHANNEL14 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel14/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 02:00 Hibernian vs Malisheva (31/07/2026) [CH: CHANNEL14 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel14/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 02:00 FC Dinamo City vs NK Aluminij (31/07/2026) [CH: CHANNEL10 - Srv 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.streambylivepulse.com/live/channel10/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 02:00 FC Dinamo City vs NK Aluminij (31/07/2026) [CH: CHANNEL10 - Srv 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel10.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 02:00 FC Dinamo City vs NK Aluminij (31/07/2026) [CH: CHANNEL10 - Srv 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live1.100ycdn.com/live/channel10/playlist.m3u8
+
+#EXTINF:-1 group-title="Xôi Lạc - UPCOMING",⏳ 02:00 FC Dinamo City vs NK Aluminij (31/07/2026) [CH: CHANNEL10 - Srv 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/
+https://live2.streambylivepulse.com/live/channel10/playlist.m3u8
 
