@@ -5,11 +5,11 @@ from bs4 import BeautifulSoup
 import time
 import sys
 from datetime import datetime, timedelta
-from urllib.parse import urlparse, unquote, parse_qs
+from urllib.parse import urlparse
 import base64
 
 # ============================================
-# CẤU HÌNH pokot
+# CẤU HÌNH klot
 # ============================================
 
 BASE_URL = "https://xoilaczzuuz.tv/"
@@ -31,7 +31,7 @@ def get_actual_base_url():
         return BASE_URL
 
 
-def build_dynamic_headers(referer_override=None):
+def build_dynamic_headers():
     actual_url = get_actual_base_url()
     parsed = urlparse(actual_url)
     domain = f"{parsed.scheme}://{parsed.netloc}"
@@ -43,110 +43,36 @@ def build_dynamic_headers(referer_override=None):
         "cache-control": "no-cache",
         "origin": domain,
         "pragma": "no-cache",
-        "referer": referer_override if referer_override else actual_url,
-        "sec-ch-ua": '"Chromium";v="122", "Google Chrome";v="122"',
-        "sec-ch-ua-mobile": "?0",
-        "sec-ch-ua-platform": '"Windows"',
-        "sec-fetch-dest": "empty",
-        "sec-fetch-mode": "cors",
-        "sec-fetch-site": "cross-site",
+        "referer": actual_url,
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
     }
 
 
-def find_m3u8_in_text(text):
-    """Mencari pola URL .m3u8 dalam string mentah, URL-encoded, atau Base64"""
-    if not text:
-        return None
-
-    # 1. Regex M3U8 standar (Termasuk 100ycdn & streambylivepulse)
-    match = re.search(r'https?://[^\s"\'<>\\]+\.m3u8[^\s"\'<>]*', text)
-    if match:
-        return match.group(0).replace('\\/', '/')
-
-    # 2. Decode URL Encoding (%3A%2F%2F)
-    decoded_text = unquote(text)
-    match = re.search(r'https?://[^\s"\'<>\\]+\.m3u8[^\s"\'<>]*', decoded_text)
-    if match:
-        return match.group(0).replace('\\/', '/')
-
-    # 3. Decode String Base64
-    b64_matches = re.findall(r'[A-Za-z0-9+/=]{30,}', text)
-    for b64_str in b64_matches:
-        try:
-            decoded_b64 = base64.b64decode(b64_str).decode('utf-8', errors='ignore')
-            if '.m3u8' in decoded_b64:
-                m3u_match = re.search(r'https?://[^\s"\'<>\\]+\.m3u8[^\s"\'<>]*', decoded_b64)
-                if m3u_match:
-                    return m3u_match.group(0).replace('\\/', '/')
-        except Exception:
-            continue
-    return None
-
-
-def fetch_m3u8_from_ajax_endpoint(ajax_url):
+def generate_cdn_stream_urls(channel_id):
     """
-    Mengekstrak M3U8 langsung dari Player Endpoint Xoilac
+    Menghasilkan variasi link CDN berdasarkan pola yang didapat dari DevTools
     """
-    if not ajax_url:
-        return None
-
-    if '.m3u8' in ajax_url and 'ajax/chanel' not in ajax_url:
-        return ajax_url
-
-    try:
-        headers = build_dynamic_headers(referer_override='https://xlz.livepingscorex.com/')
-        headers['X-Requested-With'] = 'XMLHttpRequest'
-        
-        # 1. Request ke halaman embed AJAX
-        res = requests.get(ajax_url, headers=headers, timeout=10)
-        if res.status_code != 200:
-            return None
-
-        content = res.text
-
-        # Cari M3U8 langsung di HTML/JS
-        extracted = find_m3u8_in_text(content)
-        if extracted:
-            return extracted
-
-        # 2. Jika disembunyikan dalam iframe / API internal
-        # Cari URL iframe atau API source di dalam script
-        iframe_src = re.search(r'iframe\s+src=["\']([^"\']+)["\']', content)
-        if iframe_src:
-            sub_url = iframe_src.group(1)
-            if sub_url.startswith('//'):
-                sub_url = 'https:' + sub_url
-            sub_res = requests.get(sub_url, headers=headers, timeout=10)
-            if sub_res.status_code == 200:
-                extracted_sub = find_m3u8_in_text(sub_res.text)
-                if extracted_sub:
-                    return extracted_sub
-
-        # 3. Cari variabel player seperti: source: "...", file: "..."
-        source_match = re.search(r'(?:source|file|stream|url)\s*:\s*["\']([^"\']+)["\']', content, re.IGNORECASE)
-        if source_match:
-            candidate = source_match.group(1).replace('\\/', '/')
-            m3u_found = find_m3u8_in_text(candidate)
-            if m3u_found:
-                return m3u_found
-
-        # 4. Fallback Generator (Gunakan channel ID dari URL untuk menyusun stream link)
-        # Contoh URL AJAX: .../link/channel6
-        channel_match = re.search(r'channel\d+', ajax_url)
-        if channel_match:
-            channel_id = channel_match.group(0)
-            # Konstruksi URL fallback sesuai skema CDN Xoilac
-            fallback_cdn = f"https://live1.streambylivepulse.com/live/{channel_id}/playlist.m3u8"
-            return fallback_cdn
-
-    except Exception as e:
-        print(f"⚠️ Error mengekstrak {ajax_url}: {e}")
-        
-    return None
+    if not channel_id:
+        return []
+    
+    # Pastikan format channel bersih (contoh: channel16)
+    clean_channel = channel_id.lower().strip()
+    
+    urls = [
+        # Format Provider 1 (Statis Direct Pulse 1)
+        f"https://live1.streambylivepulse.com/live/{clean_channel}/playlist.m3u8",
+        # Format Provider 1 (Statis Direct Pulse 2)
+        f"https://live2.streambylivepulse.com/live/{clean_channel}.m3u8",
+        # Format Provider 2 (Direct 100ycdn)
+        f"https://live1.100ycdn.com/live/{clean_channel}/playlist.m3u8",
+        # Format Alternative Stream
+        f"https://live2.streambylivepulse.com/live/{clean_channel}/playlist.m3u8"
+    ]
+    return urls
 
 
-def extract_stream_links(url):
+def extract_channels_from_detail_page(url):
+    """Mencari channel ID (channel1, channel2, dll) dari script detail pertandingan"""
     try:
         headers = build_dynamic_headers()
         response = requests.get(url, headers=headers, timeout=10)
@@ -177,17 +103,16 @@ def extract_stream_links(url):
         except json.JSONDecodeError:
             return []
         
-        final_m3u8_urls = []
+        found_channels = []
         for item in list_stream:
             if isinstance(item, list) and len(item) > 0:
-                raw_url = str(item[0]).replace('\\/', '/')
-                
-                # Resolusi link AJAX ke link CDN .m3u8 asli
-                real_m3u8 = fetch_m3u8_from_ajax_endpoint(raw_url)
-                if real_m3u8:
-                    final_m3u8_urls.append(real_m3u8)
+                raw_url = str(item[0])
+                # Cari pola "channelXX" di dalam URL AJAX
+                ch_match = re.search(r'channel\d+', raw_url, re.IGNORECASE)
+                if ch_match:
+                    found_channels.append(ch_match.group(0))
         
-        return list(dict.fromkeys(final_m3u8_urls))
+        return list(dict.fromkeys(found_channels))
     except Exception:
         return []
 
@@ -242,7 +167,6 @@ def parse_match_from_element(item):
     
     href = link.get('href', '')
     title = link.get('title', '')
-    
     live_status = get_live_status_from_title(title)
     actual_base = get_actual_base_url().rstrip('/')
     
@@ -251,15 +175,23 @@ def parse_match_from_element(item):
         'hot': item.get('data-hot', '0') == '1',
         'live': live_status,
         'href': href,
-        'title': title
+        'title': title,
+        'streams': []
     }
     
     if href:
         full_url = actual_base + href
-        stream_links = extract_stream_links(full_url)
-        if stream_links:
-            for i, stream_url in enumerate(stream_links, 1):
-                match[f'link{i}'] = stream_url
+        channels = extract_channels_from_detail_page(full_url)
+        
+        stream_list = []
+        for ch in channels:
+            cdn_links = generate_cdn_stream_urls(ch)
+            for cdn_url in cdn_links:
+                stream_list.append({
+                    'channel': ch,
+                    'url': cdn_url
+                })
+        match['streams'] = stream_list
     
     return match
 
@@ -271,7 +203,7 @@ def parse_all_matches(html_content):
     matches = []
     for item in items:
         match = parse_match_from_element(item)
-        if match and any(k.startswith('link') for k in match.keys()):
+        if match and match['streams']:
             matches.append(match)
     return matches
 
@@ -318,7 +250,7 @@ def fetch_pages(max_pages):
             
         matches = result['data'].get('matches', [])
         all_matches.extend(matches)
-        print(f"   ✅ Page {page}: got {len(matches)} matches with active CDN .m3u8 (Total: {len(all_matches)})")
+        print(f"   ✅ Page {page}: dapet {len(matches)} pertandingan berkanal (Total: {len(all_matches)})")
         time.sleep(0.3)
         
     return all_matches, total_pages
@@ -326,57 +258,58 @@ def fetch_pages(max_pages):
 
 def create_m3u_file(matches, filename="LiveEvent.m3u"):
     try:
-        all_streams = []
+        all_entries = []
         
         for match in matches:
-            link_keys = [k for k in match.keys() if k.startswith('link')]
-            for key in link_keys:
-                stream_url = match[key]
-                if stream_url and stream_url.startswith('http'):
-                    time_str = extract_time_from_title(match['title'])
-                    date_str = extract_date_from_title(match['title'])
-                    
-                    display_title = match['title']
-                    clean_title = re.sub(r'lúc\s+\d{2}:\d{2}\s+', '', display_title)
-                    clean_title = re.sub(r'ngày\s+\d{2}/\d{2}/\d{4}', '', clean_title).strip()
-                    
-                    prefix = "🔴 LIVE | " if match['live'] == 'living' else "⏳ "
-                    if match['hot']:
-                        prefix += "🔥 "
-                    
-                    new_title = f"{prefix}{time_str} {clean_title}"
-                    if date_str and date_str not in new_title:
-                        new_title += f" ({date_str})"
-                    
-                    all_streams.append({
-                        'title': new_title,
-                        'url': stream_url,
-                        'live': match['live']
-                    })
+            time_str = extract_time_from_title(match['title'])
+            date_str = extract_date_from_title(match['title'])
+            
+            display_title = match['title']
+            clean_title = re.sub(r'lúc\s+\d{2}:\d{2}\s+', '', display_title)
+            clean_title = re.sub(r'ngày\s+\d{2}/\d{2}/\d{4}', '', clean_title).strip()
+            
+            prefix = "🔴 LIVE | " if match['live'] == 'living' else "⏳ "
+            if match['hot']:
+                prefix += "🔥 "
+            
+            base_title = f"{prefix}{time_str} {clean_title}"
+            if date_str and date_str not in base_title:
+                base_title += f" ({date_str})"
+            
+            for idx, stream in enumerate(match['streams'], 1):
+                # Memberi label Server/Provider pada nama channel IPTV
+                srv_num = (idx % 4) or 4
+                stream_title = f"{base_title} [CH: {stream['channel'].upper()} - Srv {srv_num}]"
+                
+                all_entries.append({
+                    'title': stream_title,
+                    'url': stream['url'],
+                    'live': match['live']
+                })
         
-        if not all_streams:
-            print("⚠️ Tidak ada link .m3u8 aktif yang berhasil diekstrak.")
+        if not all_entries:
+            print("⚠️ Tidak ada stream yang terkumpul.")
             with open(filename, 'w', encoding='utf-8') as f:
-                f.write("#EXTM3U\n# No Active Streams Available\n")
+                f.write("#EXTM3U\n# No Streams Available\n")
             return False
         
         m3u_content = "#EXTM3U\n"
-        m3u_content += "# Xôi Lạc TV Playlist\n"
-        m3u_content += f"# Total streams: {len(all_streams)}\n"
+        m3u_content += "# Xôi Lạc TV Multi-CDN Playlist\n"
+        m3u_content += f"# Total streams: {len(all_entries)}\n"
         m3u_content += f"# Generated: {time.strftime('%Y-%m-%d %H:%M:%S')}\n\n"
         
-        for stream in all_streams:
-            group_label = "Xôi Lạc - LIVE NOW" if stream["live"] == "living" else "Xôi Lạc - UPCOMING"
-            m3u_content += f'#EXTINF:-1 group-title="{group_label}",{stream["title"]}\n'
+        for entry in all_entries:
+            group_label = "Xôi Lạc - LIVE NOW" if entry["live"] == "living" else "Xôi Lạc - UPCOMING"
+            m3u_content += f'#EXTINF:-1 group-title="{group_label}",{entry["title"]}\n'
             m3u_content += '#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36\n'
             m3u_content += '#EXTVLCOPT:http-referrer=https://xlz.livepingscorex.com/\n'
-            m3u_content += f'{stream["url"]}\n\n'
+            m3u_content += f'{entry["url"]}\n\n'
         
         with open(filename, 'w', encoding='utf-8') as f:
             f.write(m3u_content)
         
         print(f"\n✅ File M3U Berhasil Dibuat: {filename}")
-        print(f"   Total Link CDN M3U8 Siap Putar: {len(all_streams)}")
+        print(f"   Total Link M3U8 Multi-Server Terkumpul: {len(all_entries)}")
         return True
     except Exception as e:
         print(f"❌ Error creating M3U: {e}")
@@ -385,7 +318,7 @@ def create_m3u_file(matches, filename="LiveEvent.m3u"):
 
 def main():
     print("=" * 60)
-    print(" 🚀 SCRAPE PURE CDN M3U8 STREAMS FOR IPTV")
+    print(" 🚀 SCRAPE MULTI-CDN M3U8 STREAMS FOR IPTV")
     print("=" * 60)
     
     matches, total_pages = fetch_pages(MAX_PAGES_TO_FETCH)
@@ -393,7 +326,7 @@ def main():
     if matches:
         create_m3u_file(matches, OUTPUT_FILE)
     else:
-        print("❌ Gagal mengekstrak link .m3u8.")
+        print("❌ Gagal mengumpulkan jadwal pertandingan.")
 
 
 if __name__ == "__main__":
