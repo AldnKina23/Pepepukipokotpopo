@@ -1,7 +1,7 @@
-name: Generate ICCH M3U Playlist
+name: Generate ITCH M3U Playlist
 
 on:
-  # Berjalan otomatis setiap 6 jam sekali (Format UTC)
+  # Berjalan otomatis setiap 6 an jam sekali (Format UTC)
   schedule:
     - cron: '0 */6 * * *'
   
@@ -41,7 +41,7 @@ jobs:
       # 4. Jalankan script Python
       - name: Run generate_euroTV.py
         run: |
-          python generate_euroTV.py
+          python generate_itCH.py
 
       # 5. Commit dan Push perubahan (file output/) kembali ke repository
       - name: Commit and Push Updated Playlist
