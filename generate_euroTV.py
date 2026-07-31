@@ -1,7 +1,7 @@
 import os
 import json
 import requests
-
+#al
 DOMAIN = "https://daddylive.mov"
 
 HEADERS = {
@@ -15,7 +15,6 @@ REFERER = f"{DOMAIN}/"
 def get_channels():
     channels = {}
     
-    # Endpoint JSON resmi dari daddylive al
     urls = [
         f"{DOMAIN}/cache/24-7channels.json",
         f"{DOMAIN}/cache/tv/tv.json"
@@ -28,7 +27,8 @@ def get_channels():
                 data = r.json()
                 if isinstance(data, list):
                     for ch in data:
-                        cid = ch.get("channel_id") or ch.get("id", "")
+                        # Mengambil ID atau slug channel
+                        cid = ch.get("channel_id") or ch.get("id") or ch.get("slug", "")
                         name = ch.get("channel_name") or ch.get("name", "")
                         if cid and name:
                             channels[str(cid)] = str(name)
@@ -39,7 +39,7 @@ def get_channels():
                                 if isinstance(events, list):
                                     for event in events:
                                         for ch in event.get("channels", []) + event.get("channels2", []):
-                                            cid = ch.get("channel_id", "")
+                                            cid = ch.get("channel_id") or ch.get("id", "")
                                             name = ch.get("channel_name", "")
                                             if cid and name:
                                                 channels[str(cid)] = str(name)
@@ -81,8 +81,8 @@ def build_m3u(channels):
     for cid, name in sorted(channels.items(), key=lambda x: int(x[0]) if x[0].isdigit() else 9999):
         group = get_group(name)
         
-        # PERBAIKAN: Format URL streaming yang benar adalah /live/stream-X.php
-        stream_url = f"{DOMAIN}/live/stream-{cid}.php"
+        # Format URL disesuaikan dengan struktur asli daddylive.mov (/live/stream=ID)
+        stream_url = f"{DOMAIN}/live/stream={cid}"
         
         lines.append(f'#EXTINF:-1 tvg-id="{cid}" tvg-logo="" group-title="{group}",{name}')
         lines.append(f'#EXTVLCOPT:http-referrer={REFERER}')
@@ -96,7 +96,7 @@ def main():
     os.makedirs("output", exist_ok=True)
     print("Memproses daftar channel...")
     channels = get_channels()
-    print(f"Total unik channel: {len(channels)}")
+    print(f"Total channel terproses: {len(channels)}")
 
     m3u = build_m3u(channels)
     with open("output/playlist.m3u8", "w", encoding="utf-8") as f:
