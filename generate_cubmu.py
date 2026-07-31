@@ -8,7 +8,7 @@ OUTPUT_DIR = "playlists"
 OUTPUT_FILE = "cubmu.m3u"
 BASE_URL = "https://www.cubmu.com"
 
-# KID:KEY DRM ClearKey CubMu
+# KID:KEY DRM ClearKey CubMu ka
 CLEARKEY_DRM = "1d37f079910b49f08b40deb547514c76:c4ead9b8ce1242a38bbb08eba5d2af4a"
 
 # Daftar channel CubMu
@@ -87,7 +87,7 @@ CHANNELS = [
     {"slug": "253-sports-tv", "name": "SPORTS TV", "logo": ""},
     {"slug": "254-xtrem-sports", "name": "XTREM TV", "logo": ""},
     {"slug": "224-tvri-sport", "name": "TVRI SPORT", "logo": ""},
-    {"slug": "255-speed-tv", "name": "SPEED TV", "logo": ""},
+    {"slug": "256-speed-tv", "name": "SPEED TV", "logo": ""},
     {"slug": "256-fight-tv-premium", "name": "FIGHT TV PREMIUM", "logo": ""},
     {"slug": "257-psj-tv", "name": "PSJTV", "logo": ""}
 ]
@@ -97,31 +97,45 @@ logger = logging.getLogger(__name__)
 
 def get_mpd_url(page, channel):
     target_url = f"{BASE_URL}/watch/live-tv/{channel['slug']}"
-    found_mpd = None
+    mpd_candidates = []
 
     def handle_request(request):
-        nonlocal found_mpd
-        if "manifest.mpd" in request.url and not found_mpd:
-            found_mpd = request.url
+        if "manifest.mpd" in request.url:
+            mpd_candidates.append(request.url)
 
     page.on("request", handle_request)
 
     try:
         page.goto(target_url, timeout=30000, wait_until="domcontentloaded")
-        page.wait_for_timeout(10000)  # Diperpanjang jadi 10 detik agar player loading sempurna
+        page.wait_for_timeout(3000)
+        
+        # Stimulasi video player agar stream utama terpicu
+        try:
+            page.click("video", timeout=3000)
+        except Exception:
+            pass
+
+        page.wait_for_timeout(5000)
     except Exception as e:
         logger.warning(f"⚠️ {channel['name']}: Error loading page - {e}")
 
-    return found_mpd
+    # Ambil link manifest.mpd terakhir yang terpanggil (paling aktif/valid)
+    if mpd_candidates:
+        return mpd_candidates[-1]
+    return None
 
 def main():
     logger.info("🚀 Memulai CubMu MPD & DRM Extractor")
     successful_channels = []
 
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
+        browser = p.chromium.launch(
+            headless=True,
+            args=["--no-sandbox", "--disable-setuid-sandbox", "--disable-blink-features=AutomationControlled"]
+        )
         context = browser.new_context(
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+            viewport={"width": 1280, "height": 720}
         )
         page = context.new_page()
 
@@ -146,7 +160,8 @@ def main():
             lines.append('#KODIPROP:inputstream.adaptive.license_type=clearkey')
             lines.append(f'#KODIPROP:inputstream.adaptive.license_key={CLEARKEY_DRM}')
             lines.append('#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)')
-            lines.append(f'#EXTVLCOPT:http-referrer={BASE_URL}/')
+            lines.append('EXTVLCOPT:http-referrer=https://cubmu.com/')
+            lines.append('#EXTVLCOPT:http-origin=https://cubmu.com')
             lines.append(ch["stream_url"])
             lines.append('')
 
