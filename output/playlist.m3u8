@@ -2495,7 +2495,7 @@ https://daddylive.mov/live/stream=1592
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://daddylive.mov/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://daddylive.mov/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://daddylive.mov/live/stream=1593
-#EXTINF:-1 tvg-id="3001" tvg-logo="" group-title="General",Viaplay Sports 1 UK
+#EXTINF:-1 tvg-id="3001" tvg-logo="" group-title="General",TSN1
 #EXTVLCOPT:http-referrer=https://daddylive.mov/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://daddylive.mov/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -2513,7 +2513,7 @@ https://daddylive.mov/live/stream=3003
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://daddylive.mov/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://daddylive.mov/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://daddylive.mov/live/stream=3004
-#EXTINF:-1 tvg-id="3005" tvg-logo="" group-title="Sports UK",Sky Sports Football
+#EXTINF:-1 tvg-id="3005" tvg-logo="" group-title="General",TSN5
 #EXTVLCOPT:http-referrer=https://daddylive.mov/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://daddylive.mov/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -2585,12 +2585,6 @@ https://daddylive.mov/live/stream=3016
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://daddylive.mov/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://daddylive.mov/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://daddylive.mov/live/stream=3018
-#EXTINF:-1 tvg-id="3019" tvg-logo="" group-title="General",Sportdigital FUSSBALL DE
-#EXTVLCOPT:http-referrer=https://daddylive.mov/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://daddylive.mov/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://daddylive.mov/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://daddylive.mov/live/stream=3019
 #EXTINF:-1 tvg-id="3020" tvg-logo="" group-title="General",Blue Sport D 1
 #EXTVLCOPT:http-referrer=https://daddylive.mov/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -2639,7 +2633,13 @@ https://daddylive.mov/live/stream=3028
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://daddylive.mov/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://daddylive.mov/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://daddylive.mov/live/stream=3029
-#EXTINF:-1 tvg-id="3031" tvg-logo="" group-title="Sports International",beIN Sports 1 Austrelia
+#EXTINF:-1 tvg-id="3030" tvg-logo="" group-title="General",TUDN USA
+#EXTVLCOPT:http-referrer=https://daddylive.mov/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://daddylive.mov/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://daddylive.mov/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://daddylive.mov/live/stream=3030
+#EXTINF:-1 tvg-id="3031" tvg-logo="" group-title="General",MLS Season Pass
 #EXTVLCOPT:http-referrer=https://daddylive.mov/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://daddylive.mov/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -2651,7 +2651,49 @@ https://daddylive.mov/live/stream=3031
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://daddylive.mov/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://daddylive.mov/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://daddylive.mov/live/stream=3032
-#EXTINF:-1 tvg-id="3040" tvg-logo="" group-title="General",TV Galicia
+#EXTINF:-1 tvg-id="3033" tvg-logo="" group-title="General",MLS Season Pass
+#EXTVLCOPT:http-referrer=https://daddylive.mov/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://daddylive.mov/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://daddylive.mov/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://daddylive.mov/live/stream=3033
+#EXTINF:-1 tvg-id="3034" tvg-logo="" group-title="General",MLS Season Pass
+#EXTVLCOPT:http-referrer=https://daddylive.mov/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://daddylive.mov/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://daddylive.mov/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://daddylive.mov/live/stream=3034
+#EXTINF:-1 tvg-id="3035" tvg-logo="" group-title="General",MLS Season Pass
+#EXTVLCOPT:http-referrer=https://daddylive.mov/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://daddylive.mov/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://daddylive.mov/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://daddylive.mov/live/stream=3035
+#EXTINF:-1 tvg-id="3036" tvg-logo="" group-title="General",MLS Season Pass
+#EXTVLCOPT:http-referrer=https://daddylive.mov/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://daddylive.mov/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://daddylive.mov/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://daddylive.mov/live/stream=3036
+#EXTINF:-1 tvg-id="3037" tvg-logo="" group-title="General",MLS Season Pass
+#EXTVLCOPT:http-referrer=https://daddylive.mov/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://daddylive.mov/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://daddylive.mov/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://daddylive.mov/live/stream=3037
+#EXTINF:-1 tvg-id="3038" tvg-logo="" group-title="General",MLS Season Pass
+#EXTVLCOPT:http-referrer=https://daddylive.mov/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://daddylive.mov/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://daddylive.mov/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://daddylive.mov/live/stream=3038
+#EXTINF:-1 tvg-id="3039" tvg-logo="" group-title="General",MLS Season Pass
+#EXTVLCOPT:http-referrer=https://daddylive.mov/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://daddylive.mov/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://daddylive.mov/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://daddylive.mov/live/stream=3039
+#EXTINF:-1 tvg-id="3040" tvg-logo="" group-title="General",MLS Season Pass
 #EXTVLCOPT:http-referrer=https://daddylive.mov/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://daddylive.mov/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -2813,6 +2855,12 @@ https://daddylive.mov/live/stream=3079
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://daddylive.mov/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://daddylive.mov/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://daddylive.mov/live/stream=3080
+#EXTINF:-1 tvg-id="3081" tvg-logo="" group-title="Sports USA",Fox Sports 1 USA
+#EXTVLCOPT:http-referrer=https://daddylive.mov/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://daddylive.mov/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://daddylive.mov/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://daddylive.mov/live/stream=3081
 #EXTINF:-1 tvg-id="3082" tvg-logo="" group-title="Sports USA",FOX Sports 2 USA
 #EXTVLCOPT:http-referrer=https://daddylive.mov/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -2843,7 +2891,7 @@ https://daddylive.mov/live/stream=3085
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://daddylive.mov/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://daddylive.mov/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://daddylive.mov/live/stream=3086
-#EXTINF:-1 tvg-id="3087" tvg-logo="" group-title="General",FOX Deportes
+#EXTINF:-1 tvg-id="3087" tvg-logo="" group-title="General",Fox Deportes
 #EXTVLCOPT:http-referrer=https://daddylive.mov/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://daddylive.mov/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
