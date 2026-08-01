@@ -3,7 +3,7 @@ name: Extract meWATCH Streams
 on:
   schedule:
     - cron: '0 */6 * * *' # Berjalan otomatis setiap 6 jam
-  workflow_dispatch: # Tombol manual trigger dari Dashboard GitHub
+  workflow_dispatch: # Tombol manual trigger dari Dashboard GitHubzx
 
 jobs:
   extract:
@@ -21,7 +21,7 @@ jobs:
     - name: Install Dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install playwright
+        pip install requests playwright
         playwright install chromium
         playwright install-deps
 
