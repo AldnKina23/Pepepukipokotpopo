@@ -1,128 +1,32 @@
 [
     {
         "channel": "Channel 5",
-        "page_url": "https://www.mewatch.sg/channels/channel-5/97098",
-        "m3u8_urls": [],
         "mpd_urls": [],
-        "license_servers": [],
         "kids": [],
-        "status": "Timeout/Error"
+        "status": "Failed"
     },
     {
         "channel": "Channel 8",
-        "page_url": "https://www.mewatch.sg/channels/Channel-8/97104",
-        "m3u8_urls": [],
         "mpd_urls": [],
-        "license_servers": [],
         "kids": [],
-        "status": "Timeout/Error"
+        "status": "Failed"
     },
     {
         "channel": "Channel U",
-        "page_url": "https://www.mewatch.sg/channels/channel-u/97129",
-        "m3u8_urls": [],
         "mpd_urls": [],
-        "license_servers": [],
         "kids": [],
-        "status": "Timeout/Error"
+        "status": "Failed"
     },
     {
         "channel": "Suria",
-        "page_url": "https://www.mewatch.sg/channels/suria/97084",
-        "m3u8_urls": [],
         "mpd_urls": [],
-        "license_servers": [],
         "kids": [],
-        "status": "Timeout/Error"
-    },
-    {
-        "channel": "Vasantham",
-        "page_url": "https://www.mewatch.sg/channels/vasantham/97096",
-        "m3u8_urls": [],
-        "mpd_urls": [],
-        "license_servers": [],
-        "kids": [],
-        "status": "Timeout/Error"
+        "status": "Failed"
     },
     {
         "channel": "CNA",
-        "page_url": "https://www.mewatch.sg/channels/cna/97072",
-        "m3u8_urls": [],
         "mpd_urls": [],
-        "license_servers": [],
         "kids": [],
-        "status": "Timeout/Error"
-    },
-    {
-        "channel": "Live 1",
-        "page_url": "https://www.mewatch.sg/channels/live-1/97073",
-        "m3u8_urls": [],
-        "mpd_urls": [],
-        "license_servers": [],
-        "kids": [],
-        "status": "Timeout/Error"
-    },
-    {
-        "channel": "CWG CH01",
-        "page_url": "https://www.mewatch.sg/channels/CWG-CH01/822075",
-        "m3u8_urls": [],
-        "mpd_urls": [],
-        "license_servers": [],
-        "kids": [],
-        "status": "Timeout/Error"
-    },
-    {
-        "channel": "CWG CH02",
-        "page_url": "https://www.mewatch.sg/channels/CWG-CH02/822074",
-        "m3u8_urls": [],
-        "mpd_urls": [],
-        "license_servers": [],
-        "kids": [],
-        "status": "Timeout/Error"
-    },
-    {
-        "channel": "CWG CH03",
-        "page_url": "https://www.mewatch.sg/channels/CWG-CH03/822077",
-        "m3u8_urls": [],
-        "mpd_urls": [],
-        "license_servers": [],
-        "kids": [],
-        "status": "Timeout/Error"
-    },
-    {
-        "channel": "CWG CH04",
-        "page_url": "https://www.mewatch.sg/channels/CWG-CH04/822076",
-        "m3u8_urls": [],
-        "mpd_urls": [],
-        "license_servers": [],
-        "kids": [],
-        "status": "Timeout/Error"
-    },
-    {
-        "channel": "Live 5",
-        "page_url": "https://www.mewatch.sg/channels/live-5/98202",
-        "m3u8_urls": [],
-        "mpd_urls": [],
-        "license_servers": [],
-        "kids": [],
-        "status": "Timeout/Error"
-    },
-    {
-        "channel": "Live 6",
-        "page_url": "https://www.mewatch.sg/channels/live-6/204746",
-        "m3u8_urls": [],
-        "mpd_urls": [],
-        "license_servers": [],
-        "kids": [],
-        "status": "Timeout/Error"
-    },
-    {
-        "channel": "FIFA+",
-        "page_url": "https://www.mewatch.sg/channels/FIFA+-557763",
-        "m3u8_urls": [],
-        "mpd_urls": [],
-        "license_servers": [],
-        "kids": [],
-        "status": "Timeout/Error"
+        "status": "Failed"
     }
 ]
