@@ -1,0 +1,114 @@
+[
+    {
+        "channel": "Channel 5",
+        "page_url": "https://www.mewatch.sg/channels/channel-5/97098",
+        "status": "Failed All Proxies",
+        "m3u8_urls": [],
+        "mpd_urls": [],
+        "kids": []
+    },
+    {
+        "channel": "Channel 8",
+        "page_url": "https://www.mewatch.sg/channels/Channel-8/97104",
+        "status": "Failed All Proxies",
+        "m3u8_urls": [],
+        "mpd_urls": [],
+        "kids": []
+    },
+    {
+        "channel": "Channel U",
+        "page_url": "https://www.mewatch.sg/channels/channel-u/97129",
+        "status": "Failed All Proxies",
+        "m3u8_urls": [],
+        "mpd_urls": [],
+        "kids": []
+    },
+    {
+        "channel": "Suria",
+        "page_url": "https://www.mewatch.sg/channels/suria/97084",
+        "status": "Failed All Proxies",
+        "m3u8_urls": [],
+        "mpd_urls": [],
+        "kids": []
+    },
+    {
+        "channel": "Vasantham",
+        "page_url": "https://www.mewatch.sg/channels/vasantham/97096",
+        "status": "Failed All Proxies",
+        "m3u8_urls": [],
+        "mpd_urls": [],
+        "kids": []
+    },
+    {
+        "channel": "CNA",
+        "page_url": "https://www.mewatch.sg/channels/cna/97072",
+        "status": "Failed All Proxies",
+        "m3u8_urls": [],
+        "mpd_urls": [],
+        "kids": []
+    },
+    {
+        "channel": "Live 1",
+        "page_url": "https://www.mewatch.sg/channels/live-1/97073",
+        "status": "Failed All Proxies",
+        "m3u8_urls": [],
+        "mpd_urls": [],
+        "kids": []
+    },
+    {
+        "channel": "CWG CH01",
+        "page_url": "https://www.mewatch.sg/channels/CWG-CH01/822075",
+        "status": "Failed All Proxies",
+        "m3u8_urls": [],
+        "mpd_urls": [],
+        "kids": []
+    },
+    {
+        "channel": "CWG CH02",
+        "page_url": "https://www.mewatch.sg/channels/CWG-CH02/822074",
+        "status": "Failed All Proxies",
+        "m3u8_urls": [],
+        "mpd_urls": [],
+        "kids": []
+    },
+    {
+        "channel": "CWG CH03",
+        "page_url": "https://www.mewatch.sg/channels/CWG-CH03/822077",
+        "status": "Failed All Proxies",
+        "m3u8_urls": [],
+        "mpd_urls": [],
+        "kids": []
+    },
+    {
+        "channel": "CWG CH04",
+        "page_url": "https://www.mewatch.sg/channels/CWG-CH04/822076",
+        "status": "Failed All Proxies",
+        "m3u8_urls": [],
+        "mpd_urls": [],
+        "kids": []
+    },
+    {
+        "channel": "Live 5",
+        "page_url": "https://www.mewatch.sg/channels/live-5/98202",
+        "status": "Failed All Proxies",
+        "m3u8_urls": [],
+        "mpd_urls": [],
+        "kids": []
+    },
+    {
+        "channel": "Live 6",
+        "page_url": "https://www.mewatch.sg/channels/live-6/204746",
+        "status": "Failed All Proxies",
+        "m3u8_urls": [],
+        "mpd_urls": [],
+        "kids": []
+    },
+    {
+        "channel": "FIFA+",
+        "page_url": "https://www.mewatch.sg/channels/FIFA+-557763",
+        "status": "Failed All Proxies",
+        "m3u8_urls": [],
+        "mpd_urls": [],
+        "kids": []
+    }
+]
