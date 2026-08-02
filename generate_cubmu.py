@@ -160,8 +160,8 @@ def main():
             lines.append('#KODIPROP:inputstream.adaptive.license_type=clearkey')
             lines.append(f'#KODIPROP:inputstream.adaptive.license_key={CLEARKEY_DRM}')
             lines.append('#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)')
-            lines.append('EXTVLCOPT:http-referrer=https://cubmu.com/')
-            lines.append('#EXTVLCOPT:http-origin=https://cubmu.com')
+            lines.append('EXTVLCOPT:http-referrer=https://www.cubmu.com/')
+            lines.append('#EXTVLCOPT:http-origin=https://www.cubmu.com')
             lines.append(ch["stream_url"])
             lines.append('')
 
