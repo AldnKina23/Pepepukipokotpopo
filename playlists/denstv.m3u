@@ -1,5 +1,5 @@
 #EXTM3U url-tvg="https://raw.githubusercontent.com/dhasap/dhanytv/main/epg.xml"
-# Generated Dens.tv Playlist: 2026-08-01 20:40:26
+# Generated Dens.tv Playlist: 2026-08-02 07:57:12
 
 #EXTINF:-1 tvg-id="LIVE STREAMING" group-title="Dens.tv - Local TV",LIVE STREAMING
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
@@ -27,161 +27,161 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h222/index.m3u8?app_type=web&userid=li
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-origin=https://www.dens.tv
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/&Origin=https://www.dens.tv&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://op-flashcon-digdayahd-1.dens.tv/h/h221/index.m3u8?app_type=web&userid=lite&chname=DensFood_Channel
+https://op-flashcon-digdayahd-1.dens.tv/h/h222/02.m3u8
 
 #EXTINF:-1 tvg-id="DENS SHOWBIZ" group-title="Dens.tv - Local TV",DENS SHOWBIZ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-origin=https://www.dens.tv
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/&Origin=https://www.dens.tv&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://op-flashcon-digdayahd-1.dens.tv/h/h244/index.m3u8?app_type=web&userid=lite&chname=DensShowBiz
+https://op-flashcon-digdayahd-1.dens.tv/h/h221/index.m3u8?app_type=web&userid=lite&chname=DensFood_Channel
 
 #EXTINF:-1 tvg-id="DENS KNOWLEDGE" group-title="Dens.tv - Local TV",DENS KNOWLEDGE
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-origin=https://www.dens.tv
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/&Origin=https://www.dens.tv&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://op-flashcon-digdayahd-1.dens.tv/h/h236/index.m3u8?app_type=web&userid=lite&chname=DensKnowledge
+https://op-flashcon-digdayahd-1.dens.tv/h/h244/index.m3u8?app_type=web&userid=lite&chname=DensShowBiz
 
 #EXTINF:-1 tvg-id="JOWO" group-title="Dens.tv - Local TV",JOWO
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-origin=https://www.dens.tv
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/&Origin=https://www.dens.tv&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://op-flashcon-digdayahd-1.dens.tv/h/h208/index.m3u8?app_type=web&userid=lite&chname=Channel_Jowo
+https://op-flashcon-digdayahd-1.dens.tv/h/h236/index.m3u8?app_type=web&userid=lite&chname=DensKnowledge
 
 #EXTINF:-1 tvg-id="METRO TV" group-title="Dens.tv - Local TV",METRO TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-origin=https://www.dens.tv
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/&Origin=https://www.dens.tv&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://op-flashcon-digdayahd-1.dens.tv/h/h12/index.m3u8?app_type=web&userid=lite&chname=Metro_TV
+https://op-flashcon-digdayahd-1.dens.tv/h/h208/index.m3u8?app_type=web&userid=lite&chname=Channel_Jowo
 
 #EXTINF:-1 tvg-id="BTV" group-title="Dens.tv - Local TV",BTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-origin=https://www.dens.tv
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/&Origin=https://www.dens.tv&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://op-flashcon-digdayahd-1.dens.tv/h/h313/stream.m3u8?app_type=web&userid=lite&chname=BTV
+https://op-flashcon-digdayahd-1.dens.tv/h/h12/index.m3u8?app_type=web&userid=lite&chname=Metro_TV
 
 #EXTINF:-1 tvg-id="BERITA SATU" group-title="Dens.tv - Local TV",BERITA SATU
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-origin=https://www.dens.tv
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/&Origin=https://www.dens.tv&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://op-flashcon-digdayahd-1.dens.tv/h/h314/stream.m3u8?app_type=web&userid=lite&chname=Berita_Satu
+https://op-flashcon-digdayahd-1.dens.tv/h/h313/stream.m3u8?app_type=web&userid=lite&chname=BTV
 
 #EXTINF:-1 tvg-id="MDTV" group-title="Dens.tv - Local TV",MDTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-origin=https://www.dens.tv
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/&Origin=https://www.dens.tv&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://op-flashcon-digdayahd-1.dens.tv/h/h223/index.m3u8?app_type=web&userid=lite&chname=MDTV
+https://op-flashcon-digdayahd-1.dens.tv/h/h314/stream.m3u8?app_type=web&userid=lite&chname=Berita_Satu
 
 #EXTINF:-1 tvg-id="RTV" group-title="Dens.tv - Local TV",RTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-origin=https://www.dens.tv
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/&Origin=https://www.dens.tv&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://op-flashcon-digdayahd-1.dens.tv/h/h10/index.m3u8?app_type=web&userid=lite&chname=RTV
+https://op-flashcon-digdayahd-1.dens.tv/h/h223/index.m3u8?app_type=web&userid=lite&chname=MDTV
 
 #EXTINF:-1 tvg-id="ELSHINTA TV" group-title="Dens.tv - Local TV",ELSHINTA TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-origin=https://www.dens.tv
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/&Origin=https://www.dens.tv&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://op-flashcon-digdayahd-1.dens.tv/h/h303/stream.m3u8?app_type=web&userid=lite&chname=Elshinta_TV
+https://op-flashcon-digdayahd-1.dens.tv/h/h10/index.m3u8?app_type=web&userid=lite&chname=RTV
 
 #EXTINF:-1 tvg-id="MAGMA TV" group-title="Dens.tv - Local TV",MAGMA TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-origin=https://www.dens.tv
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/&Origin=https://www.dens.tv&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://op-flashcon-digdayahd-1.dens.tv/h/h24/index.m3u8?app_type=web&userid=lite&chname=Magna_Channel
+https://op-flashcon-digdayasd-1.dens.tv/h/h209/stream.m3u8?app_type=web&userid=lite&chname=Elshinta_TV
 
 #EXTINF:-1 tvg-id="TVRI SPORT" group-title="Dens.tv - Local TV",TVRI SPORT
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-origin=https://www.dens.tv
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/&Origin=https://www.dens.tv&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://op-flashcon-digdayahd-1.dens.tv/h/h19/index.m3u8?app_type=web&userid=lite&chname=TVRI_Sport
+https://op-flashcon-digdayahd-1.dens.tv/h/h24/index.m3u8?app_type=web&userid=lite&chname=Magna_Channel
 
 #EXTINF:-1 tvg-id="TVRI" group-title="Dens.tv - Local TV",TVRI
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-origin=https://www.dens.tv
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/&Origin=https://www.dens.tv&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://op-flashcon-digdayahd-1.dens.tv/h/h17/index.m3u8?app_type=web&userid=lite&chname=TVRI
+https://op-flashcon-digdayahd-1.dens.tv/h/h19/index.m3u8?app_type=web&userid=lite&chname=TVRI_Sport
 
 #EXTINF:-1 tvg-id="JAKTV" group-title="Dens.tv - Local TV",JAKTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-origin=https://www.dens.tv
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/&Origin=https://www.dens.tv&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://op-flashcon-digdayahd-1.dens.tv/h/h218/index.m3u8?app_type=web&userid=lite&chname=Jak_tv
+https://op-flashcon-digdayahd-1.dens.tv/h/h17/index.m3u8?app_type=web&userid=lite&chname=TVRI
 
 #EXTINF:-1 tvg-id="RODJA TV" group-title="Dens.tv - Local TV",RODJA TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-origin=https://www.dens.tv
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/&Origin=https://www.dens.tv&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://op-flashcon-digdayahd-1.dens.tv/h/h233/index.m3u8?app_type=web&userid=lite&chname=RodjaTV
+https://op-flashcon-digdayahd-1.dens.tv/h/h218/index.m3u8?app_type=web&userid=lite&chname=Jak_tv
 
 #EXTINF:-1 tvg-id="DAAI TV" group-title="Dens.tv - Local TV",DAAI TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-origin=https://www.dens.tv
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/&Origin=https://www.dens.tv&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://op-flashcon-digdayahd-1.dens.tv/h/h16/index.m3u8?app_type=web&userid=lite&chname=DAAI_TV
+https://op-flashcon-digdayahd-1.dens.tv/h/h233/index.m3u8?app_type=web&userid=lite&chname=RodjaTV
 
 #EXTINF:-1 tvg-id="NTV" group-title="Dens.tv - Local TV",NTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-origin=https://www.dens.tv
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/&Origin=https://www.dens.tv&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://op-flashcon-digdayahd-1.dens.tv/h/h37/index.m3u8?app_type=web&userid=lite&chname=Nusantara_TV_NTV-
+https://op-flashcon-digdayahd-1.dens.tv/h/h16/index.m3u8?app_type=web&userid=lite&chname=DAAI_TV
 
 #EXTINF:-1 tvg-id="MCE" group-title="Dens.tv - Premium TV",MCE
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-origin=https://www.dens.tv
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/&Origin=https://www.dens.tv&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://op-flashcon-digdayahd-1.dens.tv/h/h18/index.m3u8?app_type=web&userid=lite&chname=My_Cinema_Europe_HD
+https://op-flashcon-digdayahd-1.dens.tv/h/h37/index.m3u8?app_type=web&userid=lite&chname=Nusantara_TV_NTV-
 
 #EXTINF:-1 tvg-id="CREMA TV" group-title="Dens.tv - Premium TV",CREMA TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-origin=https://www.dens.tv
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/&Origin=https://www.dens.tv&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://op-flashcon-digdayahd-1.dens.tv/h/h202/index.m3u8?app_type=web&userid=lite&chname=Crema_TV
+https://op-flashcon-digdayahd-1.dens.tv/h/h18/index.m3u8?app_type=web&userid=lite&chname=My_Cinema_Europe_HD
 
 #EXTINF:-1 tvg-id="QWEST" group-title="Dens.tv - Premium TV",QWEST
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-origin=https://www.dens.tv
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/&Origin=https://www.dens.tv&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://op-flashcon-digdayahd-1.dens.tv/h/h306/stream.m3u8?app_type=web&userid=lite&chname=Qwest_TV
+https://op-flashcon-digdayahd-1.dens.tv/h/h202/index.m3u8?app_type=web&userid=lite&chname=Crema_TV
 
 #EXTINF:-1 tvg-id="STINGRAY CLASSICA" group-title="Dens.tv - Premium TV",STINGRAY CLASSICA
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-origin=https://www.dens.tv
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/&Origin=https://www.dens.tv&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://op-flashcon-digdayahd-1.dens.tv/h/h304/stream.m3u8?app_type=web&userid=lite&chname=Stingray_Classica
+https://op-flashcon-digdayahd-1.dens.tv/h/h306/stream.m3u8?app_type=web&userid=lite&chname=Qwest_TV
 
 #EXTINF:-1 tvg-id="DANCE TV" group-title="Dens.tv - Premium TV",DANCE TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-origin=https://www.dens.tv
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/&Origin=https://www.dens.tv&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://op-flashcon-digdayasd-1.dens.tv/h/h203/stream.m3u8?app_type=web&userid=lite&chname=Dance_TV
+https://op-flashcon-digdayahd-1.dens.tv/h/h304/stream.m3u8?app_type=web&userid=lite&chname=Stingray_Classica
 
 #EXTINF:-1 tvg-id="MOTORVISION" group-title="Dens.tv - Premium TV",MOTORVISION
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-origin=https://www.dens.tv
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/&Origin=https://www.dens.tv&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://op-flashcon-digdayasd-1.dens.tv/h/h203/S1/mnf.m3u8
+https://op-flashcon-digdayasd-1.dens.tv/h/h203/stream.m3u8?app_type=web&userid=lite&chname=Dance_TV
 
 #EXTINF:-1 tvg-id="CNA" group-title="Dens.tv - International TV",CNA
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
