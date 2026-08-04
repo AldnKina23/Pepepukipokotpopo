@@ -1,5 +1,5 @@
 #EXTM3U url-tvg="https://raw.githubusercontent.com/dhasap/dhanytv/main/epg.xml"
-# Generated Dens.tv Playlist: 2026-08-04 10:18:07
+# Generated Dens.tv Playlist: 2026-08-04 18:16:52
 
 #EXTINF:-1 tvg-id="LIVE STREAMING" group-title="Dens.tv - Local TV",LIVE STREAMING
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
@@ -174,14 +174,14 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h304/stream.m3u8?app_type=web&userid=l
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-origin=https://www.dens.tv
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/&Origin=https://www.dens.tv&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://op-flashcon-digdayasd-1.dens.tv/h/h203/stream.m3u8?app_type=web&userid=lite&chname=Dance_TV
+https://op-flashcon-digdayahd-1.dens.tv/h/h304/S1/mnf.m3u8
 
 #EXTINF:-1 tvg-id="MOTORVISION" group-title="Dens.tv - Premium TV",MOTORVISION
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-origin=https://www.dens.tv
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/&Origin=https://www.dens.tv&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://op-flashcon-digdayasd-1.dens.tv/h/h203/S1/mnf.m3u8
+https://op-flashcon-digdayasd-1.dens.tv/h/h203/stream.m3u8?app_type=web&userid=lite&chname=Dance_TV
 
 #EXTINF:-1 tvg-id="CNA" group-title="Dens.tv - International TV",CNA
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
