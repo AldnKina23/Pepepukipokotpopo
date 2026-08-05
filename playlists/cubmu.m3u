@@ -1,5 +1,5 @@
 #EXTM3U
-# Generated CubMu DRM Playlist: 2026-08-04 18:29:46
+# Generated CubMu DRM Playlist: 2026-08-05 10:22:30
 
 #EXTINF:-1 tvg-id="TRANS TV" group-title="CubMu" tvg-logo="logo",TRANS TV
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -8,7 +8,7 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/VHJhbnNUVg/manifest.mpd?signature=ODZmZjE0NWZiYTIxNjlkZTRlYzQzNmQyNWUzZTdiMWQ=&time=15234426011
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/VHJhbnNUVg/manifest.mpd?signature=MGU4NzY1YTQ3MTU3YjkyODFjZDYyMzliNjJmYzhiYzc=&time=15234605523
 
 #EXTINF:-1 tvg-id="TRANS 7" group-title="CubMu" tvg-logo="logo",TRANS 7
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -17,7 +17,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/VHJ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/VFJBTlM3LW15/manifest.mpd?signature=ZGJjOTY0NDZlZDE5OGExMWViMjAwYzI4M2ZiOGU3OWI=&time=15234426020
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/VFJBTlM3LW15/manifest.mpd?signature=ZjYzOTk1MTA5NmVjZmJkYmFhMzMyZTMwYjc5OTAzMmE=&time=15234605533
 
 #EXTINF:-1 tvg-id="CNN INDONESIA" group-title="CubMu" tvg-logo="logo",CNN INDONESIA
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -26,7 +26,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/VFJ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/Q05OaS1teQ/manifest.mpd?signature=MGY3ZTcyM2FhMjUxZjNkNzJiZjgyNjBmYzgxMTlmYTI=&time=15234426034
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/Q05OaS1teQ/manifest.mpd?signature=MDBkYWMwYTg3N2E3Y2E1YjNjYjQ4N2YxMTA1OTdkNGE=&time=15234605547
 
 #EXTINF:-1 tvg-id="CNBC INDONESIA" group-title="CubMu" tvg-logo="logo",CNBC INDONESIA
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -35,7 +35,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/Q05
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/Q05CQy1JbmRvbmVzaWE/manifest.mpd?signature=ODU3ODIyMDczYWYxZjM3NTFjN2MxNjA2ZDU1Yjc0NzI=&time=15234426050
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/Q05CQy1JbmRvbmVzaWE/manifest.mpd?signature=ZWQ2YTFkNDJhM2ZhYzcxNjhmNTJhMjc3ZmZmMzk1MWY=&time=15234605563
 
 #EXTINF:-1 tvg-id="METRO TV" group-title="CubMu" tvg-logo="",METRO TV
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -44,7 +44,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/Q05
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/TWV0cm9UVg/manifest.mpd?signature=YWQ3MThhYWM0ZGRhNGFhZmNiMmJkNTljY2ViYzc4MWE=&time=15234426063
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/TWV0cm9UVg/manifest.mpd?signature=NDYyOGVmN2I1ZWRhNmRkZmQ2YzcyMmZkZWJmZmU1ZTE=&time=15234605577
 
 #EXTINF:-1 tvg-id="TVONE" group-title="CubMu" tvg-logo="",TVONE
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -53,7 +53,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/TWV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/VFZPTkU/manifest.mpd?signature=MTkxODlkMjVmZGU1MjQxZGJjZjE1Y2ZkNmEzODY5OTI=&time=15234426077
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/VFZPTkU/manifest.mpd?signature=YmVkMGQxYmVhMTM4OGQ0ZmQ5Njc0MTcxODNiZDVlYWU=&time=15234605612
 
 #EXTINF:-1 tvg-id="SCTV" group-title="CubMu" tvg-logo="",SCTV
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -62,7 +62,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/VFZ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/U0NUVi1teQ/manifest.mpd?signature=NWNmMmE4Y2I2ZmFjMmVjN2U0ZTYzNjM2NTM4N2JhYTE=&time=15234426113
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/U0NUVi1teQ/manifest.mpd?signature=ZmYyMDY2NzQyZWUzODM5ZTNmOTM3ZjIxNzk5MGJmYzg=&time=15234605626
 
 #EXTINF:-1 tvg-id="INDOSIAR" group-title="CubMu" tvg-logo="",INDOSIAR
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -71,7 +71,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/U0N
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/SW5kb3NpYXI/manifest.mpd?signature=ZGQ4M2RjZDY2YzIwNzU2NTZlOTYzYjY2NjhjNjkzYzg=&time=15234426126
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/SW5kb3NpYXI/manifest.mpd?signature=MWE5ZjExN2FlZTJmMDA0OGM0N2UxYWFiMTFkM2M3MWI=&time=15234605641
 
 #EXTINF:-1 tvg-id="RCTI" group-title="CubMu" tvg-logo="",RCTI
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -80,7 +80,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/SW5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/UkNUSS1DaGFubmVs/manifest.mpd?signature=M2YxMzU1YzlkODM4YzlkMjI5MGQ4MDE5MWQ4YjBjMjI=&time=15234426142
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/UkNUSS1DaGFubmVs/manifest.mpd?signature=MmVlZWI4NGI4OTVmNzYwMjg5NDlmM2QzZTc2NWZlODI=&time=15234605655
 
 #EXTINF:-1 tvg-id="GTV" group-title="CubMu" tvg-logo="",GTV
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -89,7 +89,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/UkN
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/R1RWLUNIQU5ORUw/manifest.mpd?signature=Y2E4NTVlNGE0N2Y3ZGE2MTY3MTk5MDllMGUxMjRiYWI=&time=15234426156
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/R1RWLUNIQU5ORUw/manifest.mpd?signature=ZjlkNzU2MGY1MDdmMDQ1NWM1OThjZTUzMjI0NDM3MDE=&time=15234605671
 
 #EXTINF:-1 tvg-id="JAKTV" group-title="CubMu" tvg-logo="",JAKTV
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -98,7 +98,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/R1R
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/SmFrIHR2IENoYW5uZWw/manifest.mpd?signature=NzYyNjk5ZTBiODNjZDI3NzQ5ZDkzMjBlNzhiNGE4YWI=&time=15234426171
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/SmFrIHR2IENoYW5uZWw/manifest.mpd?signature=NDVmNGZhZTg4ZGVmZTcyNTJlZjY4MTJjNDg0MzVjN2U=&time=15234605704
 
 #EXTINF:-1 tvg-id="BTV" group-title="CubMu" tvg-logo="",BTV
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -107,7 +107,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/SmF
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/QlRWIENoYW5uZWw/manifest.mpd?signature=ZTg0YzA4OGM2NTUyMWZmZjY1NWZhNzg2ZGQ3NjEzODc=&time=15234426205
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/QlRWIENoYW5uZWw/manifest.mpd?signature=MGQ0ZDk3OGJmOWFhNWQ4Y2IxZmQyYmJmYTIzY2U0ODM=&time=15234605720
 
 #EXTINF:-1 tvg-id="KOMPAS TV" group-title="CubMu" tvg-logo="",KOMPAS TV
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -116,7 +116,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/QlR
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/S29tcGFzIFRW/manifest.mpd?signature=NDFiMDM3YmRlOThiNzZkYWU3MmUyYzBmNTk2ODhmODk=&time=15234426223
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/S29tcGFzIFRW/manifest.mpd?signature=Y2UxOWFjNjk5ZWI0MmM5MmJmMWViYjg5OTM5NDI1MjI=&time=15234605734
 
 #EXTINF:-1 tvg-id="MDTV" group-title="CubMu" tvg-logo="",MDTV
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -125,7 +125,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/S29
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/TURUVg/manifest.mpd?signature=YmQyNjNiMjMxMTY3N2ZjY2FiY2JkMmEwMTgzMjEwZDc=&time=15234426237
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/TURUVg/manifest.mpd?signature=NTUxZDQ3YzdjNWZmN2U5Mjk4MzUzMWI0ZTkwOWExMGE=&time=15234605750
 
 #EXTINF:-1 tvg-id="RTV" group-title="CubMu" tvg-logo="",RTV
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -134,7 +134,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/TUR
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/cnR2IENobmw/manifest.mpd?signature=YTc2MDkzODE5ZmJhMDBmMGUyNzk3NzM3YTRkYzliYmI=&time=15234426252
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/cnR2IENobmw/manifest.mpd?signature=MmVjYTgyYjgwYjIwNzk2MmE1YmM1YTAzZWM1ZTljNjI=&time=15234605764
 
 #EXTINF:-1 tvg-id="MNCTV" group-title="CubMu" tvg-logo="",MNCTV
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -143,7 +143,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/cnR
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/TU5DVFY/manifest.mpd?signature=ZTg2NTBjZGU2YTU3Yjk0ODk5ZGRlNmU5ZjVhMjNkMmM=&time=15234426271
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/TU5DVFY/manifest.mpd?signature=MmI3YmY2ZGQ0ZTBhODVmYmI4MTcxNDBjNWFjZmU1M2Y=&time=15234606000
 
 #EXTINF:-1 tvg-id="TVRI NASIONAL" group-title="CubMu" tvg-logo="",TVRI NASIONAL
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -152,7 +152,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/TU5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/VFZSSQ/manifest.mpd?signature=ZDA5YWU3NDVmMTRlN2JmMDY0ZDc0NTVjODY3YTgwYzE=&time=15234426304
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/VFZSSQ/manifest.mpd?signature=NjY1NTJkYjBjNjU3MzUyNzYzMzIxN2RlYjUyNzc2NTA=&time=15234606013
 
 #EXTINF:-1 tvg-id="ANTV" group-title="CubMu" tvg-logo="",ANTV
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -161,7 +161,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/VFZ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/QU5UVg/manifest.mpd?signature=YWM3NTk3Njk3ZTM4N2FjN2EzMjlmNWI4MmM2YTEzYTk=&time=15234426321
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/QU5UVg/manifest.mpd?signature=Mjg3Yzc2NzA3MzY5ZTc4OWQwZWFkOTVkZjRlMWIxMTM=&time=15234606030
 
 #EXTINF:-1 tvg-id="BERITA SATU" group-title="CubMu" tvg-logo="",BERITA SATU
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -170,7 +170,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/QU5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/QmVyaXRhIFNhdHU/manifest.mpd?signature=NmMzODNlNjQ0OTRiZTg2YWUwM2M0ZWQxY2MzOTNmMmE=&time=15234426350
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/QmVyaXRhIFNhdHU/manifest.mpd?signature=NzZjOWMyOGVkMjE3OGEwNzc4OGJlMDg2NzMwODBmZmY=&time=15234606067
 
 #EXTINF:-1 tvg-id="GARUDA TV" group-title="CubMu" tvg-logo="",GARUDA TV
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -179,7 +179,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/QmV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/R2FydWRhIFRW/manifest.mpd?signature=MjIzMjUyYmUzYTI1Yzg5Y2RmYjU2YzY2YTI5NWRkYjU=&time=15234426364
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/R2FydWRhIFRW/manifest.mpd?signature=MDUzN2NmNzE0NzgxNTMyYmVlOGRiZmY0ZTcxZDU1ZmM=&time=15234606102
 
 #EXTINF:-1 tvg-id="TVN MOVIES" group-title="CubMu" tvg-logo="",TVN MOVIES
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -188,7 +188,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/R2F
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/VFZOIE1vdmllcw/manifest.mpd?signature=NWI3M2E1MjE3NjAyMWI0NmVlNGNjMmI1MzhlODZhMjc=&time=15234426400
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/VFZOIE1vdmllcw/manifest.mpd?signature=NTYzYmZlZjY0YTI0NjUxNmEzOTk2ZjViNTMzMzkzNTk=&time=15234606116
 
 #EXTINF:-1 tvg-id="CELESTIAL MOVIES" group-title="CubMu" tvg-logo="",CELESTIAL MOVIES
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -197,7 +197,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/VFZ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/Q2VsZXN0aWFsIE1vdmllcw/manifest.mpd?signature=ZTZhZjUwYzcwNTY4NDUxNWNhYTI0MDgzYzU1NmQ2ZWQ=&time=15234426413
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/Q2VsZXN0aWFsIE1vdmllcw/manifest.mpd?signature=N2IwYzZjZmNmNmI1NTc4MzcxYTJmZmUyZTYwZDc3NmY=&time=15234606134
 
 #EXTINF:-1 tvg-id="BIOSKOP INDONESIA" group-title="CubMu" tvg-logo="",BIOSKOP INDONESIA
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -206,7 +206,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/Q2V
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/Qmlvc2tvcCBJbmRvbmVzaWE/manifest.mpd?signature=ZTg2NmE2ZDlmZTgxOWVkNzY2ZmRjNzZiMTQ0YjAzZjM=&time=15234426427
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/Qmlvc2tvcCBJbmRvbmVzaWE/manifest.mpd?signature=MDUyZmU1MzIzZmFiNTEzZDRkYWQzYTZmNWQyZjU5ODI=&time=15234606147
 
 #EXTINF:-1 tvg-id="THRILL" group-title="CubMu" tvg-logo="",THRILL
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -215,7 +215,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/Qml
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/VGhyaWxs/manifest.mpd?signature=NTg0OGQ1ODc5M2U5MmRhMTY5MjhiOTE1YTc3YmEzZGU=&time=15234426442
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/VGhyaWxs/manifest.mpd?signature=YjIwN2QzZDU4MGQ5ZjdiOGJkNGE1Y2ZiMTY1Nzk1NjU=&time=15234606163
 
 #EXTINF:-1 tvg-id="MOVIES NEWS" group-title="CubMu" tvg-logo="",MOVIES NEWS
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -224,7 +224,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/VGh
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/TW92aWVzIE5ld3M/manifest.mpd?signature=OWEwMmQ2ZTJhY2ZhMzA4MjFmODE3ODg5YjEzOThhOTQ=&time=15234426456
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/TW92aWVzIE5ld3M/manifest.mpd?signature=NWFkNmRjYzRkZTkzNmVkYjE4MjU0MTVkZmViNjgyNjE=&time=15234606176
 
 #EXTINF:-1 tvg-id="CARTOON TV PREMIUM" group-title="CubMu" tvg-logo="",CARTOON TV PREMIUM
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -233,7 +233,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/TW9
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/Q2FydG9vbiBUViBQcmVtaXVt/manifest.mpd?signature=NmExZGMzYmI1ODNjOTRmOTk4ZDFhODM1NWNmMTRjYzY=&time=15234426472
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/Q2FydG9vbiBUViBQcmVtaXVt/manifest.mpd?signature=YzFhMWIwYzAyYzgxNDNiOTE5NmEwMThhMmQ1YTA2MjY=&time=15234606212
 
 #EXTINF:-1 tvg-id="CARTOON TV" group-title="CubMu" tvg-logo="",CARTOON TV
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -242,7 +242,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/Q2F
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/Q2FydG9vbiBUVg/manifest.mpd?signature=NjFiN2M2OTgzYTMwMWFhNDJmMGY4OTBmZTMxNmY0ZDg=&time=15234426511
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/Q2FydG9vbiBUVg/manifest.mpd?signature=NzZjYzJmMGUwY2MwNGRjMDhmN2ZiMDJkZWY2ZWNlMzk=&time=15234606226
 
 #EXTINF:-1 tvg-id="DUNIA ANAK" group-title="CubMu" tvg-logo="",DUNIA ANAK
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -251,7 +251,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/Q2F
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/RHVuaWEgQW5haw/manifest.mpd?signature=NzU1M2EyZGFhMWQ4NGRkZTNjYzNmNjhkZDQ0MmVmYTE=&time=15234426524
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/RHVuaWEgQW5haw/manifest.mpd?signature=OWE2NGIwN2U1NjcwMjQ1ZTlhZDJiYTE1NmM3Y2ZmZjI=&time=15234606241
 
 #EXTINF:-1 tvg-id="CARTOON TV CLASSIC" group-title="CubMu" tvg-logo="",CARTOON TV CLASSIC
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -260,7 +260,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/RHV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/Q2FydG9vbiBUViBDbGFzc2ljcw/manifest.mpd?signature=NTgwMmNiMzdkZTRiNzU5ZDc2ZmY4ODkxNTQyMDYwYWE=&time=15234426540
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/Q2FydG9vbiBUViBDbGFzc2ljcw/manifest.mpd?signature=Y2IyNjE4NTY2Zjg1NmY4MmYyZDJkMDZiMzg0NmJkZDg=&time=15234606255
 
 #EXTINF:-1 tvg-id="TVN" group-title="CubMu" tvg-logo="",TVN
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -269,7 +269,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/Q2F
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/dHZOQ2hhbm5lbA/manifest.mpd?signature=N2M3OWNjMzAyZjNmZDg2YjViMjc0MTc0NGIwMDdjN2U=&time=15234426603
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/dHZOQ2hhbm5lbA/manifest.mpd?signature=NjJiNDVmN2I3MTllZjhkOTA2M2M4NTBlNWFmZTAxNzk=&time=15234606320
 
 #EXTINF:-1 tvg-id="NHK WORLD PREMIUM" group-title="CubMu" tvg-logo="",NHK WORLD PREMIUM
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -278,7 +278,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/dHZ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/TkhLIFdvcmxkIFByZW1pdW0/manifest.mpd?signature=NzYxNjI3ODhlMWFkYzU1MzYxMjkzODI4ZmYzODJlN2E=&time=15234426620
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/TkhLIFdvcmxkIFByZW1pdW0/manifest.mpd?signature=MTI0YzZlMDgyMzYyNTQyYzAxN2M3N2I3NTk0MGQ1MTU=&time=15234606333
 
 #EXTINF:-1 tvg-id="CHANNEL JOWO" group-title="CubMu" tvg-logo="",CHANNEL JOWO
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -287,7 +287,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/Tkh
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/Q2hhbm5lbCBKb3dv/manifest.mpd?signature=NDQ1ZDlkZmM4YTU4MTNhMjVjNzgwMmYxNGQxMWQ1MzU=&time=15234426633
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/Q2hhbm5lbCBKb3dv/manifest.mpd?signature=OWVkNjBmZTBiNWUwYzZkZTdkOGFkZmJmMTU0MzM5NGY=&time=15234606347
 
 #EXTINF:-1 tvg-id="!NSERT" group-title="CubMu" tvg-logo="",!NSERT
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -296,7 +296,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/Q2h
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/IW5zZXJ0/manifest.mpd?signature=NDlkZWMxNDRlMWNhNWY0YzBjMDlhMzUzOGNjYjhjMjg=&time=15234426647
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/IW5zZXJ0/manifest.mpd?signature=OTYxMzRkY2E2NDQ4YWMyMmQwODU3M2M5NzZiN2RmM2I=&time=15234606363
 
 #EXTINF:-1 tvg-id="DUNIA LAIN" group-title="CubMu" tvg-logo="",DUNIA LAIN
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -305,7 +305,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/IW5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/RHVuaWEgTGFpbg/manifest.mpd?signature=NmUzODg1MzM3YjNjOTBhZTIzODBhZmNmMGNjMTAzYWE=&time=15234426663
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/RHVuaWEgTGFpbg/manifest.mpd?signature=MTQyNjhiYTMzZTJiM2FjODYyYTgwOTQxYzc3YmZmMzE=&time=15234606377
 
 #EXTINF:-1 tvg-id="CCTV4" group-title="CubMu" tvg-logo="",CCTV4
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -314,7 +314,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/RHV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/Q0NUViA0/manifest.mpd?signature=NTc1ODhlNGIzNWE3NTNjNTY4NTllYmQ3MTkwOTg1OGE=&time=15234426676
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/Q0NUViA0/manifest.mpd?signature=MWMyNjc3MTVlNWRiMTA3ZWRmMDNiZWEwNjhhNjVjNTI=&time=15234606415
 
 #EXTINF:-1 tvg-id="TV5 MONDE" group-title="CubMu" tvg-logo="",TV5 MONDE
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -323,7 +323,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/Q0N
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/VFY1IE1vbmRl/manifest.mpd?signature=YTVjNjNlOGVlNzIwMjcyZTVmN2FiMWY0YjU2NWRjZWY=&time=15234426712
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/VFY1IE1vbmRl/manifest.mpd?signature=MDdlMDIyNzQxNzM4YTRiMzgxMjQ3YzIxNzdmYWU0Y2Y=&time=15234606430
 
 #EXTINF:-1 tvg-id="ONE TV" group-title="CubMu" tvg-logo="",ONE TV
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -332,7 +332,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/VFY
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/T25lIFRW/manifest.mpd?signature=ODU2YjJmZDk3NTVkZTJhMTgwOTRlN2Y2NGY1MzMxNGY=&time=15234426725
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/T25lIFRW/manifest.mpd?signature=NzdmY2ZlMGJkMTdmNjE5YWUxODQ0ZTQ4NjU2MjZlNTM=&time=15234606444
 
 #EXTINF:-1 tvg-id="TRAVEL TV" group-title="CubMu" tvg-logo="",TRAVEL TV
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -341,7 +341,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/T25
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/VHJhdmVsIFRW/manifest.mpd?signature=YzQ0Yjc4MGYzZTUwNTJjYzdiMjY2MzYyMDFmOGFiYjU=&time=15234426741
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/VHJhdmVsIFRW/manifest.mpd?signature=OGYyMzg4ZDYzNmQ0MzIyZmE2NzgxMWQ5MjE0NGIxZWE=&time=15234606457
 
 #EXTINF:-1 tvg-id="EAT & GO" group-title="CubMu" tvg-logo="",EAT & GO
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -350,7 +350,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/VHJ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/RWF0IE4gR28/manifest.mpd?signature=MjE1NjA1ZmFkZGQ3YmVlNjg5ODNjMWY2ZTY0ZWExMTc=&time=15234426755
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/RWF0IE4gR28/manifest.mpd?signature=ZDU0OGMzNWMzYzExYWVlYTAzZjRmMjNiYTI5YTc2ZDM=&time=15234606473
 
 #EXTINF:-1 tvg-id="FASHION TV" group-title="CubMu" tvg-logo="",FASHION TV
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -359,7 +359,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/RWF
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/RmFzaGlvbiBUVg/manifest.mpd?signature=NDBmZDkzNmFhNDYxY2U5MzM4MTBmOGFiNTI1MmM5NTM=&time=15234426770
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/RmFzaGlvbiBUVg/manifest.mpd?signature=YTdjNmFlZmNjOTY3NTY5NmQ4NDcwZDZiNjMxOWM0Y2Q=&time=15234606506
 
 #EXTINF:-1 tvg-id="COOKING TV" group-title="CubMu" tvg-logo="",COOKING TV
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -368,7 +368,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/RmF
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://iontrvcdn01-cyber1.transvision.co.id/ion26/riutx01-7f0f6ca237db1b31cb48a7ec1067ae6c/dash/Q29va2luZyBUVg/manifest.mpd?signature=NzMxNzgyOWI2NTM4YzNmZGI1NWZlYmRjMWU4NTI1ZjQ=&time=15234427004
+https://iontrvcdn01-cyber1.transvision.co.id/ion26/riutx01-7f0f6ca237db1b31cb48a7ec1067ae6c/dash/Q29va2luZyBUVg/manifest.mpd?signature=Zjg4YzE5ZTExMTM4NDYxY2NlN2FiNTRlMzZiMjhiMmQ=&time=15234606522
 
 #EXTINF:-1 tvg-id="GAMING TV" group-title="CubMu" tvg-logo="",GAMING TV
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -377,7 +377,7 @@ https://iontrvcdn01-cyber1.transvision.co.id/ion26/riutx01-7f0f6ca237db1b31cb48a
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/R2FtaW5nIFRW/manifest.mpd?signature=NTBkYzE0Y2I2ODNhNmFkMjYzZTA5M2RkMTBjZDI3MTA=&time=15234427020
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/R2FtaW5nIFRW/manifest.mpd?signature=NzFhMDRiOTU1YTI3NzdmZTQyNDE1YWVhNTkyMGQ1NTg=&time=15234606536
 
 #EXTINF:-1 tvg-id="DENS FOOD CHANNEL" group-title="CubMu" tvg-logo="",DENS FOOD CHANNEL
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -386,7 +386,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/R2F
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/REVOUyBGb29kIENoYW5uZWw/manifest.mpd?signature=ZTJmNWNhYWFjOTIyMmEwM2Q0MmE5ZmM2YmQzYjZiZmI=&time=15234427033
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/REVOUyBGb29kIENoYW5uZWw/manifest.mpd?signature=MGQ2OThiYzM5NTVkNTkxY2YwMzczOWExMjM5OWRjZDg=&time=15234606551
 
 #EXTINF:-1 tvg-id="DENS PLAY CHANNEL" group-title="CubMu" tvg-logo="",DENS PLAY CHANNEL
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -395,7 +395,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/REV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/REVOUyBQbGF5IENoYW5uZWw/manifest.mpd?signature=ZmVhODQ0ZTBiOTYzMjM1ODFlZWQ3MDdjOTNjMjkzYTE=&time=15234427047
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/REVOUyBQbGF5IENoYW5uZWw/manifest.mpd?signature=MmYxYWJmOGViOTI1N2JjZWNkMDZlYTVmYTk4MWI4NDU=&time=15234606565
 
 #EXTINF:-1 tvg-id="SUPERYACHT TV" group-title="CubMu" tvg-logo="",SUPERYACHT TV
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -404,7 +404,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/REV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/U3VwZXJZYWNodCBUVg/manifest.mpd?signature=ZjJlNDQ2NDMxYzlmYWYwOWI4Y2Q2MDAwZjEyNGNiYzU=&time=15234427062
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/U3VwZXJZYWNodCBUVg/manifest.mpd?signature=NmE3ZmI5YmU5ZmRlMGVlZTg3ODFjMjVmNjU1NzRmOTk=&time=15234606600
 
 #EXTINF:-1 tvg-id="DENS SHOW BIZZ" group-title="CubMu" tvg-logo="",DENS SHOW BIZZ
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -413,7 +413,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/U3V
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/REVOUyBTaG93Qml6/manifest.mpd?signature=YjFhNzE5Nzg2NzhlMTRlNDJlYTM5MDQ3NDViYjkwMTM=&time=15234427076
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/REVOUyBTaG93Qml6/manifest.mpd?signature=NTJmYjIyNjU5YTQ5ODFhNDdhZWVmMzkwMDdiYjNhOWI=&time=15234606617
 
 #EXTINF:-1 tvg-id="MUSIK INDONESIA" group-title="CubMu" tvg-logo="",MUSIK INDONESIA
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -422,7 +422,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/REV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/TXVzaWsgSW5kb25lc2lh/manifest.mpd?signature=OGY2NmI5ZjQ0YWMxZDY4MjU3Y2Q2MWY1ZTA2NTdjM2E=&time=15234427112
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/TXVzaWsgSW5kb25lc2lh/manifest.mpd?signature=Zjc2MDYzZGE0MDZlMDZlY2E1MzFjZjJlNmI0MDIwMTg=&time=15234606633
 
 #EXTINF:-1 tvg-id="SONG TV" group-title="CubMu" tvg-logo="",SONG TV
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -431,7 +431,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/TXV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/U29uZyBUVg/manifest.mpd?signature=NDc1Y2JjZmM3NzY2ZjhhNDdjZWU4MjdkZWJjMWNlY2E=&time=15234427127
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/U29uZyBUVg/manifest.mpd?signature=NGQ0NzBkNWQ5ZWRhODYzMWZiOGZlM2QzMmExZTA0ZWM=&time=15234606647
 
 #EXTINF:-1 tvg-id="CHANNEL NEWSASIA" group-title="CubMu" tvg-logo="",CHANNEL NEWSASIA
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -440,7 +440,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/U29
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/Q2hhbm5lbCBOZXdzQXNpYQ/manifest.mpd?signature=ZjQyOTE3NDQ4OWRjNDEyM2E4NGNkZTE2OTg0NGY3MGE=&time=15234427156
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/Q2hhbm5lbCBOZXdzQXNpYQ/manifest.mpd?signature=ZTg2Y2YyNTc0YjA3YmNjZjg5MTFkODgzNzE2MTdjZDY=&time=15234606676
 
 #EXTINF:-1 tvg-id="CNBC ASIA" group-title="CubMu" tvg-logo="",CNBC ASIA
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -449,7 +449,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/Q2h
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/Q05CQyBBc2lh/manifest.mpd?signature=NDJiYjk5MDhmOTliYmU1MjhjY2JlM2I3MDAzZGNiNzc=&time=15234427172
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/Q05CQyBBc2lh/manifest.mpd?signature=NGRkYWM5YzQxNTdhYjQ0ZmYzN2IzODc3ODExYWY5ZDg=&time=15234606711
 
 #EXTINF:-1 tvg-id="AL JAZEERA" group-title="CubMu" tvg-logo="",AL JAZEERA
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -458,7 +458,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/Q05
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/QWwgSmF6ZWVyYQ/manifest.mpd?signature=YWVjMTc1OGQ1MTc4OTg2MDdlOGMzOWRiYWYwYjgzN2U=&time=15234427205
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/QWwgSmF6ZWVyYQ/manifest.mpd?signature=MmYzYTY4NmE5NDg5NzY2MjlkMThhNWE0YjFiYjlkMDY=&time=15234606725
 
 #EXTINF:-1 tvg-id="FRANCE 24" group-title="CubMu" tvg-logo="",FRANCE 24
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -467,7 +467,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/QWw
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/RnJhbmNlIDI0/manifest.mpd?signature=NGRhZTJjZGJhY2NmNjkyMjU3N2EzZWVmMWQ0NTFmOWI=&time=15234427221
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/RnJhbmNlIDI0/manifest.mpd?signature=NTg4YWQ2NTY2NTYxZjYzMDY0N2JmZjg5MDFlOTY2ZGY=&time=15234606741
 
 #EXTINF:-1 tvg-id="CGTN" group-title="CubMu" tvg-logo="",CGTN
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -476,7 +476,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/RnJ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/Q0dUTiBDaGFubmVs/manifest.mpd?signature=OTk1NjY4YzhjYjIzYzJkZjRhM2E3ZTI1OGYyMGMzODg=&time=15234427235
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/Q0dUTiBDaGFubmVs/manifest.mpd?signature=MTU0ZjdmNTY1ZDdiNzcyZmJlMGIyZGEzMmZhODU0ZTI=&time=15234606754
 
 #EXTINF:-1 tvg-id="RUSSIA TODAY" group-title="CubMu" tvg-logo="",RUSSIA TODAY
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -485,7 +485,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/Q0d
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/UnVzc2lhIFRvZGF5/manifest.mpd?signature=ZDkxZGE2N2I1NTZjNjNiMmJjNTdiNzQzMzZiNGE2ZTg=&time=15234427250
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/UnVzc2lhIFRvZGF5/manifest.mpd?signature=NDY1MTgyODEwM2JhMTZkMjEyMjY0OWJkZWMwMmFmMTQ=&time=15234606770
 
 #EXTINF:-1 tvg-id="ARIRANG" group-title="CubMu" tvg-logo="",ARIRANG
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -494,7 +494,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/UnV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/QXJpcmFuZw/manifest.mpd?signature=NjA1YTdhNjNkYjlkMGEyZDQ1YTFkMzc1YzZjMDBhM2M=&time=15234427264
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/QXJpcmFuZw/manifest.mpd?signature=MzE3MWNkMGMwNWZmODg2MTMwMWQzODVlOGVlOWRmYTM=&time=15234607003
 
 #EXTINF:-1 tvg-id="WION TV" group-title="CubMu" tvg-logo="",WION TV
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -503,7 +503,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/QXJ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/V2lvbiBUVg/manifest.mpd?signature=OWU2ZTJjN2ZlOTg2ZmFiMGZjNTAyNmFmMTgzYmFiYzQ=&time=15234427303
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/V2lvbiBUVg/manifest.mpd?signature=ZGMzZTk2OWUzYTdkNGFiMmEwZmFhNDVkNDY2OGJhZGE=&time=15234607020
 
 #EXTINF:-1 tvg-id="AL QURAN AL KAREEM" group-title="CubMu" tvg-logo="",AL QURAN AL KAREEM
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -512,7 +512,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/V2l
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/YWxxdXJhbmFsa2FyZWVt/manifest.mpd?signature=ZDU4ZGUyZDk1MmE4YzFjNzFjYjc2YzIxYmJiYTQ5MjQ=&time=15234427317
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/YWxxdXJhbmFsa2FyZWVt/manifest.mpd?signature=MWU5MjBkZjc1NzZhNzU2ZTJkMzlmNDg1YzQ2ZDJmMTY=&time=15234607034
 
 #EXTINF:-1 tvg-id="TVMU" group-title="CubMu" tvg-logo="",TVMU
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -521,7 +521,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/YWx
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/dHYgTXUgQ2hhbm5lbA/manifest.mpd?signature=NTRkZTAxNzcyNWRlNWNjMWMzMjBjNTg3OTE3MDI1MmM=&time=15234427332
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/dHYgTXUgQ2hhbm5lbA/manifest.mpd?signature=MWM3YmM2ODkzOTI0NGQxZGYwZTM0YTQ1ZjIzMDlhNDM=&time=15234607047
 
 #EXTINF:-1 tvg-id="TV9" group-title="CubMu" tvg-logo="",TV9
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -530,7 +530,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/dHY
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/VFY5IENoYW5uZWw/manifest.mpd?signature=NGE2ZjgzYTY4YTg2ZjY4ZjlhNzkzOTdlNjNiYzc2Nzg=&time=15234427346
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/VFY5IENoYW5uZWw/manifest.mpd?signature=ZTkzNjJjM2UyMTFhYjA2ZDFhNTAxZTI3NDQ5MDBkZmY=&time=15234607063
 
 #EXTINF:-1 tvg-id="NABAWI TV" group-title="CubMu" tvg-logo="",NABAWI TV
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -539,7 +539,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/VFY
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/TmFiYXdpIFRW/manifest.mpd?signature=NDk2MjM4YTdhYjlkNzIzYzk1OTlhNWFlYjU1N2VkZjQ=&time=15234427362
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/TmFiYXdpIFRW/manifest.mpd?signature=NmFlYWM0Y2Y2ZGY4ZDQ3ZTA4YjEzNWUwYzVhZTQwNzQ=&time=15234607076
 
 #EXTINF:-1 tvg-id="DAYSTAR" group-title="CubMu" tvg-logo="",DAYSTAR
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -548,7 +548,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/TmF
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/RGF5c3RhciBDaG5s/manifest.mpd?signature=ZWZkNWY2OGU3OGEzN2M3ZWVhYWE0OWY2ZGNkOTQwYTA=&time=15234427377
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/RGF5c3RhciBDaG5s/manifest.mpd?signature=NzUzMDQyMTYyOWEzZGI0YjRhOWM3YjQ5MDkzNWI5YmM=&time=15234607112
 
 #EXTINF:-1 tvg-id="DAAI TV" group-title="CubMu" tvg-logo="",DAAI TV
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -557,7 +557,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/RGF
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/REFBSSBUVg/manifest.mpd?signature=MzIyMTE3ZTZiN2ZlN2FhMGQwNTdjNTZhYjNlNzY2YTc=&time=15234427412
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/REFBSSBUVg/manifest.mpd?signature=MGU3OWU4ZGVjNWEwNmM5MjQ1YzlkOTU4MzJkNjVkNDU=&time=15234607127
 
 #EXTINF:-1 tvg-id="HOPE CHANNEL" group-title="CubMu" tvg-logo="",HOPE CHANNEL
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -566,7 +566,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/REF
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/SG9wZUNoYW5uZWw/manifest.mpd?signature=MDVmNzA1ZDFiOTEwYmFmY2Y5NDljMmQ2YjcyNDBjMDM=&time=15234427426
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/SG9wZUNoYW5uZWw/manifest.mpd?signature=ODRlNWY5NzJkNjlkYjczNzFmNzUzYjBkOGVlZjI4MWI=&time=15234607145
 
 #EXTINF:-1 tvg-id="PIJAR TV" group-title="CubMu" tvg-logo="",PIJAR TV
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -575,7 +575,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/SG9
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/UGlqYXIgVFY/manifest.mpd?signature=MWJmYjgyMzUxMmUzZTYxZDY2ODM1NDdjNGMxN2ExNzY=&time=15234427441
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/UGlqYXIgVFY/manifest.mpd?signature=ZjllODJhYTQ4NWRlODI3MmYzNTlhNDY5NzgyYzYwZWU=&time=15234607161
 
 #EXTINF:-1 tvg-id="KHAZANAH" group-title="CubMu" tvg-logo="",KHAZANAH
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -584,7 +584,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/UGl
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/S2hhemFuYWg/manifest.mpd?signature=MDcwYmUzYmRjMzAxMjBjZWNiZGJkNzVjMDkyYzU0ZWY=&time=15234427455
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/S2hhemFuYWg/manifest.mpd?signature=MDQ5MzM0NDMwNTRhZTg3YmIxM2M0MjNlYzc0MGI2MzU=&time=15234607174
 
 #EXTINF:-1 tvg-id="GOLF PLUS ID" group-title="CubMu" tvg-logo="",GOLF PLUS ID
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -593,7 +593,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/S2h
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/R29sZi1DaGFubmVs/manifest.mpd?signature=OTRjZThkOTRlMWNkZTEyNzlkMjcwODkxOTlmY2QzNmQ=&time=15234427472
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/R29sZi1DaGFubmVs/manifest.mpd?signature=MzBkNjYwN2EzMDVkOGEwZmJiMDAxMzI0NzM5Y2M0Mjk=&time=15234607210
 
 #EXTINF:-1 tvg-id="FOOTBALL TV" group-title="CubMu" tvg-logo="",FOOTBALL TV
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -602,7 +602,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/R29
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/Rm9vdGJhbGwgVFY/manifest.mpd?signature=OWM0YWQ4YTI4YjA4ZGY1NGQxOTlmMGMxN2Y4MTNhZjI=&time=15234427506
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/Rm9vdGJhbGwgVFY/manifest.mpd?signature=NTcwYzllMzk2NTI2ZDJiZWJiNjgxMTIwMWQxOTE2YTg=&time=15234607224
 
 #EXTINF:-1 tvg-id="SPORTS TV" group-title="CubMu" tvg-logo="",SPORTS TV
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -611,7 +611,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/Rm9
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/U3BvcnRzIFRW/manifest.mpd?signature=NjZkMTIxYTM5ZmQzNjllZGRiNDNiNTk5NTQzOGI3NjU=&time=15234427524
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/U3BvcnRzIFRW/manifest.mpd?signature=YjdkYmVmNmM5ZmQzYWY4OWJkYjI1OWJlODllOGQ4NjQ=&time=15234607237
 
 #EXTINF:-1 tvg-id="XTREM TV" group-title="CubMu" tvg-logo="",XTREM TV
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -620,7 +620,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/U3B
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/WHRyZW0gU3BvcnRz/manifest.mpd?signature=Yjc1NjA4OTY1ZGM2NDY0NjViN2M5YjY2NGIwNTEzZGM=&time=15234427537
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/WHRyZW0gU3BvcnRz/manifest.mpd?signature=OGYwMDdiMTg2OThhNTFhNzZjNjVlYTI0ZjRhY2NkZDI=&time=15234607253
 
 #EXTINF:-1 tvg-id="TVRI SPORT" group-title="CubMu" tvg-logo="",TVRI SPORT
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -629,7 +629,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/WHR
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/VFZSSSBTcG9ydA/manifest.mpd?signature=NTQ4ODJlZTVkODlmNTkyN2M0ZGYxNjhkOTY4N2IxYTI=&time=15234427553
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/VFZSSSBTcG9ydA/manifest.mpd?signature=ZWIxNjU4ODc5NmEzOTQ5NDNlMjVjYjE1ZWFiOTgxZjQ=&time=15234607267
 
 #EXTINF:-1 tvg-id="SPEED TV" group-title="CubMu" tvg-logo="",SPEED TV
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -638,7 +638,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/VFZ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/RmlnaHQgVFYgUHJlbWl1bQ/manifest.mpd?signature=ODEyNzJiODc0NmIxNjkxZjM0YmZiYmZiMmI0YmEwNzY=&time=15234427567
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/RmlnaHQgVFYgUHJlbWl1bQ/manifest.mpd?signature=N2Y2OTFkMTBhYTdhYWVlM2RlZGI4NTI1MDBmM2Y4NDY=&time=15234607302
 
 #EXTINF:-1 tvg-id="FIGHT TV PREMIUM" group-title="CubMu" tvg-logo="",FIGHT TV PREMIUM
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -647,7 +647,7 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/Rml
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/RmlnaHQgVFYgUHJlbWl1bQ/manifest.mpd?signature=ODEyNzJiODc0NmIxNjkxZjM0YmZiYmZiMmI0YmEwNzY=&time=15234427602
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/RmlnaHQgVFYgUHJlbWl1bQ/manifest.mpd?signature=N2Y2OTFkMTBhYTdhYWVlM2RlZGI4NTI1MDBmM2Y4NDY=&time=15234607317
 
 #EXTINF:-1 tvg-id="PSJTV" group-title="CubMu" tvg-logo="",PSJTV
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -656,4 +656,4 @@ https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/Rml
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 EXTVLCOPT:http-referrer=https://www.cubmu.com/
 #EXTVLCOPT:http-origin=https://www.cubmu.com
-https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/UFNKIFRW/manifest.mpd?signature=ODUxZmMwMDhlMjE5NTJjNDJiZDZhN2U5YjVlNjc3MjQ=&time=15234427616
+https://cdnjktbpid37.cubmu.com/riutx01-00bbafa39c5c37d8acb69411685a48af/dash/UFNKIFRW/manifest.mpd?signature=YWZhYWQyYWJjYzUwYjhlOWNkN2JhMmM3ODljZGU1NGM=&time=15234607332
