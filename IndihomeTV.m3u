@@ -1,16 +1,16 @@
 #EXTM3U
 
 # === RCTI+ SECTION ===
-# Updated: 2026-08-07 15:09:50
+# Updated: 2026-08-07 20:03:54
 
 #EXTINF:-1 tvg-id="MNCTV" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png",MNCTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1786151389~hmac=7e8597317056567bddf7732d727fd0dfe3eb03878ee1a0a13911548eac667dfc
+https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1786169033~hmac=dcb771d7052714986b6beada7033f26f97a743f32f93177d1b30d1fc8683bc53
 
 #EXTINF:-1 tvg-id="iNews" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/iNews.png",iNews
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://inews-linier.rctiplus.id/inews-sdi.m3u8?hdnts=exp=1786151389~hmac=ac2abda106e7ce9c96c91363dafa5da6600b99915bb012710bc6b81eb39857b0
+https://inews-linier.rctiplus.id/inews-sdi.m3u8?hdnts=exp=1786169034~hmac=c099927fe6873166679e161cf7fdef60a44ce5a9e68659e184e591172d635833
 
 # === END RCTI+ SECTION ===
